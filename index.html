@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Üretim Yönetim Sistemi — Excellence Model KPI Dashboard</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js"></script>
   <style>
     /* ── Reset & Base ── */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -386,6 +387,29 @@
       color: var(--muted);
     }
 
+    /* ── Excel Upload ── */
+    .upload-wrap {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .upload-btn {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 6px 12px;
+      font-size: 12px;
+      color: var(--text);
+      cursor: pointer;
+      transition: border-color .2s, background .2s;
+    }
+    .upload-btn:hover { border-color: var(--accent); background: rgba(31,111,235,.1); }
+    #excel-input { display: none; }
+    #excel-label { font-size: 11px; color: var(--muted); max-width: 140px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
     /* ── Responsive ── */
     @media (max-width: 900px) {
       .chart-grid, .chart-grid-3, .shift-grid {
@@ -411,6 +435,11 @@
       CANLI
     </div>
     <div class="date-badge" id="clock">—</div>
+    <div class="upload-wrap">
+      <label class="upload-btn" for="excel-input">📂 Excel Yükle</label>
+      <input type="file" id="excel-input" accept=".xlsx,.xls" />
+      <span id="excel-label">Dosya seçilmedi</span>
+    </div>
   </div>
 </header>
 
@@ -419,7 +448,7 @@
 
   <!-- ── KPI Kartları ── -->
   <div class="section-title">Temel Performans Göstergeleri</div>
-  <div class="kpi-grid">
+  <div class="kpi-grid" id="kpi-grid">
 
     <div class="kpi-card green">
       <div class="kpi-label">🏭 OEE</div>
@@ -563,7 +592,7 @@
 
   <!-- ── Vardiya Performansı ── -->
   <div class="section-title">Vardiya Performansı</div>
-  <div class="shift-grid">
+  <div class="shift-grid" id="shift-grid">
 
     <div class="shift-card">
       <div class="shift-name">
@@ -661,7 +690,7 @@
           <th>Son Arıza</th>
         </tr>
       </thead>
-      <tbody>
+      <tbody id="machine-tbody">
         <tr>
           <td><strong>Hat 1 — CNC Alpha</strong></td>
           <td><span class="status-pill running"><span class="status-dot"></span>Çalışıyor</span></td>
@@ -813,7 +842,7 @@
   Chart.defaults.font.family = "'Segoe UI', system-ui, sans-serif";
 
   /* ── Üretim Hacmi (Bar) ── */
-  new Chart(document.getElementById('productionChart'), {
+  const productionChart = new Chart(document.getElementById('productionChart'), {
     type: 'bar',
     data: {
       labels: ['Pzt', 'Sal', 'Çar', 'Per', 'Cum', 'Cmt', 'Paz'],
@@ -854,7 +883,7 @@
   });
 
   /* ── OEE Bileşenleri (Radar) ── */
-  new Chart(document.getElementById('oeeRadar'), {
+  const oeeRadarChart = new Chart(document.getElementById('oeeRadar'), {
     type: 'radar',
     data: {
       labels: ['Kullanılabilirlik', 'Performans', 'Kalite', 'Güvenilirlik', 'Enerji Etkinliği'],
@@ -893,7 +922,7 @@
   });
 
   /* ── Kalite Dağılımı (Doughnut) ── */
-  new Chart(document.getElementById('qualityDoughnut'), {
+  const qualityChart = new Chart(document.getElementById('qualityDoughnut'), {
     type: 'doughnut',
     data: {
       labels: ['1. Kalite', 'Yeniden İşlem', 'Hurda', 'Beklemede'],
@@ -916,7 +945,7 @@
   });
 
   /* ── Downtime Kategorileri (Horizontal Bar) ── */
-  new Chart(document.getElementById('downtimeBar'), {
+  const downtimeChart = new Chart(document.getElementById('downtimeBar'), {
     type: 'bar',
     data: {
       labels: ['Mekanik Arıza', 'Setup / Ayar', 'Malzeme Bekleme', 'Elektrik Arıza', 'Planlı Bakım', 'Diğer'],
@@ -939,7 +968,7 @@
   });
 
   /* ── OEE 4 Haftalık (Line) ── */
-  new Chart(document.getElementById('oeeLineChart'), {
+  const oeeTrendChart = new Chart(document.getElementById('oeeLineChart'), {
     type: 'line',
     data: {
       labels: ['H1', 'H2', 'H3', 'H4', 'H5', 'H6', 'H7', 'H8', 'H9', 'H10', 'H11', 'H12', 'H13', 'H14', 'H15', 'H16', 'H17', 'H18', 'H19', 'H20', 'H21', 'H22', 'H23', 'Şimdi'],
@@ -978,6 +1007,218 @@
       },
     },
   });
+
+  /* ═══════════════════ EXCEL ENTEGRASYONU ═══════════════════ */
+
+  document.getElementById('excel-input').addEventListener('change', function(e) {
+    const file = e.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = function(ev) {
+      try {
+        const wb = XLSX.read(ev.target.result, { type: 'array' });
+        updateDashboard(wb);
+        document.getElementById('excel-label').textContent = '✓ ' + file.name;
+        document.getElementById('excel-label').style.color = '#3fb950';
+      } catch(err) {
+        alert('Excel okunurken hata oluştu: ' + err.message);
+      }
+    };
+    reader.readAsArrayBuffer(file);
+  });
+
+  function sheetRows(wb, name) {
+    const ws = wb.Sheets[name];
+    if (!ws) return [];
+    return XLSX.utils.sheet_to_json(ws, { header: 1, defval: '' });
+  }
+
+  function updateDashboard(wb) {
+    updateKPI(wb);
+    updateProductionData(wb);
+    updateOEERadarData(wb);
+    updateQualityData(wb);
+    updateDowntimeData(wb);
+    updateOEETrendData(wb);
+    updateVardiya(wb);
+    updateMakineler(wb);
+  }
+
+  /* ── KPI Güncelle ── */
+  function updateKPI(wb) {
+    const rows = sheetRows(wb, 'KPI');
+    if (rows.length < 2) return;
+    const cards = [
+      { color: 'green',  emoji: '🏭', label: 'OEE',               barColor: '#2ea043' },
+      { color: 'blue',   emoji: '⚡', label: 'Üretim Verimliliği', barColor: '#1f6feb' },
+      { color: 'green',  emoji: '✅', label: 'Kalite Oranı',        barColor: '#2ea043' },
+      { color: 'yellow', emoji: '⏱', label: 'Kullanılabilirlik',   barColor: '#d29922' },
+      { color: 'red',    emoji: '🔴', label: 'Toplam Downtime',     barColor: '#da3633' },
+      { color: 'purple', emoji: '📦', label: 'Üretilen Parça',      barColor: '#8957e5' },
+      { color: 'cyan',   emoji: '🎯', label: 'Hedefe Ulaşma',       barColor: '#39d0d8' },
+      { color: 'yellow', emoji: '⚠️', label: 'Hata Sayısı',         barColor: '#d29922' },
+    ];
+    const grid = document.getElementById('kpi-grid');
+    let html = '';
+    rows.slice(1).forEach((row, i) => {
+      if (i >= cards.length) return;
+      const [gosterge, deger, degisim, yon] = row;
+      const c = cards[i];
+      const val = deger !== '' ? deger : '—';
+      const degStr = degisim !== '' ? String(degisim) : '';
+      const isUp = String(yon).toLowerCase() === 'up';
+      const trendHtml = degStr
+        ? `<span class="kpi-trend ${isUp ? 'up' : 'down'}">${isUp ? '▲' : '▼'} ${degStr}</span>`
+        : '';
+      const barPct = Math.min(parseFloat(val) || 0, 100);
+      html += `
+      <div class="kpi-card ${c.color}">
+        <div class="kpi-label">${c.emoji} ${gosterge || c.label}</div>
+        <div class="kpi-value">${val}</div>
+        <div class="kpi-sub">${trendHtml}${trendHtml ? ' önceki haftaya göre' : '&nbsp;'}</div>
+        <div class="progress-bar">
+          <div class="progress-fill" style="width:${barPct}%;background:${c.barColor};"></div>
+        </div>
+      </div>`;
+    });
+    if (html) grid.innerHTML = html;
+  }
+
+  /* ── Günlük Üretim Güncelle ── */
+  function updateProductionData(wb) {
+    const rows = sheetRows(wb, 'Gunluk_Uretim');
+    if (rows.length < 2) return;
+    const data = rows.slice(1);
+    productionChart.data.labels = data.map(r => r[0]);
+    productionChart.data.datasets[0].data = data.map(r => Number(r[1]) || 0);
+    productionChart.data.datasets[1].data = data.map(r => Number(r[2]) || 0);
+    productionChart.update();
+  }
+
+  /* ── OEE Radar Güncelle ── */
+  function updateOEERadarData(wb) {
+    const rows = sheetRows(wb, 'OEE_Bilesenleri');
+    if (rows.length < 2) return;
+    const data = rows.slice(1);
+    oeeRadarChart.data.labels = data.map(r => r[0]);
+    oeeRadarChart.data.datasets[0].data = data.map(r => Number(r[1]) || 0);
+    oeeRadarChart.data.datasets[1].data = data.map(r => Number(r[2]) || 0);
+    oeeRadarChart.update();
+  }
+
+  /* ── Kalite Güncelle ── */
+  function updateQualityData(wb) {
+    const rows = sheetRows(wb, 'Kalite');
+    if (rows.length < 2) return;
+    const data = rows.slice(1);
+    qualityChart.data.labels = data.map(r => r[0]);
+    qualityChart.data.datasets[0].data = data.map(r => Number(r[1]) || 0);
+    qualityChart.update();
+  }
+
+  /* ── Downtime Güncelle ── */
+  function updateDowntimeData(wb) {
+    const rows = sheetRows(wb, 'Downtime');
+    if (rows.length < 2) return;
+    const data = rows.slice(1);
+    downtimeChart.data.labels = data.map(r => r[0]);
+    downtimeChart.data.datasets[0].data = data.map(r => Number(r[1]) || 0);
+    downtimeChart.update();
+  }
+
+  /* ── OEE Trend Güncelle ── */
+  function updateOEETrendData(wb) {
+    const rows = sheetRows(wb, 'OEE_Trend');
+    if (rows.length < 2) return;
+    const data = rows.slice(1);
+    oeeTrendChart.data.labels = data.map(r => r[0]);
+    oeeTrendChart.data.datasets[0].data = data.map(r => Number(r[1]) || 0);
+    if (data[0] && data[0][2] !== '') {
+      oeeTrendChart.data.datasets[1].data = data.map(r => Number(r[2]) || 85);
+    }
+    oeeTrendChart.update();
+  }
+
+  /* ── Vardiya Güncelle ── */
+  function updateVardiya(wb) {
+    const rows = sheetRows(wb, 'Vardiya');
+    if (rows.length < 2) return;
+    const icons = [
+      { emoji: '🌅', bg: 'rgba(31,111,235,.2)',  color: '#58a6ff', saat: '06:00 – 14:00' },
+      { emoji: '☀️', bg: 'rgba(210,153,34,.2)',   color: '#e3b341', saat: '14:00 – 22:00' },
+      { emoji: '🌙', bg: 'rgba(137,87,229,.2)',   color: '#bc8cff', saat: '22:00 – 06:00' },
+    ];
+    const grid = document.getElementById('shift-grid');
+    let html = '';
+    rows.slice(1).forEach((row, i) => {
+      if (i >= icons.length) return;
+      const [ad, oee, verim, prod, dt] = row;
+      const ic = icons[i];
+      const dtColor = parseFloat(dt) > 40 ? '#f85149' : parseFloat(dt) > 30 ? '#e3b341' : '#3fb950';
+      html += `
+      <div class="shift-card">
+        <div class="shift-name">
+          <div class="shift-icon" style="background:${ic.bg};color:${ic.color};">${ic.emoji}</div>
+          ${ad} &nbsp;<span style="color:var(--muted);font-weight:400;font-size:12px;">${ic.saat}</span>
+        </div>
+        <div class="shift-metrics">
+          <div class="shift-metric">
+            <div class="shift-metric-label">OEE</div>
+            <div class="shift-metric-val" style="color:#58a6ff;">${oee}%</div>
+          </div>
+          <div class="shift-metric">
+            <div class="shift-metric-label">Verimlilik</div>
+            <div class="shift-metric-val" style="color:#3fb950;">${verim}%</div>
+          </div>
+          <div class="shift-metric">
+            <div class="shift-metric-label">Üretim</div>
+            <div class="shift-metric-val" style="color:#e6edf3;">${Number(prod).toLocaleString('tr-TR')}</div>
+          </div>
+          <div class="shift-metric">
+            <div class="shift-metric-label">Downtime</div>
+            <div class="shift-metric-val" style="color:${dtColor};">${dt}dk</div>
+          </div>
+        </div>
+      </div>`;
+    });
+    if (html) grid.innerHTML = html;
+  }
+
+  /* ── Makine Tablosu Güncelle ── */
+  function updateMakineler(wb) {
+    const rows = sheetRows(wb, 'Makineler');
+    if (rows.length < 2) return;
+    const statusMap = {
+      'çalışıyor':  { cls: 'running',  label: 'Çalışıyor'  },
+      'bekleme':    { cls: 'idle',     label: 'Bekleme'    },
+      'bakım':      { cls: 'maint',    label: 'Bakım'      },
+      'durduruldu': { cls: 'stopped',  label: 'Durduruldu' },
+    };
+    const tbody = document.getElementById('machine-tbody');
+    let html = '';
+    rows.slice(1).forEach(row => {
+      const [hat, durum, oee, prod, hedef, verim, sonAriza] = row;
+      const key = String(durum).toLowerCase();
+      const st = statusMap[key] || { cls: 'running', label: durum };
+      const verimPct = Math.min(parseFloat(verim) || 0, 100);
+      const barColor = verimPct >= 80 ? '#2ea043' : verimPct >= 60 ? '#d29922' : '#da3633';
+      html += `<tr>
+        <td><strong>${hat}</strong></td>
+        <td><span class="status-pill ${st.cls}"><span class="status-dot"></span>${st.label}</span></td>
+        <td>${oee !== '' ? oee + '%' : '—'}</td>
+        <td>${Number(prod).toLocaleString('tr-TR')}</td>
+        <td>${Number(hedef).toLocaleString('tr-TR')}</td>
+        <td>
+          <div class="bar-inline">
+            <span>${verim}%</span>
+            <div class="bar-bg"><div class="bar-fg" style="width:${verimPct}%;background:${barColor};"></div></div>
+          </div>
+        </td>
+        <td style="color:var(--muted);">${sonAriza}</td>
+      </tr>`;
+    });
+    if (html) tbody.innerHTML = html;
+  }
 </script>
 </body>
 </html>
