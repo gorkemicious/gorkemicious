@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Üretim Yönetim Sistemi — Excellence Model KPI Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    /* ── Reset & Base ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #0d1117;
+      --surface:   #161b22;
+      --surface2:  #21262d;
+      --border:    #30363d;
+      --text:      #e6edf3;
+      --muted:     #8b949e;
+      --accent:    #1f6feb;
+      --green:     #2ea043;
+      --yellow:    #d29922;
+      --red:       #da3633;
+      --cyan:      #1f6feb;
+      --purple:    #8957e5;
+      --radius:    10px;
+    }
+
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      font-size: 14px;
+    }
+
+    /* ── Top Bar ── */
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 24px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .logo-icon {
+      width: 34px; height: 34px;
+      background: var(--accent);
+      border-radius: 8px;
+      display: grid;
+      place-items: center;
+      font-size: 18px;
+    }
+    .logo-text h1 { font-size: 15px; font-weight: 700; letter-spacing: .3px; }
+    .logo-text p  { font-size: 11px; color: var(--muted); }
+
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .live-badge {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      color: var(--green);
+      font-weight: 600;
+    }
+    .live-dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: var(--green);
+      animation: pulse 1.5s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50%       { opacity: .3; }
+    }
+    .date-badge {
+      font-size: 12px;
+      color: var(--muted);
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 4px 10px;
+    }
+
+    /* ── Layout ── */
+    main {
+      padding: 20px 24px;
+      max-width: 1600px;
+      margin: 0 auto;
+    }
+
+    .section-title {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--muted);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .section-title::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    /* ── KPI Cards ── */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 14px;
+      margin-bottom: 24px;
+    }
+
+    .kpi-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 18px;
+      position: relative;
+      overflow: hidden;
+      transition: border-color .2s;
+    }
+    .kpi-card:hover { border-color: var(--accent); }
+    .kpi-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      border-radius: var(--radius) var(--radius) 0 0;
+    }
+    .kpi-card.green::before  { background: var(--green); }
+    .kpi-card.blue::before   { background: var(--accent); }
+    .kpi-card.yellow::before { background: var(--yellow); }
+    .kpi-card.red::before    { background: var(--red); }
+    .kpi-card.purple::before { background: var(--purple); }
+    .kpi-card.cyan::before   { background: #39d0d8; }
+
+    .kpi-label {
+      font-size: 11px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .8px;
+      font-weight: 600;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .kpi-value {
+      font-size: 36px;
+      font-weight: 800;
+      line-height: 1;
+      margin-bottom: 6px;
+      letter-spacing: -1px;
+    }
+    .kpi-card.green  .kpi-value { color: #3fb950; }
+    .kpi-card.blue   .kpi-value { color: #58a6ff; }
+    .kpi-card.yellow .kpi-value { color: #e3b341; }
+    .kpi-card.red    .kpi-value { color: #f85149; }
+    .kpi-card.purple .kpi-value { color: #bc8cff; }
+    .kpi-card.cyan   .kpi-value { color: #56d8e4; }
+
+    .kpi-sub {
+      font-size: 12px;
+      color: var(--muted);
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .kpi-trend {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+    .kpi-trend.up   { background: rgba(46,160,67,.15); color: #3fb950; }
+    .kpi-trend.down { background: rgba(218,54,51,.15);  color: #f85149; }
+
+    .progress-bar {
+      margin-top: 10px;
+      height: 4px;
+      background: var(--surface2);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+    .progress-fill {
+      height: 100%;
+      border-radius: 2px;
+      transition: width 1s ease;
+    }
+
+    /* ── Chart Grid ── */
+    .chart-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 14px;
+      margin-bottom: 24px;
+    }
+    .chart-grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+      margin-bottom: 24px;
+    }
+
+    .chart-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 18px;
+    }
+    .chart-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+    }
+    .chart-title {
+      font-size: 13px;
+      font-weight: 700;
+    }
+    .chart-badge {
+      font-size: 10px;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 4px;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+    }
+    .badge-green  { background: rgba(46,160,67,.2);  color: #3fb950; }
+    .badge-blue   { background: rgba(31,111,235,.2); color: #58a6ff; }
+    .badge-yellow { background: rgba(210,153,34,.2); color: #e3b341; }
+    .badge-red    { background: rgba(218,54,51,.2);  color: #f85149; }
+    .badge-purple { background: rgba(137,87,229,.2); color: #bc8cff; }
+
+    canvas { max-height: 240px; }
+
+    /* ── Machine Status Table ── */
+    .table-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      margin-bottom: 24px;
+    }
+    .table-card .chart-header {
+      padding: 16px 18px 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    thead tr {
+      background: var(--surface2);
+      border-bottom: 1px solid var(--border);
+    }
+    th {
+      text-align: left;
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .6px;
+      padding: 10px 14px;
+    }
+    tbody tr {
+      border-bottom: 1px solid var(--border);
+      transition: background .15s;
+    }
+    tbody tr:last-child { border-bottom: none; }
+    tbody tr:hover { background: var(--surface2); }
+    td {
+      padding: 11px 14px;
+      font-size: 13px;
+    }
+
+    .status-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: .4px;
+    }
+    .status-pill.running  { background: rgba(46,160,67,.15);  color: #3fb950; }
+    .status-pill.idle     { background: rgba(210,153,34,.15); color: #e3b341; }
+    .status-pill.stopped  { background: rgba(218,54,51,.15);  color: #f85149; }
+    .status-pill.maint    { background: rgba(137,87,229,.15); color: #bc8cff; }
+    .status-dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+
+    .bar-inline {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .bar-bg {
+      flex: 1;
+      height: 6px;
+      background: var(--surface2);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+    .bar-fg {
+      height: 100%;
+      border-radius: 3px;
+    }
+
+    /* ── Shift Performance ── */
+    .shift-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+      margin-bottom: 24px;
+    }
+    .shift-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 18px;
+    }
+    .shift-name {
+      font-size: 13px;
+      font-weight: 700;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .shift-icon {
+      width: 28px; height: 28px;
+      border-radius: 6px;
+      display: grid;
+      place-items: center;
+      font-size: 14px;
+    }
+    .shift-metrics {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .shift-metric {
+      background: var(--surface2);
+      border-radius: 6px;
+      padding: 10px;
+    }
+    .shift-metric-label {
+      font-size: 10px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .6px;
+      margin-bottom: 4px;
+    }
+    .shift-metric-val {
+      font-size: 20px;
+      font-weight: 800;
+    }
+
+    /* ── Footer ── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 14px 24px;
+      text-align: center;
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 900px) {
+      .chart-grid, .chart-grid-3, .shift-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════ HEADER ═══════════════════════════════ -->
+<header>
+  <div class="logo">
+    <div class="logo-icon">⚙️</div>
+    <div class="logo-text">
+      <h1>Excellence Model · Üretim KPI Dashboard</h1>
+      <p>Üretim Yönetim Sistemi — Anlık Performans İzleme</p>
+    </div>
+  </div>
+  <div class="header-right">
+    <div class="live-badge">
+      <div class="live-dot"></div>
+      CANLI
+    </div>
+    <div class="date-badge" id="clock">—</div>
+  </div>
+</header>
+
+<!-- ═══════════════════════════════ MAIN ═══════════════════════════════ -->
+<main>
+
+  <!-- ── KPI Kartları ── -->
+  <div class="section-title">Temel Performans Göstergeleri</div>
+  <div class="kpi-grid">
+
+    <div class="kpi-card green">
+      <div class="kpi-label">🏭 OEE</div>
+      <div class="kpi-value">82.4%</div>
+      <div class="kpi-sub">
+        <span class="kpi-trend up">▲ +1.8%</span> önceki haftaya göre
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width:82.4%;background:#2ea043;"></div>
+      </div>
+    </div>
+
+    <div class="kpi-card blue">
+      <div class="kpi-label">⚡ Üretim Verimliliği</div>
+      <div class="kpi-value">91.2%</div>
+      <div class="kpi-sub">
+        <span class="kpi-trend up">▲ +0.5%</span> dün
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width:91.2%;background:#1f6feb;"></div>
+      </div>
+    </div>
+
+    <div class="kpi-card green">
+      <div class="kpi-label">✅ Kalite Oranı</div>
+      <div class="kpi-value">98.7%</div>
+      <div class="kpi-sub">
+        <span class="kpi-trend up">▲ +0.2%</span> dün
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width:98.7%;background:#2ea043;"></div>
+      </div>
+    </div>
+
+    <div class="kpi-card yellow">
+      <div class="kpi-label">⏱ Kullanılabilirlik</div>
+      <div class="kpi-value">90.5%</div>
+      <div class="kpi-sub">
+        <span class="kpi-trend down">▼ −0.4%</span> dün
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width:90.5%;background:#d29922;"></div>
+      </div>
+    </div>
+
+    <div class="kpi-card red">
+      <div class="kpi-label">🔴 Toplam Downtime</div>
+      <div class="kpi-value">4.8s</div>
+      <div class="kpi-sub">
+        <span class="kpi-trend down">▼ −12dk</span> dünkü toplam
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width:32%;background:#da3633;"></div>
+      </div>
+    </div>
+
+    <div class="kpi-card purple">
+      <div class="kpi-label">📦 Üretilen Parça</div>
+      <div class="kpi-value">18,432</div>
+      <div class="kpi-sub">
+        <span class="kpi-trend up">▲ +834</span> dün
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width:76%;background:#8957e5;"></div>
+      </div>
+    </div>
+
+    <div class="kpi-card cyan">
+      <div class="kpi-label">🎯 Hedefe Ulaşma</div>
+      <div class="kpi-value">96.1%</div>
+      <div class="kpi-sub">
+        Hedef: 19,175 / Gerçek: 18,432
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width:96.1%;background:#39d0d8;"></div>
+      </div>
+    </div>
+
+    <div class="kpi-card yellow">
+      <div class="kpi-label">⚠️ Hata Sayısı</div>
+      <div class="kpi-value">241</div>
+      <div class="kpi-sub">
+        <span class="kpi-trend down">▼ −18</span> önceki haftaya göre
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width:18%;background:#d29922;"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ── Trend Grafikleri ── -->
+  <div class="section-title">Haftalık Trend Analizi</div>
+  <div class="chart-grid">
+
+    <div class="chart-card">
+      <div class="chart-header">
+        <div class="chart-title">Üretim Hacmi — Günlük</div>
+        <span class="chart-badge badge-blue">Bu Hafta</span>
+      </div>
+      <canvas id="productionChart"></canvas>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-header">
+        <div class="chart-title">OEE Bileşenleri</div>
+        <span class="chart-badge badge-green">Bugün</span>
+      </div>
+      <canvas id="oeeRadar"></canvas>
+    </div>
+
+  </div>
+
+  <div class="chart-grid-3">
+
+    <div class="chart-card">
+      <div class="chart-header">
+        <div class="chart-title">Kalite Dağılımı</div>
+        <span class="chart-badge badge-green">Haftalık</span>
+      </div>
+      <canvas id="qualityDoughnut"></canvas>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-header">
+        <div class="chart-title">Downtime Kategorileri</div>
+        <span class="chart-badge badge-red">Saatlik</span>
+      </div>
+      <canvas id="downtimeBar"></canvas>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-header">
+        <div class="chart-title">OEE 4 Haftalık Seyir</div>
+        <span class="chart-badge badge-purple">Aylık</span>
+      </div>
+      <canvas id="oeeLineChart"></canvas>
+    </div>
+
+  </div>
+
+  <!-- ── Vardiya Performansı ── -->
+  <div class="section-title">Vardiya Performansı</div>
+  <div class="shift-grid">
+
+    <div class="shift-card">
+      <div class="shift-name">
+        <div class="shift-icon" style="background:rgba(31,111,235,.2);color:#58a6ff;">🌅</div>
+        1. Vardiya &nbsp;<span style="color:var(--muted);font-weight:400;font-size:12px;">06:00 – 14:00</span>
+      </div>
+      <div class="shift-metrics">
+        <div class="shift-metric">
+          <div class="shift-metric-label">OEE</div>
+          <div class="shift-metric-val" style="color:#58a6ff;">84.1%</div>
+        </div>
+        <div class="shift-metric">
+          <div class="shift-metric-label">Verimlilik</div>
+          <div class="shift-metric-val" style="color:#3fb950;">93.4%</div>
+        </div>
+        <div class="shift-metric">
+          <div class="shift-metric-label">Üretim</div>
+          <div class="shift-metric-val" style="color:#e6edf3;">6,820</div>
+        </div>
+        <div class="shift-metric">
+          <div class="shift-metric-label">Downtime</div>
+          <div class="shift-metric-val" style="color:#e3b341;">28dk</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="shift-card">
+      <div class="shift-name">
+        <div class="shift-icon" style="background:rgba(210,153,34,.2);color:#e3b341;">☀️</div>
+        2. Vardiya &nbsp;<span style="color:var(--muted);font-weight:400;font-size:12px;">14:00 – 22:00</span>
+      </div>
+      <div class="shift-metrics">
+        <div class="shift-metric">
+          <div class="shift-metric-label">OEE</div>
+          <div class="shift-metric-val" style="color:#58a6ff;">81.9%</div>
+        </div>
+        <div class="shift-metric">
+          <div class="shift-metric-label">Verimlilik</div>
+          <div class="shift-metric-val" style="color:#3fb950;">89.6%</div>
+        </div>
+        <div class="shift-metric">
+          <div class="shift-metric-label">Üretim</div>
+          <div class="shift-metric-val" style="color:#e6edf3;">6,241</div>
+        </div>
+        <div class="shift-metric">
+          <div class="shift-metric-label">Downtime</div>
+          <div class="shift-metric-val" style="color:#f85149;">47dk</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="shift-card">
+      <div class="shift-name">
+        <div class="shift-icon" style="background:rgba(137,87,229,.2);color:#bc8cff;">🌙</div>
+        3. Vardiya &nbsp;<span style="color:var(--muted);font-weight:400;font-size:12px;">22:00 – 06:00</span>
+      </div>
+      <div class="shift-metrics">
+        <div class="shift-metric">
+          <div class="shift-metric-label">OEE</div>
+          <div class="shift-metric-val" style="color:#58a6ff;">80.7%</div>
+        </div>
+        <div class="shift-metric">
+          <div class="shift-metric-label">Verimlilik</div>
+          <div class="shift-metric-val" style="color:#3fb950;">88.2%</div>
+        </div>
+        <div class="shift-metric">
+          <div class="shift-metric-label">Üretim</div>
+          <div class="shift-metric-val" style="color:#e6edf3;">5,371</div>
+        </div>
+        <div class="shift-metric">
+          <div class="shift-metric-label">Downtime</div>
+          <div class="shift-metric-val" style="color:#e3b341;">33dk</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ── Makine / Hat Durumu ── -->
+  <div class="section-title">Hat & Makine Durumu</div>
+  <div class="table-card">
+    <div class="chart-header">
+      <div class="chart-title">Gerçek Zamanlı Ekipman Durumu</div>
+      <span class="chart-badge badge-blue">8 Hat Aktif</span>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Hat / Makine</th>
+          <th>Durum</th>
+          <th>OEE</th>
+          <th>Üretim (bugün)</th>
+          <th>Hedef</th>
+          <th>Verimlilik</th>
+          <th>Son Arıza</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Hat 1 — CNC Alpha</strong></td>
+          <td><span class="status-pill running"><span class="status-dot"></span>Çalışıyor</span></td>
+          <td>87.3%</td>
+          <td>2,840</td>
+          <td>3,000</td>
+          <td>
+            <div class="bar-inline">
+              <span>94.7%</span>
+              <div class="bar-bg"><div class="bar-fg" style="width:94.7%;background:#2ea043;"></div></div>
+            </div>
+          </td>
+          <td style="color:var(--muted);">3 gün önce</td>
+        </tr>
+        <tr>
+          <td><strong>Hat 2 — Press B</strong></td>
+          <td><span class="status-pill running"><span class="status-dot"></span>Çalışıyor</span></td>
+          <td>83.1%</td>
+          <td>2,610</td>
+          <td>3,000</td>
+          <td>
+            <div class="bar-inline">
+              <span>87.0%</span>
+              <div class="bar-bg"><div class="bar-fg" style="width:87%;background:#2ea043;"></div></div>
+            </div>
+          </td>
+          <td style="color:var(--muted);">1 gün önce</td>
+        </tr>
+        <tr>
+          <td><strong>Hat 3 — Kaynak Robotu</strong></td>
+          <td><span class="status-pill idle"><span class="status-dot"></span>Bekleme</span></td>
+          <td>61.4%</td>
+          <td>1,920</td>
+          <td>3,000</td>
+          <td>
+            <div class="bar-inline">
+              <span>64.0%</span>
+              <div class="bar-bg"><div class="bar-fg" style="width:64%;background:#d29922;"></div></div>
+            </div>
+          </td>
+          <td style="color:#e3b341;">Bugün 09:14</td>
+        </tr>
+        <tr>
+          <td><strong>Hat 4 — Montaj A</strong></td>
+          <td><span class="status-pill running"><span class="status-dot"></span>Çalışıyor</span></td>
+          <td>90.2%</td>
+          <td>2,950</td>
+          <td>3,000</td>
+          <td>
+            <div class="bar-inline">
+              <span>98.3%</span>
+              <div class="bar-bg"><div class="bar-fg" style="width:98.3%;background:#2ea043;"></div></div>
+            </div>
+          </td>
+          <td style="color:var(--muted);">5 gün önce</td>
+        </tr>
+        <tr>
+          <td><strong>Hat 5 — Boya Hattı</strong></td>
+          <td><span class="status-pill maint"><span class="status-dot"></span>Bakım</span></td>
+          <td>—</td>
+          <td>890</td>
+          <td>3,000</td>
+          <td>
+            <div class="bar-inline">
+              <span>29.7%</span>
+              <div class="bar-bg"><div class="bar-fg" style="width:29.7%;background:#da3633;"></div></div>
+            </div>
+          </td>
+          <td style="color:#f85149;">Bugün 06:30</td>
+        </tr>
+        <tr>
+          <td><strong>Hat 6 — Paketleme</strong></td>
+          <td><span class="status-pill running"><span class="status-dot"></span>Çalışıyor</span></td>
+          <td>85.8%</td>
+          <td>2,740</td>
+          <td>3,000</td>
+          <td>
+            <div class="bar-inline">
+              <span>91.3%</span>
+              <div class="bar-bg"><div class="bar-fg" style="width:91.3%;background:#2ea043;"></div></div>
+            </div>
+          </td>
+          <td style="color:var(--muted);">2 gün önce</td>
+        </tr>
+        <tr>
+          <td><strong>Hat 7 — Kalite Kontrol</strong></td>
+          <td><span class="status-pill running"><span class="status-dot"></span>Çalışıyor</span></td>
+          <td>92.6%</td>
+          <td>3,000</td>
+          <td>3,000</td>
+          <td>
+            <div class="bar-inline">
+              <span>100%</span>
+              <div class="bar-bg"><div class="bar-fg" style="width:100%;background:#2ea043;"></div></div>
+            </div>
+          </td>
+          <td style="color:var(--muted);">7 gün önce</td>
+        </tr>
+        <tr>
+          <td><strong>Hat 8 — CNC Beta</strong></td>
+          <td><span class="status-pill stopped"><span class="status-dot"></span>Durduruldu</span></td>
+          <td>0%</td>
+          <td>482</td>
+          <td>3,000</td>
+          <td>
+            <div class="bar-inline">
+              <span>16.1%</span>
+              <div class="bar-bg"><div class="bar-fg" style="width:16.1%;background:#da3633;"></div></div>
+            </div>
+          </td>
+          <td style="color:#f85149;">Bugün 04:55</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</main>
+
+<footer>
+  &copy; 2026 Excellence Model · Üretim Yönetim Sistemi — Tüm veriler anlık olarak güncellenmektedir.
+</footer>
+
+<!-- ═══════════════════════════════ SCRIPTS ═══════════════════════════════ -->
+<script>
+  /* ── Saat ── */
+  function updateClock() {
+    const now = new Date();
+    document.getElementById('clock').textContent =
+      now.toLocaleString('tr-TR', { dateStyle: 'medium', timeStyle: 'medium' });
+  }
+  updateClock();
+  setInterval(updateClock, 1000);
+
+  /* ── Renkler ── */
+  const C = {
+    blue:   '#58a6ff',
+    green:  '#3fb950',
+    yellow: '#e3b341',
+    red:    '#f85149',
+    purple: '#bc8cff',
+    cyan:   '#56d8e4',
+    muted:  '#8b949e',
+    grid:   'rgba(48,54,61,.7)',
+    text:   '#e6edf3',
+  };
+
+  Chart.defaults.color = C.muted;
+  Chart.defaults.borderColor = C.grid;
+  Chart.defaults.font.family = "'Segoe UI', system-ui, sans-serif";
+
+  /* ── Üretim Hacmi (Bar) ── */
+  new Chart(document.getElementById('productionChart'), {
+    type: 'bar',
+    data: {
+      labels: ['Pzt', 'Sal', 'Çar', 'Per', 'Cum', 'Cmt', 'Paz'],
+      datasets: [
+        {
+          label: 'Gerçek Üretim',
+          data: [17840, 18120, 17590, 18900, 18432, 16200, 15800],
+          backgroundColor: 'rgba(31,111,235,.7)',
+          borderColor: C.blue,
+          borderWidth: 1,
+          borderRadius: 4,
+        },
+        {
+          label: 'Hedef',
+          data: [19175, 19175, 19175, 19175, 19175, 19175, 19175],
+          type: 'line',
+          borderColor: C.yellow,
+          borderWidth: 2,
+          borderDash: [6, 3],
+          pointRadius: 0,
+          fill: false,
+        },
+      ],
+    },
+    options: {
+      responsive: true,
+      plugins: { legend: { position: 'bottom', labels: { boxWidth: 12, padding: 16 } } },
+      scales: {
+        x: { grid: { color: C.grid } },
+        y: {
+          grid: { color: C.grid },
+          ticks: { callback: v => v.toLocaleString('tr-TR') },
+          beginAtZero: false,
+          min: 14000,
+        },
+      },
+    },
+  });
+
+  /* ── OEE Bileşenleri (Radar) ── */
+  new Chart(document.getElementById('oeeRadar'), {
+    type: 'radar',
+    data: {
+      labels: ['Kullanılabilirlik', 'Performans', 'Kalite', 'Güvenilirlik', 'Enerji Etkinliği'],
+      datasets: [
+        {
+          label: 'Bugün',
+          data: [90.5, 91.2, 98.7, 88.3, 85.0],
+          backgroundColor: 'rgba(31,111,235,.15)',
+          borderColor: C.blue,
+          borderWidth: 2,
+          pointBackgroundColor: C.blue,
+        },
+        {
+          label: 'Hedef',
+          data: [95, 95, 99.5, 93, 90],
+          backgroundColor: 'rgba(46,160,67,.1)',
+          borderColor: C.green,
+          borderWidth: 2,
+          borderDash: [4, 3],
+          pointBackgroundColor: C.green,
+        },
+      ],
+    },
+    options: {
+      responsive: true,
+      scales: {
+        r: {
+          min: 70, max: 100,
+          grid: { color: C.grid },
+          angleLines: { color: C.grid },
+          ticks: { stepSize: 10, backdropColor: 'transparent' },
+        },
+      },
+      plugins: { legend: { position: 'bottom', labels: { boxWidth: 12, padding: 16 } } },
+    },
+  });
+
+  /* ── Kalite Dağılımı (Doughnut) ── */
+  new Chart(document.getElementById('qualityDoughnut'), {
+    type: 'doughnut',
+    data: {
+      labels: ['1. Kalite', 'Yeniden İşlem', 'Hurda', 'Beklemede'],
+      datasets: [{
+        data: [95.2, 2.1, 1.3, 1.4],
+        backgroundColor: [C.green, C.yellow, C.red, C.muted],
+        borderColor: '#161b22',
+        borderWidth: 3,
+        hoverOffset: 8,
+      }],
+    },
+    options: {
+      responsive: true,
+      cutout: '68%',
+      plugins: {
+        legend: { position: 'bottom', labels: { boxWidth: 12, padding: 14 } },
+        tooltip: { callbacks: { label: ctx => ` ${ctx.label}: %${ctx.parsed}` } },
+      },
+    },
+  });
+
+  /* ── Downtime Kategorileri (Horizontal Bar) ── */
+  new Chart(document.getElementById('downtimeBar'), {
+    type: 'bar',
+    data: {
+      labels: ['Mekanik Arıza', 'Setup / Ayar', 'Malzeme Bekleme', 'Elektrik Arıza', 'Planlı Bakım', 'Diğer'],
+      datasets: [{
+        label: 'Dakika',
+        data: [48, 35, 22, 18, 15, 8],
+        backgroundColor: [C.red, C.yellow, C.blue, C.purple, C.green, C.muted],
+        borderRadius: 4,
+      }],
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { grid: { color: C.grid }, ticks: { callback: v => `${v}dk` } },
+        y: { grid: { display: false } },
+      },
+    },
+  });
+
+  /* ── OEE 4 Haftalık (Line) ── */
+  new Chart(document.getElementById('oeeLineChart'), {
+    type: 'line',
+    data: {
+      labels: ['H1', 'H2', 'H3', 'H4', 'H5', 'H6', 'H7', 'H8', 'H9', 'H10', 'H11', 'H12', 'H13', 'H14', 'H15', 'H16', 'H17', 'H18', 'H19', 'H20', 'H21', 'H22', 'H23', 'Şimdi'],
+      datasets: [
+        {
+          label: 'OEE %',
+          data: [79,81,80,82,78,83,84,82,81,83,85,84,82,83,84,85,83,82,84,83,82,84,83,82.4],
+          borderColor: C.purple,
+          backgroundColor: 'rgba(137,87,229,.1)',
+          fill: true,
+          tension: .4,
+          pointRadius: 0,
+          borderWidth: 2,
+        },
+        {
+          label: 'Hedef %',
+          data: Array(24).fill(85),
+          borderColor: C.green,
+          borderDash: [5, 4],
+          borderWidth: 1.5,
+          pointRadius: 0,
+          fill: false,
+        },
+      ],
+    },
+    options: {
+      responsive: true,
+      plugins: { legend: { position: 'bottom', labels: { boxWidth: 12, padding: 14 } } },
+      scales: {
+        x: { grid: { display: false }, ticks: { maxTicksLimit: 8 } },
+        y: {
+          grid: { color: C.grid },
+          min: 70, max: 92,
+          ticks: { callback: v => `%${v}` },
+        },
+      },
+    },
+  });
+</script>
+</body>
+</html>
