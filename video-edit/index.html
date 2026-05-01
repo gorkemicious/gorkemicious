@@ -1,22 +1,149 @@
 <!doctype html>
-<html lang="en">
+<html lang="tr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=1920, height=1080" />
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <script src="vendor/gsap.min.js"></script>
     <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-      html,
-      body {
-        margin: 0;
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body {
         width: 1920px;
         height: 1080px;
         overflow: hidden;
-        background: #000;
+        background: #0a0a0a;
+        font-family: 'Segoe UI', system-ui, sans-serif;
+      }
+
+      .scene {
+        position: absolute;
+        width: 1920px;
+        height: 1080px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+      }
+
+      /* ── Intro ── */
+      #scene-intro {
+        background: linear-gradient(135deg, #0a0a0a 0%, #1a0808 100%);
+        flex-direction: column;
+        gap: 28px;
+      }
+      .intro-eyebrow {
+        font-size: 26px;
+        color: #e53e3e;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+      .intro-title {
+        font-size: 88px;
+        font-weight: 900;
+        color: #fff;
+        text-align: center;
+        line-height: 1.08;
+        max-width: 1400px;
+      }
+      .intro-title span { color: #e53e3e; }
+      .intro-sub {
+        font-size: 38px;
+        color: #666;
+        font-weight: 300;
+        letter-spacing: 2px;
+      }
+
+      /* ── Reasons ── */
+      #scene-reasons {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 100px 180px;
+        background: #0a0a0a;
+        overflow: hidden;
+      }
+      .reason-number-bg {
+        font-size: 160px;
+        font-weight: 900;
+        color: #111;
+        position: absolute;
+        right: 100px;
+        bottom: 80px;
+        line-height: 1;
+        user-select: none;
+      }
+      .reason-tag {
+        font-size: 20px;
+        color: #e53e3e;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        font-weight: 700;
+        margin-bottom: 16px;
+      }
+      .reason-divider {
+        width: 72px;
+        height: 4px;
+        background: #e53e3e;
+        margin-bottom: 28px;
+      }
+      .reason-title {
+        font-size: 60px;
+        font-weight: 800;
+        color: #fff;
+        line-height: 1.1;
+        margin-bottom: 22px;
+        max-width: 1200px;
+      }
+      .reason-body {
+        font-size: 28px;
+        color: #888;
+        line-height: 1.5;
+        max-width: 1100px;
+        font-weight: 300;
+      }
+
+      /* ── What to do ── */
+      #scene-cta {
+        background: #e53e3e;
+        flex-direction: column;
+        gap: 40px;
+      }
+      .cta-title {
+        font-size: 76px;
+        font-weight: 900;
+        color: #fff;
+        text-align: center;
+      }
+      .cta-tips {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+      }
+      .cta-tip {
+        display: flex;
+        align-items: center;
+        gap: 22px;
+        font-size: 34px;
+        color: rgba(255,255,255,0.92);
+        font-weight: 400;
+        max-width: 1300px;
+      }
+      .cta-dot {
+        width: 10px;
+        height: 10px;
+        background: #fff;
+        border-radius: 50%;
+        flex-shrink: 0;
+      }
+
+      /* ── Progress ── */
+      #progress {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 5px;
+        background: #e53e3e;
+        width: 0%;
+        z-index: 100;
       }
     </style>
   </head>
@@ -25,26 +152,119 @@
       id="root"
       data-composition-id="main"
       data-start="0"
-      data-duration="10"
+      data-duration="20"
       data-width="1920"
       data-height="1080"
     >
-      
-      
 
-      <!--
-        Add your clips here. Example:
-        <div id="title" class="clip" data-start="0" data-duration="5" data-track-index="1"
-             style="font-size: 64px; color: #fff; padding: 40px">
-          Hello World
-        </div>
-      -->
+    <!-- SCENE 1: Intro -->
+    <div class="scene" id="scene-intro">
+      <div class="intro-eyebrow" id="intro-eyebrow">Kariyer Tuzağı</div>
+      <div class="intro-title" id="intro-title">
+        Şirketler neden <span>var olmayan</span><br>pozisyonlara ilan açar?
+      </div>
+      <div class="intro-sub" id="intro-sub">6 gerçek neden</div>
     </div>
+
+    <!-- SCENE 2: Reasons (content swapped via JS) -->
+    <div class="scene" id="scene-reasons">
+      <div class="reason-tag" id="reason-tag">Neden #1</div>
+      <div class="reason-divider" id="reason-divider"></div>
+      <div class="reason-title" id="reason-title">Yetenek havuzu biriktirme</div>
+      <div class="reason-body" id="reason-body">Şu an işe alacakları yok. Ama 3 ay sonra ihtiyaç çıktığında hazır başvuru havuzları olsun istiyorlar. Sen CV'ni gönderdin, onlar seni dosyaladı.</div>
+      <div class="reason-number-bg" id="reason-num" aria-hidden="true" data-layout-allow-overflow="true">1</div>
+    </div>
+
+    <!-- SCENE 3: CTA -->
+    <div class="scene" id="scene-cta">
+      <div class="cta-title" id="cta-title">Peki ne yapmalısın?</div>
+      <div class="cta-tips">
+        <div class="cta-tip" id="tip-1"><div class="cta-dot"></div>İlana başvurmadan önce o şirkette biri var mı LinkedIn'de — bul, konuş.</div>
+        <div class="cta-tip" id="tip-2"><div class="cta-dot"></div>Geri dönüş almadığın ilanları takip etmeyi bırak.</div>
+        <div class="cta-tip" id="tip-3"><div class="cta-dot"></div>Enerjini gerçek kanallar ve referanslar üzerine yönlendir.</div>
+      </div>
+    </div>
+
+    <div id="progress"></div>
+
+    </div><!-- /root -->
 
     <script>
       window.__timelines = window.__timelines || {};
       const tl = gsap.timeline({ paused: true });
-      // Example: tl.from("#title", { opacity: 0, y: -50, duration: 1 }, 0);
+
+      const reasons = [
+        {
+          tag: "Neden #1", num: "1",
+          title: "Yetenek havuzu biriktirme",
+          body: "Şu an işe alacakları yok. Ama 3 ay sonra ihtiyaç çıktığında hazır başvuru havuzları olsun istiyorlar."
+        },
+        {
+          tag: "Neden #2", num: "2",
+          title: "Mevcut çalışanı test etme",
+          body: '"Acaba yerinize biri bulabilir miyiz?" sorusunun cevabını piyasadan alıyorlar. Bazen "kolayca değiştirilebilirsin" mesajı vermek için.'
+        },
+        {
+          tag: "Neden #3", num: "3",
+          title: "Referans noktası oluşturma",
+          body: "Maaş tekliflerinde ne kadar teklif yapmaları gerektiğini bilmiyorlar. İlan açıp başvuranlara soru sorarak piyasayı okuyorlar."
+        },
+        {
+          tag: "Neden #4", num: "4",
+          title: "Kurumsal görünüm",
+          body: '"Büyüyen, dinamik şirket" imajı vermek için ilanları aktif tutuyorlar. Yatırımcıya, müşteriye, rakibe mesaj.'
+        },
+        {
+          tag: "Neden #5", num: "5",
+          title: "Departman bütçesi koruma",
+          body: '"Bu pozisyonu doldurmayı planlıyoruz" diyerek bütçeyi elinde tutmak istiyor. İlan açmadan bütçe kesilir.'
+        },
+        {
+          tag: "Neden #6", num: "6",
+          title: "Yasal zorunluluk",
+          body: "Bazı ülkelerde içeriden terfi kararı alınmış olsa bile pozisyonu dışarıya ilan etmek zorundalar. Prosedür gereği."
+        },
+      ];
+
+      // Progress bar across full 20s
+      tl.to("#progress", { width: "100%", duration: 20, ease: "none" }, 0);
+
+      // ── INTRO: 0 → 3s ──
+      tl.to("#scene-intro", { opacity: 1, duration: 0.1 }, 0);
+      tl.from("#intro-eyebrow", { y: -30, opacity: 0, duration: 0.5, ease: "power3.out" }, 0.2);
+      tl.from("#intro-title",   { y: 60,  opacity: 0, duration: 0.7, ease: "power3.out" }, 0.55);
+      tl.from("#intro-sub",     { y: 30,  opacity: 0, duration: 0.5, ease: "power3.out" }, 1.1);
+      tl.to("#scene-intro", { opacity: 0, duration: 0.4 }, 2.6);
+
+      // ── REASONS: 3 → 15s (2s each) ──
+      reasons.forEach((r, i) => {
+        const s = 3 + i * 2;
+
+        tl.to("#scene-reasons", { opacity: 1, duration: 0.05, overwrite: "auto" }, s);
+
+        tl.call(() => {
+          document.getElementById("reason-tag").textContent   = r.tag;
+          document.getElementById("reason-title").textContent = r.title;
+          document.getElementById("reason-body").textContent  = r.body;
+          document.getElementById("reason-num").textContent   = r.num;
+        }, [], s);
+
+        tl.from(["#reason-tag", "#reason-divider"], { x: -40, opacity: 0, duration: 0.35, stagger: 0.1, ease: "power2.out" }, s + 0.06);
+        tl.from("#reason-title", { y: 28, opacity: 0, duration: 0.45, ease: "power2.out" }, s + 0.22);
+        tl.from("#reason-body",  { y: 18, opacity: 0, duration: 0.45, ease: "power2.out" }, s + 0.45);
+        tl.from("#reason-num",   { opacity: 0, duration: 0.5, ease: "power2.out" }, s + 0.1);
+
+        tl.to("#scene-reasons", { opacity: 0, duration: 0.3 }, s + 1.7);
+      });
+
+      // ── CTA: 15 → 20s ──
+      tl.to("#scene-cta", { opacity: 1, duration: 0.5 }, 15);
+      tl.from("#cta-title", { y: -40, opacity: 0, duration: 0.6, ease: "power3.out" }, 15.3);
+      tl.from("#tip-1", { x: -50, opacity: 0, duration: 0.5, ease: "power2.out" }, 15.9);
+      tl.from("#tip-2", { x: -50, opacity: 0, duration: 0.5, ease: "power2.out" }, 16.5);
+      tl.from("#tip-3", { x: -50, opacity: 0, duration: 0.5, ease: "power2.out" }, 17.1);
+      tl.to("#scene-cta", { opacity: 0, duration: 0.5 }, 19.5);
+
       window.__timelines["main"] = tl;
     </script>
   </body>
