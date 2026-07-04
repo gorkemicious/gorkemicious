@@ -574,14 +574,31 @@ function drawHeader(W, pad, t, title, subtitle, y) {
   return y + W * .04;
 }
 
+function clip(lines, max) {
+  if (lines.length > max) {
+    lines = lines.slice(0, max);
+    lines[max - 1] = lines[max - 1].replace(/\s+\S*$/, "") + "…";
+  }
+  return lines;
+}
+
 function drawStories(W, H, pad, t, stories, y, bottomLimit) {
   const avail = bottomLimit - y;
   const slot = avail / stories.length;
-  const titleSize = Math.max(22, Math.min(Math.round(W * .033), Math.round(slot * .3)));
-  const srcSize = Math.round(titleSize * .58);
+  const titleSize = Math.max(22, Math.min(Math.round(W * .031), Math.round(slot * .24)));
+  const sumSize = Math.round(titleSize * .68);
+  const srcSize = Math.round(titleSize * .56);
+
+  // yer durumuna göre başlık ve açıklama satır sayısını seç
+  const fits = (tl, sl) =>
+    tl * titleSize * 1.2 + sl * sumSize * 1.35 + srcSize * 1.6 <= slot * .94;
+  let tLines = 2, sLines = 2;
+  if (!fits(tLines, sLines)) sLines = 1;
+  if (!fits(tLines, sLines)) tLines = 1;
+  if (!fits(tLines, sLines)) sLines = 0;
 
   stories.forEach((s, idx) => {
-    let yy = y + slot * idx + slot * .18;
+    let yy = y + slot * idx + slot * .12;
 
     // sıra numarası
     const numSize = Math.round(titleSize * 1.5);
@@ -593,22 +610,29 @@ function drawStories(W, H, pad, t, stories, y, bottomLimit) {
     ctx.fillText(String(idx + 1).padStart(2, "0"), pad, yy);
     const numW = ctx.measureText("00").width + W * .028;
 
-    // başlık (en çok 2 satır)
     const tx = pad + numW;
     const maxW = W - tx - pad;
+
+    // manşet başlık
     ctx.font = `800 ${titleSize}px ${FONT}`;
     ctx.fillStyle = "#f4f4ff";
-    let lines = wrapText(s.title, maxW, ctx.font);
-    if (lines.length > 2) {
-      lines = lines.slice(0, 2);
-      lines[1] = lines[1].replace(/\s+\S*$/, "") + "…";
+    const lines = clip(wrapText(s.title, maxW, ctx.font), tLines);
+    lines.forEach((ln, li) => ctx.fillText(ln, tx, yy + li * titleSize * 1.2));
+    yy += lines.length * titleSize * 1.2 + titleSize * .3;
+
+    // açıklama (özet)
+    if (sLines > 0 && s.summary) {
+      ctx.font = `400 ${sumSize}px ${FONT}`;
+      ctx.fillStyle = "rgba(255,255,255,.62)";
+      const sum = clip(wrapText(s.summary, maxW, ctx.font), sLines);
+      sum.forEach((ln, li) => ctx.fillText(ln, tx, yy + li * sumSize * 1.35));
+      yy += sum.length * sumSize * 1.35 + sumSize * .3;
     }
-    lines.forEach((ln, li) => ctx.fillText(ln, tx, yy + li * titleSize * 1.22));
 
     // kaynak
     ctx.font = `600 ${srcSize}px ${FONT}`;
-    ctx.fillStyle = "rgba(255,255,255,.5)";
-    ctx.fillText(`${s.source} · 🔥 ${s.score}`, tx, yy + lines.length * titleSize * 1.22 + srcSize * .35);
+    ctx.fillStyle = "rgba(255,255,255,.45)";
+    ctx.fillText(`${s.source} · 🔥 ${s.score}`, tx, yy);
   });
   ctx.textBaseline = "alphabetic";
 }
