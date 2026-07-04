@@ -296,6 +296,41 @@ def translate_to_turkish(items, model):
         print(f"  ✓ {translated} haber Türkçeye çevrildi ({model})")
 
 
+def translate_free(items):
+    """Anahtar gerektirmeyen ücretsiz çeviri (Google Translate gtx uç noktası).
+
+    ANTHROPIC_API_KEY yoksa devreye girer; başlık ve özetleri Türkçeye çevirir.
+    Tek tek istekler başarısız olursa o haber orijinal dilinde kalır.
+    """
+    from urllib.parse import quote
+
+    def tr(text):
+        url = ("https://translate.googleapis.com/translate_a/single"
+               "?client=gtx&sl=auto&tl=tr&dt=t&q=" + quote(text[:1500]))
+        data = json.loads(http_get(url, timeout=12))
+        return "".join(seg[0] for seg in data[0] if seg and seg[0]).strip()
+
+    def translate_item(it):
+        it["title"] = tr(it["title"])
+        if it["summary"]:
+            it["summary"] = tr(it["summary"])
+        it["lang"] = "tr"
+        return True
+
+    en_items = [it for it in items if it.get("lang") == "en"]
+    if not en_items:
+        return
+    ok = 0
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        for fut in as_completed({pool.submit(translate_item, it) for it in en_items}):
+            try:
+                fut.result()
+                ok += 1
+            except Exception:
+                continue
+    print(f"  ✓ {ok}/{len(en_items)} haber ücretsiz çeviriyle Türkçeleştirildi")
+
+
 def run(days, limit, out_dir, translate=True, model="claude-opus-4-8"):
     now = datetime.now(timezone.utc)
     since = now - timedelta(days=days)
@@ -325,9 +360,12 @@ def run(days, limit, out_dir, translate=True, model="claude-opus-4-8"):
     collected.sort(key=lambda x: (-x["score"], x["published"]), reverse=False)
     collected = collected[:limit]
 
-    if translate and os.environ.get("ANTHROPIC_API_KEY"):
+    if translate:
         print("🌐 Türkçe çeviri başlıyor…")
-        translate_to_turkish(collected, model)
+        if os.environ.get("ANTHROPIC_API_KEY"):
+            translate_to_turkish(collected, model)
+        else:
+            translate_free(collected)
 
     payload = {
         "generated_at": now.isoformat(),
