@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T20:32:30.893189+00:00",
+  "generated_at": "2026-07-04T20:34:28.933536+00:00",
   "window_days": 7,
   "source_count": 14,
   "failed_sources": [],
@@ -41,7 +41,17 @@
       "source": "The Decoder",
       "published": "2026-07-04T07:12:47+00:00",
       "category": "modeller",
-      "score": 62,
+      "score": 61,
+      "lang": "en"
+    },
+    {
+      "title": "The fanfiction community is at war with AI — and itself",
+      "link": "https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector",
+      "summary": "Over the past week, a new fanworks movement has kicked off, with the aim to root out authors using generative AI. But the detection methods being implemented are questionable, and any fanfic writer could be caught in the crossfire. Broad distaste around the use of Claude, ChatGPT, and other AI tools has long been a […]",
+      "source": "The Verge AI",
+      "published": "2026-07-04T12:00:00+00:00",
+      "category": "modeller",
+      "score": 61,
       "lang": "en"
     },
     {
@@ -67,7 +77,7 @@
     {
       "title": "Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable",
       "link": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main",
-      "summary": "Hacker News'te 52 puan, 24 yorum aldı.",
+      "summary": "Hacker News'te 56 puan, 25 yorum aldı.",
       "source": "Hacker News",
       "published": "2026-07-04T19:41:10+00:00",
       "category": "modeller",
@@ -77,7 +87,7 @@
     {
       "title": "AI has torched the market for junior programmers",
       "link": "https://seldo.com/posts/ai-has-torched-the-market-for-junior-programmers/",
-      "summary": "Hacker News'te 54 puan, 66 yorum aldı.",
+      "summary": "Hacker News'te 55 puan, 68 yorum aldı.",
       "source": "Hacker News",
       "published": "2026-07-04T19:50:08+00:00",
       "category": "genel",
@@ -97,7 +107,7 @@
     {
       "title": "Potential session/cache leakage between workspace instances or consumer accounts",
       "link": "https://github.com/anthropics/claude-code/issues/74066",
-      "summary": "Hacker News'te 237 puan, 114 yorum aldı.",
+      "summary": "Hacker News'te 238 puan, 114 yorum aldı.",
       "source": "Hacker News",
       "published": "2026-07-04T14:03:40+00:00",
       "category": "genel",
@@ -165,16 +175,6 @@
       "lang": "en"
     },
     {
-      "title": "Dr. Alper Özbilen: Yapay zekâ, veri ve insansız sistemler savaşın geleceğini şekillendiriyor - SavunmaTR",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcXZHVDVJQ0tyZ2lVc0V4M1FIVkVzOVAyYy1XU3FaM1RZTWxsc2tEY3Z1S1dXQ3czWVEycUJrNmlfZWJyNnNBUG9XT2ktR0QxY2NHN2JFX0M5OGxWRnp1dml4X2QybW5pZm15SmFBVTVHWm1CZTRmcld6TmxrcVp2NXJSdGhFamNxYlM1S2dERmFPZWZ6TFJlbWtkVm5uVTVkQ1ozVWFyZkhPY1ZHVnpvQWNOVmFZVUU?oc=5",
-      "summary": "Dr. Alper Özbilen: Yapay zekâ, veri ve insansız sistemler savaşın geleceğini şekillendiriyor SavunmaTR",
-      "source": "Google News (TR)",
-      "published": "2026-07-04T18:46:00+00:00",
-      "category": "genel",
-      "score": 56,
-      "lang": "tr"
-    },
-    {
       "title": "Anthropic, Yapay Zeka Fonlama Yarışı Yeniden Başlarken 965 Milyar Dolar Değerlemeyle OpenAI'yi Geride Bıraktı - Yellow.com",
       "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOV3k4cEQwVFdCZ2dTazhkQ0swMTd0bGF1UldBT195WXJBaXJnWWxOb1kxeEJvTGZLVkg2SW0zQksxMWdiRzBYeVg2bHVULWxvZDFTT0VwYWFZQmlmalZ2amJTLVB3VFFER0s2eTQybEVLNVFQaTBtWkVsVVdZMk5lSzlucjhYWDBaYUhmeGEtMUVLeUdJamNUMXQtbUtHMU1PXzRRSjhDS3pJZmJTUGtYcnFKOGZDemY2dFRZZWwzeXQ0Z3ZkbjBOX3BmVTdjaGxWVE1MTVNwa25XbEM2OXc4TzZWV0VwektEXzFSanlvWW0xcmZudUx5Z2hUMTQxdw?oc=5",
       "summary": "Anthropic, Yapay Zeka Fonlama Yarışı Yeniden Başlarken 965 Milyar Dolar Değerlemeyle OpenAI'yi Geride Bıraktı Yellow.com",
@@ -205,6 +205,16 @@
       "lang": "en"
     },
     {
+      "title": "Dr. Alper Özbilen: Yapay zekâ, veri ve insansız sistemler savaşın geleceğini şekillendiriyor - SavunmaTR",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcXZHVDVJQ0tyZ2lVc0V4M1FIVkVzOVAyYy1XU3FaM1RZTWxsc2tEY3Z1S1dXQ3czWVEycUJrNmlfZWJyNnNBUG9XT2ktR0QxY2NHN2JFX0M5OGxWRnp1dml4X2QybW5pZm15SmFBVTVHWm1CZTRmcld6TmxrcVp2NXJSdGhFamNxYlM1S2dERmFPZWZ6TFJlbWtkVm5uVTVkQ1ozVWFyZkhPY1ZHVnpvQWNOVmFZVUU?oc=5",
+      "summary": "Dr. Alper Özbilen: Yapay zekâ, veri ve insansız sistemler savaşın geleceğini şekillendiriyor SavunmaTR",
+      "source": "Google News (TR)",
+      "published": "2026-07-04T18:46:00+00:00",
+      "category": "genel",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
       "title": "Windows CE Dreamcast Community Edition (wince-dc)",
       "link": "https://github.com/maximqaxd/wince-dc",
       "summary": "Hacker News'te 62 puan, 11 yorum aldı.",
@@ -221,16 +231,6 @@
       "source": "Google News (TR)",
       "published": "2026-07-04T11:59:00+00:00",
       "category": "politika",
-      "score": 53,
-      "lang": "tr"
-    },
-    {
-      "title": "Yapay zekadan bir uyarı - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE0zd2F3S0ZqQ2JmSzE0WWotUmRPdkppc2p3UGZ6OWxGN3JBTFNMb3VYdmNPaVdodHRhcnNCcXZKNnV4b2hUbzdtZ1UxM3gwLVFDN3dvYUpSdw?oc=5",
-      "summary": "Yapay zekadan bir uyarı Vietnam.vn",
-      "source": "Google News (TR)",
-      "published": "2026-07-04T15:55:55+00:00",
-      "category": "genel",
       "score": 53,
       "lang": "tr"
     },
@@ -330,6 +330,16 @@
       "summary": "Yapay Zeka Otel Rezervasyonlarında Yeni Kanal Oluyor: AI Trafiğinde Yüzde 50’nin Üzerinde Artış Turizm Gazetesi",
       "source": "Google News (TR)",
       "published": "2026-07-04T15:54:39+00:00",
+      "category": "genel",
+      "score": 52,
+      "lang": "tr"
+    },
+    {
+      "title": "Yapay zekadan bir uyarı - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE0zd2F3S0ZqQ2JmSzE0WWotUmRPdkppc2p3UGZ6OWxGN3JBTFNMb3VYdmNPaVdodHRhcnNCcXZKNnV4b2hUbzdtZ1UxM3gwLVFDN3dvYUpSdw?oc=5",
+      "summary": "Yapay zekadan bir uyarı Vietnam.vn",
+      "source": "Google News (TR)",
+      "published": "2026-07-04T15:55:55+00:00",
       "category": "genel",
       "score": 52,
       "lang": "tr"
@@ -575,16 +585,6 @@
       "lang": "tr"
     },
     {
-      "title": "Asya borsalarında ilk yarının kazananı Güney Kore oldu! Yapay zeka rallisi piyasaları taşıdı - CNN Türk",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNM2NZWVJudU1Zckh2SU9KeTA4b1F1VlFHMUhVdFozS1VCN2pJbVA0b3ZTbWlBQWhLX0NkczQ0clB0Q09Db3dxbFQ1NmpWNUI4NGxONHdwOU9JTjFuRGN0TTlDMm1PV3VnekRoMHZINVY0bDNnOTZzdGltR1lLVlRVNFVGVkx1SGVONlU1bHFfNnd3MXA3QXNKTkY2ZnJIbWNWdXhPY0tMazVyWG1aOFBEZ3E5MFMwVmIwUjUyZWZTakgzaDgtMWQ2dkFRMA?oc=5",
-      "summary": "Asya borsalarında ilk yarının kazananı Güney Kore oldu! Yapay zeka rallisi piyasaları taşıdı CNN Türk",
-      "source": "Google News (TR)",
-      "published": "2026-07-04T09:25:38+00:00",
-      "category": "politika",
-      "score": 47,
-      "lang": "tr"
-    },
-    {
       "title": "Nokia Tuşlu Telefonlara Yapay Zeka Desteği Geldi! Artık Görüntülü Görüşme Yapılabilecek - pchocasi.com.tr",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE93QWNZMnJQbXpmMERWaUx5Um9zYjVoamFCY1lZa1pUeUl4VTBnV1lMS2x2QktnSV9qeUkxUm05VHlVX1lKcDd3TTYySWdNXzVSZVptUGk5akc3Q2RTY0NmMzk3cXhWYVhfY1h2M0JzVVpSUm4ySGNyYlY1d3J6Zw?oc=5",
       "summary": "Nokia Tuşlu Telefonlara Yapay Zeka Desteği Geldi! Artık Görüntülü Görüşme Yapılabilecek pchocasi.com.tr",
@@ -735,6 +735,16 @@
       "lang": "tr"
     },
     {
+      "title": "Asya borsalarında ilk yarının kazananı Güney Kore oldu! Yapay zeka rallisi piyasaları taşıdı - CNN Türk",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNM2NZWVJudU1Zckh2SU9KeTA4b1F1VlFHMUhVdFozS1VCN2pJbVA0b3ZTbWlBQWhLX0NkczQ0clB0Q09Db3dxbFQ1NmpWNUI4NGxONHdwOU9JTjFuRGN0TTlDMm1PV3VnekRoMHZINVY0bDNnOTZzdGltR1lLVlRVNFVGVkx1SGVONlU1bHFfNnd3MXA3QXNKTkY2ZnJIbWNWdXhPY0tMazVyWG1aOFBEZ3E5MFMwVmIwUjUyZWZTakgzaDgtMWQ2dkFRMA?oc=5",
+      "summary": "Asya borsalarında ilk yarının kazananı Güney Kore oldu! Yapay zeka rallisi piyasaları taşıdı CNN Türk",
+      "source": "Google News (TR)",
+      "published": "2026-07-04T09:25:38+00:00",
+      "category": "politika",
+      "score": 46,
+      "lang": "tr"
+    },
+    {
       "title": "Yapay zeka serveti paylaşılacak mı? - CNN Türk",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWTZIQWRSb1pMZTg5OVhoU054Qk52djB2RzR1STBiRjFDTWpROU1UbW9zcWsxMUlSN0xVQVB1SWFLYWdYazlIeDRmcmFhLUdzTWlOeFZGTlVEN0FFTmozY09jNElXb1R4cXlNS2t5NTloQlZvTHI0TGw5UURwODNPT01R?oc=5",
       "summary": "Yapay zeka serveti paylaşılacak mı? CNN Türk",
@@ -791,16 +801,6 @@
       "source": "Google News (TR)",
       "published": "2026-07-04T07:40:48+00:00",
       "category": "genel",
-      "score": 45,
-      "lang": "tr"
-    },
-    {
-      "title": "746 Yanıt, 5 Asistan, Sıkı Bir Ilk 3: Yapay Zeka Hangi Türk Mobilya Markalarını öne çıkarıyor? - Marketing Türkiye",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZHlzclMtOEt5Y2Roa3dQREVUbFVXaUM1dGRSY3BEU3U3TEhUaUhwQ1VvOTZORVF2OHRBNXJET19VWnczVXZiX3dqcGgtRGgybEMzcUo3dTlXbHVpYUpDcDVpM2g1UlRHZ21tWWxvMWZGNDFscFEtcUY1YWQwODdmSGREeVNfc0wxT2JvRHdma293eWtWb0hDUDlPc05reUh5Y1ZINVVOTUF0dFlTVkVQNFJJRGJRYzhza052NGZDbnE1UUNxUWVzT2dPdWxGVldGQXc?oc=5",
-      "summary": "746 Yanıt, 5 Asistan, Sıkı Bir Ilk 3: Yapay Zeka Hangi Türk Mobilya Markalarını öne çıkarıyor? Marketing Türkiye",
-      "source": "Google News (TR)",
-      "published": "2026-07-04T08:01:51+00:00",
-      "category": "turkiye",
       "score": 45,
       "lang": "tr"
     }
