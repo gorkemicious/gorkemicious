@@ -1,5 +1,7 @@
 # ⚡ AI PULSE — Yapay Zekâ Gündem Ajanı
 
+> 🌍 **Canlı site:** https://gorkemicious.github.io/gorkemicious/
+
 Son **24 saat** ve son **7 günün** yapay zekâ / teknoloji gelişmelerini otomatik toplayan,
 puanlayan ve şık bir arayüzle sunan ajan. Instagram ve YouTube'da paylaşmaya hazır
 görseller üreten **Paylaşım Stüdyosu** dahildir.
@@ -62,8 +64,8 @@ Anahtar yoksa ya da `--no-translate` verilirse haberler orijinal dilinde kalır.
 
 **GitHub Actions (önerilen):** `.github/workflows/ai-pulse.yml` hazır — varsayılan
 dala birleşince günde 3 kez (TSİ 08/14/20) haberleri güncelleyip siteyi GitHub
-Pages'e yayınlar. Kurulum: repo *Settings → Pages → Source: GitHub Actions* seç;
-çeviri için *Settings → Secrets*'a `ANTHROPIC_API_KEY` ekle.
+Pages'e yayınlar. Pages workflow tarafından otomatik etkinleştirilir; çeviri için
+*Settings → Secrets*'a `ANTHROPIC_API_KEY` eklemen yeterli.
 
 **Cron (yerel):**
 
