@@ -16,6 +16,11 @@ on:
   schedule:
     - cron: "0 5,11,17 * * *" # UTC — TSİ 08:00, 14:00, 20:00
   workflow_dispatch: {}
+  push:
+    branches: ["claude/production-dashboard-kpi-kzAZB"]
+    paths:
+      - "ai-news-agent/**"
+      - ".github/workflows/ai-pulse.yml"
 
 permissions:
   contents: write
