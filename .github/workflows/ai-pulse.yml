@@ -6,7 +6,7 @@
 #  3. ai-news-agent/ klasörünü GitHub Pages'e yayınlar
 #
 # Kurulum notları:
-#  - Repo Settings → Pages → Source: "GitHub Actions" seç
+#  - Pages otomatik etkinleştirilir (configure-pages, enablement: true)
 #  - (İsteğe bağlı) Türkçe çeviri için Settings → Secrets → ANTHROPIC_API_KEY ekle
 #  - Zamanlanmış çalıştırma, workflow varsayılan dala (main/master) birleşince aktifleşir
 
@@ -51,6 +51,11 @@ jobs:
           git add ai-news-agent/data
           git diff --cached --quiet || git commit -m "chore: AI PULSE haber verilerini güncelle [skip ci]"
           git push
+
+      - name: Pages'i etkinleştir
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - name: Pages paketini hazırla
         uses: actions/upload-pages-artifact@v3
