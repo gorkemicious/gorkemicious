@@ -321,8 +321,8 @@ footer.foot code { background: var(--surface-2); padding: 3px 8px; border-radius
 "use strict";
 
 /* ───────────────────────── Veri & yardımcılar ───────────────────────── */
-const DATA = window.NEWS_DATA || { generated_at: null, items: [] };
-const NOW = DATA.generated_at ? new Date(DATA.generated_at) : new Date();
+let DATA = window.NEWS_DATA || { generated_at: null, items: [] };
+let NOW = DATA.generated_at ? new Date(DATA.generated_at) : new Date();
 
 const CATS = {
   modeller:  { name: "Modeller",   color: "#3987e5" },
@@ -366,10 +366,12 @@ const state = {
 /* ───────────────────────── Üst bilgi & istatistikler ───────────────────────── */
 const trDate = d => d.toLocaleDateString("tr-TR", { day: "numeric", month: "long", year: "numeric", weekday: "long" });
 
-document.getElementById("todayStr").textContent = trDate(NOW);
-document.getElementById("updatedStr").textContent = DATA.generated_at
-  ? "son güncelleme: " + new Date(DATA.generated_at).toLocaleString("tr-TR", { hour: "2-digit", minute: "2-digit", day: "numeric", month: "short" })
-  : "veri yok — agent.py'yi çalıştır";
+function renderHeader() {
+  document.getElementById("todayStr").textContent = trDate(NOW);
+  document.getElementById("updatedStr").textContent = DATA.generated_at
+    ? "son güncelleme: " + new Date(DATA.generated_at).toLocaleString("tr-TR", { hour: "2-digit", minute: "2-digit", day: "numeric", month: "short" })
+    : "veri yok — agent.py'yi çalıştır";
+}
 
 function renderStats() {
   const all = DATA.items;
@@ -386,6 +388,7 @@ function renderStats() {
 /* ───────────────────────── Filtre çipleri ───────────────────────── */
 function renderChips() {
   const bar = document.getElementById("toolbar");
+  bar.querySelectorAll(".chip").forEach(x => x.remove());
   const counts = {};
   DATA.items.forEach(i => { counts[i.category] = (counts[i.category] || 0) + 1; });
   let htmlStr = `<button class="chip active" data-cat="all"><span class="dot" style="--dot:linear-gradient(90deg,#7c5cff,#00d4ff)"></span>Tümü</button>`;
@@ -896,9 +899,27 @@ document.getElementById("carousel").addEventListener("click", async () => {
 });
 
 /* ───────────────────────── Başlat ───────────────────────── */
-renderStats();
-renderChips();
-renderNews();
+function initAll() {
+  renderHeader();
+  renderStats();
+  renderChips();
+  renderNews();
+  if (state.tab === "studio") drawCard();
+}
+initAll();
+
+// Tarayıcı önbelleğini atlayarak en taze veriyi çek (Pages'te çalışır;
+// file:// ile açıldıysa sessizce news.js'teki veri kullanılır)
+fetch("data/news.json?ts=" + Date.now(), { cache: "no-store" })
+  .then(r => (r.ok ? r.json() : null))
+  .then(fresh => {
+    if (fresh && fresh.items && fresh.generated_at !== DATA.generated_at) {
+      DATA = fresh;
+      NOW = new Date(fresh.generated_at);
+      initAll();
+    }
+  })
+  .catch(() => {});
 
 // Derin link: #d7, #studio, #studio-story, #studio-thumb
 const hash = location.hash.slice(1);
