@@ -1,0 +1,69 @@
+# AI PULSE — otomatik haber güncelleme + GitHub Pages yayını
+#
+# Ne yapar?
+#  1. Günde 3 kez (TSİ 08:00 / 14:00 / 20:00) agent.py'yi çalıştırır
+#  2. Güncel verileri repoya commitler
+#  3. ai-news-agent/ klasörünü GitHub Pages'e yayınlar
+#
+# Kurulum notları:
+#  - Repo Settings → Pages → Source: "GitHub Actions" seç
+#  - (İsteğe bağlı) Türkçe çeviri için Settings → Secrets → ANTHROPIC_API_KEY ekle
+#  - Zamanlanmış çalıştırma, workflow varsayılan dala (main/master) birleşince aktifleşir
+
+name: AI PULSE Güncelle
+
+on:
+  schedule:
+    - cron: "0 5,11,17 * * *" # UTC — TSİ 08:00, 14:00, 20:00
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: ai-pulse
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Bağımlılıkları kur
+        run: pip install requests anthropic
+
+      - name: Haberleri topla (+ Türkçe çeviri, API anahtarı varsa)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python ai-news-agent/agent.py --days 7 --limit 80
+
+      - name: Güncel veriyi commitle
+        run: |
+          git config user.name "ai-pulse-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ai-news-agent/data
+          git diff --cached --quiet || git commit -m "chore: AI PULSE haber verilerini güncelle [skip ci]"
+          git push
+
+      - name: Pages paketini hazırla
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ai-news-agent
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: GitHub Pages'e yayınla
+        id: deployment
+        uses: actions/deploy-pages@v4

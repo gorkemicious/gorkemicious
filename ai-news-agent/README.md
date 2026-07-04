@@ -11,10 +11,14 @@ görseller üreten **Paylaşım Stüdyosu** dahildir.
 - 🔥 **Sıcaklık puanı** hesaplar: tazelik + kaynak güvenilirliği + anahtar kelime + HN etkileşimi
 - 🗂 **Kategorilere ayırır**: Modeller · Şirketler · Araştırma · Donanım · Politika · Türkiye
 - 🧹 Aynı haberin kopyalarını eler
+- 🌐 **Türkçe çeviri** (opsiyonel): `ANTHROPIC_API_KEY` tanımlıysa İngilizce haberleri
+  Claude API ile akıcı Türkçeye çevirir
 - 🎨 **Paylaşım Stüdyosu** ile tek tıkla PNG üretir:
   - Instagram Post (1080×1080)
   - Story / Reels (1080×1920)
+  - Tek Haber spotlight (1080×1350, 4:5)
   - YouTube Kapak (1280×720)
+  - 🎠 **Carousel modu**: kapak + her haber için ayrı kart (kaydırmalı Instagram gönderisi)
   - 3 tema: Neon Mor · Gece Mavisi · Alev
 
 ## Kurulum & kullanım
@@ -35,14 +39,33 @@ Ajan `data/news.js` ve `data/news.json` dosyalarını üretir; arayüz bunları 
 ### Seçenekler
 
 ```bash
-python3 agent.py --days 7      # kaç günlük pencere taransın (varsayılan 7)
-python3 agent.py --limit 80    # en fazla kaç haber saklansın
-python3 agent.py --out data    # çıktı klasörü
+python3 agent.py --days 7        # kaç günlük pencere taransın (varsayılan 7)
+python3 agent.py --limit 80      # en fazla kaç haber saklansın
+python3 agent.py --out data      # çıktı klasörü
+python3 agent.py --no-translate  # Claude çevirisini kapat
+python3 agent.py --model claude-opus-4-8  # çeviri modeli
 ```
 
-### Otomatikleştirme (isteğe bağlı)
+### Türkçe çeviri (isteğe bağlı)
 
-Her sabah 08:00'de otomatik güncellensin istersen (cron):
+İngilizce kaynaklardan gelen haberler otomatik Türkçeleşsin istersen:
+
+```bash
+pip install anthropic
+export ANTHROPIC_API_KEY=sk-ant-...
+python3 agent.py
+```
+
+Anahtar yoksa ya da `--no-translate` verilirse haberler orijinal dilinde kalır.
+
+### Otomatikleştirme
+
+**GitHub Actions (önerilen):** `.github/workflows/ai-pulse.yml` hazır — varsayılan
+dala birleşince günde 3 kez (TSİ 08/14/20) haberleri güncelleyip siteyi GitHub
+Pages'e yayınlar. Kurulum: repo *Settings → Pages → Source: GitHub Actions* seç;
+çeviri için *Settings → Secrets*'a `ANTHROPIC_API_KEY` ekle.
+
+**Cron (yerel):**
 
 ```
 0 8 * * * cd /path/to/ai-news-agent && python3 agent.py

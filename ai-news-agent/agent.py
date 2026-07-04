@@ -20,6 +20,7 @@ Bağımlılık: sadece `requests` (yoksa stdlib urllib'e düşer).
 import argparse
 import html
 import json
+import os
 import re
 import sys
 import xml.etree.ElementTree as ET
@@ -227,7 +228,75 @@ def dedupe(items):
     return out
 
 
-def run(days, limit, out_dir):
+def translate_to_turkish(items, model):
+    """İngilizce başlık/özetleri Claude API ile Türkçeye çevir (opsiyonel).
+
+    ANTHROPIC_API_KEY tanımlı ve `anthropic` paketi kuruluysa çalışır;
+    değilse haberler orijinal dilinde bırakılır.
+    """
+    en_items = [it for it in items if it.get("lang") == "en"]
+    if not en_items:
+        return
+    try:
+        import anthropic
+    except ImportError:
+        print("  ℹ Çeviri atlandı: `pip install anthropic` ile SDK'yı kurabilirsin.")
+        return
+
+    client = anthropic.Anthropic()
+    schema = {
+        "type": "object",
+        "properties": {
+            "items": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "title": {"type": "string"},
+                        "summary": {"type": "string"},
+                    },
+                    "required": ["title", "summary"],
+                    "additionalProperties": False,
+                },
+            }
+        },
+        "required": ["items"],
+        "additionalProperties": False,
+    }
+
+    CHUNK = 15
+    translated = 0
+    for start in range(0, len(en_items), CHUNK):
+        chunk = en_items[start:start + CHUNK]
+        payload = [{"title": it["title"], "summary": it["summary"]} for it in chunk]
+        try:
+            response = client.messages.create(
+                model=model,
+                max_tokens=16000,
+                system=(
+                    "Sen bir teknoloji haberleri editörüsün. Sana verilen İngilizce haber "
+                    "başlıklarını ve özetlerini akıcı, doğal Türkçeye çevir. Sosyal medyada "
+                    "paylaşılacak canlılıkta ama abartısız bir dil kullan. Ürün/şirket/model "
+                    "adlarını (GPT-5.6, Claude, NVIDIA vb.) olduğu gibi bırak. Giriş sırasını koru."
+                ),
+                messages=[{"role": "user", "content": json.dumps(payload, ensure_ascii=False)}],
+                output_config={"format": {"type": "json_schema", "schema": schema}},
+            )
+            if response.stop_reason == "refusal":
+                continue
+            text = next(b.text for b in response.content if b.type == "text")
+            results = json.loads(text)["items"]
+            for it, tr in zip(chunk, results):
+                it["title"], it["summary"], it["lang"] = tr["title"], tr["summary"], "tr"
+                translated += 1
+        except Exception as e:
+            print(f"  ✗ Çeviri hatası ({type(e).__name__}): {e}", file=sys.stderr)
+            break
+    if translated:
+        print(f"  ✓ {translated} haber Türkçeye çevrildi ({model})")
+
+
+def run(days, limit, out_dir, translate=True, model="claude-opus-4-8"):
     now = datetime.now(timezone.utc)
     since = now - timedelta(days=days)
     collected, errors = [], []
@@ -255,6 +324,10 @@ def run(days, limit, out_dir):
     collected = dedupe(collected)
     collected.sort(key=lambda x: (-x["score"], x["published"]), reverse=False)
     collected = collected[:limit]
+
+    if translate and os.environ.get("ANTHROPIC_API_KEY"):
+        print("🌐 Türkçe çeviri başlıyor…")
+        translate_to_turkish(collected, model)
 
     payload = {
         "generated_at": now.isoformat(),
@@ -290,5 +363,9 @@ if __name__ == "__main__":
     ap.add_argument("--days", type=int, default=7, help="Kaç günlük haber toplansın (varsayılan 7)")
     ap.add_argument("--limit", type=int, default=80, help="Saklanacak maksimum haber sayısı")
     ap.add_argument("--out", default=str(Path(__file__).parent / "data"), help="Çıktı klasörü")
+    ap.add_argument("--no-translate", action="store_true",
+                    help="Claude API çevirisini kapat (varsayılan: ANTHROPIC_API_KEY varsa açık)")
+    ap.add_argument("--model", default="claude-opus-4-8",
+                    help="Çeviri için Claude modeli (varsayılan: claude-opus-4-8)")
     args = ap.parse_args()
-    run(args.days, args.limit, args.out)
+    run(args.days, args.limit, args.out, translate=not args.no_translate, model=args.model)
