@@ -77,3 +77,13 @@ jobs:
       - name: GitHub Pages'e yayınla
         id: deployment
         uses: actions/deploy-pages@v4
+        continue-on-error: true
+
+      # Pages ara sıra geçici "try again later" hatası veriyor; bekleyip bir kez daha dene
+      - name: Bekle (geçici Pages hatası)
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 60
+
+      - name: GitHub Pages'e yayınla (2. deneme)
+        if: steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@v4
