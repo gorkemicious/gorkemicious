@@ -208,6 +208,27 @@ nav.tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px; }
 footer.foot { margin-top: 60px; text-align: center; color: var(--muted); font-size: 13px; }
 footer.foot code { background: var(--surface-2); padding: 3px 8px; border-radius: 6px; color: var(--accent-2); }
 .hidden { display: none !important; }
+
+/* ─────────── Yaratıcı & sosyal medya ─────────── */
+.creator { display: flex; align-items: center; justify-content: center; gap: 18px; flex-wrap: wrap; margin-bottom: 14px; }
+.creator .by { color: var(--text-2); font-size: 14px; }
+.creator .by b { color: var(--text); font-weight: 800; letter-spacing: .3px; }
+.social { display: inline-flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.social a {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 8px 15px; border-radius: 999px; font-size: 13px; font-weight: 700;
+  border: 1px solid var(--border); color: var(--text); background: var(--surface);
+  transition: transform .15s ease, background .15s ease, border-color .15s ease, box-shadow .15s ease;
+}
+.social a:hover { text-decoration: none; transform: translateY(-2px); }
+.social a.ig:hover { border-color: transparent; color: #fff; background: linear-gradient(135deg, #feda75, #fa7e1e, #d62976, #962fbf); box-shadow: 0 8px 24px rgba(214, 41, 118, .45); }
+.social a.yt:hover { border-color: transparent; color: #fff; background: #ff0000; box-shadow: 0 8px 24px rgba(255, 0, 0, .45); }
+.social svg { flex: none; }
+.social.social-sm { margin-top: 10px; justify-content: flex-end; }
+.social.social-sm a { padding: 6px 12px; font-size: 12px; }
+.foot-sub { color: var(--muted); font-size: 12.5px; line-height: 1.6; }
+.foot-sub code { background: var(--surface-2); padding: 3px 8px; border-radius: 6px; color: var(--accent-2); }
+@media (max-width: 560px) { .top-date .social.social-sm { justify-content: flex-start; } }
 </style>
 </head>
 <body>
@@ -224,6 +245,16 @@ footer.foot code { background: var(--surface-2); padding: 3px 8px; border-radius
     <div class="top-date">
       <b id="todayStr">—</b>
       <span id="updatedStr">son güncelleme: —</span>
+      <div class="social social-sm">
+        <a class="ig" href="https://www.instagram.com/gorkemsakinmaz/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5.5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.6" cy="6.4" r="1.1" fill="currentColor" stroke="none"/></svg>
+          <span>Instagram</span>
+        </a>
+        <a class="yt" href="https://www.youtube.com/@Gorkem.Sakinmaz" target="_blank" rel="noopener" aria-label="YouTube">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M23 12s0-3.8-.5-5.6a2.9 2.9 0 0 0-2-2C18.7 4 12 4 12 4s-6.7 0-8.5.4a2.9 2.9 0 0 0-2 2C1 8.2 1 12 1 12s0 3.8.5 5.6a2.9 2.9 0 0 0 2 2C5.3 20 12 20 12 20s6.7 0 8.5-.4a2.9 2.9 0 0 0 2-2C23 15.8 23 12 23 12zM9.8 15.3V8.7l5.7 3.3-5.7 3.3z"/></svg>
+          <span>YouTube</span>
+        </a>
+      </div>
     </div>
   </header>
 
@@ -296,7 +327,7 @@ footer.foot code { background: var(--surface-2); padding: 3px 8px; border-radius
       </div>
 
       <div class="field">
-        <label>Sosyal medya kullanıcı adın</label>
+        <label>Instagram kullanıcı adın (kartlarda görünür)</label>
         <input type="text" id="handle" placeholder="@kullaniciadi" maxlength="30" />
       </div>
 
@@ -311,8 +342,20 @@ footer.foot code { background: var(--surface-2); padding: 3px 8px; border-radius
   </section>
 
   <footer class="foot">
-    Verileri tazelemek için: <code>python3 agent.py</code> → sayfayı yenile ·
-    AI PULSE, RSS + Hacker News + arXiv kaynaklarını tarar, puanlar ve özetler.
+    <div class="creator">
+      <span class="by">Hazırlayan <b>Görkem Sakınmaz</b></span>
+      <div class="social">
+        <a class="ig" href="https://www.instagram.com/gorkemsakinmaz/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5.5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.6" cy="6.4" r="1.1" fill="currentColor" stroke="none"/></svg>
+          <span>@gorkemsakinmaz</span>
+        </a>
+        <a class="yt" href="https://www.youtube.com/@Gorkem.Sakinmaz" target="_blank" rel="noopener" aria-label="YouTube">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M23 12s0-3.8-.5-5.6a2.9 2.9 0 0 0-2-2C18.7 4 12 4 12 4s-6.7 0-8.5.4a2.9 2.9 0 0 0-2 2C1 8.2 1 12 1 12s0 3.8.5 5.6a2.9 2.9 0 0 0 2 2C5.3 20 12 20 12 20s6.7 0 8.5-.4a2.9 2.9 0 0 0 2-2C23 15.8 23 12 23 12zM9.8 15.3V8.7l5.7 3.3-5.7 3.3z"/></svg>
+          <span>Görkem Sakınmaz</span>
+        </a>
+      </div>
+    </div>
+    <div class="foot-sub">AI PULSE, RSS + Hacker News + arXiv kaynaklarını tarar, puanlar ve özetler · her gün otomatik güncellenir.</div>
   </footer>
 </div>
 
@@ -574,86 +617,116 @@ function drawHeader(W, pad, t, title, subtitle, y) {
   return y + W * .04;
 }
 
-function clip(lines, max) {
-  if (lines.length > max) {
-    lines = lines.slice(0, max);
-    lines[max - 1] = lines[max - 1].replace(/\s+\S*$/, "") + "…";
+/* Metni temizle: fazla boşluk + sondaki " - Kaynak" / " | Kaynak" ekini at
+   (kaynak zaten ayrı gösterildiği için başlıkta tekrarına gerek yok). */
+function tidyText(s) {
+  s = String(s || "").replace(/\s+/g, " ").trim();
+  s = s.replace(/\s+[-–—|]\s+[^-–—|.!?…]{2,28}$/, "").trim();
+  return s;
+}
+
+/* Metni en çok `maxLines` satıra sığdır. Kesme gerekiyorsa:
+   - sentenceEnd true ise mümkünse bir cümle sonunda (nokta/!/?) bitir,
+   - değilse kelime sınırında kes ve "…" ekle.
+   Böylece kartlarda yarım kalan başlık/cümle olmaz. */
+function fitLines(text, maxWidth, font, maxLines, sentenceEnd) {
+  text = tidyText(text);
+  ctx.font = font;
+  const lines = wrapText(text, maxWidth, font);
+  if (lines.length <= maxLines) return lines;               // tamamı sığıyor
+  let kept = lines.slice(0, maxLines).join(" ");
+  if (sentenceEnd) {
+    const m = kept.match(/^[\s\S]*?[.!?](?=\s|$)/g);
+    if (m) {
+      const joined = m.join("").trim();
+      if (joined.length >= kept.length * 0.55) {
+        const sl = wrapText(joined, maxWidth, font);
+        if (sl.length <= maxLines) return sl;
+      }
+    }
   }
-  return lines;
+  kept = kept.replace(/\s+\S*$/, "").replace(/[\s.,;:–—-]+$/, "");
+  return wrapText(kept + "…", maxWidth, font).slice(0, maxLines);
 }
 
 function drawStories(W, H, pad, t, stories, y, bottomLimit) {
   const avail = bottomLimit - y;
   const slot = avail / stories.length;
-  const titleSize = Math.max(22, Math.min(Math.round(W * .031), Math.round(slot * .24)));
-  const sumSize = Math.round(titleSize * .68);
-  const srcSize = Math.round(titleSize * .56);
+  const titleSize = Math.max(23, Math.min(Math.round(W * .032), Math.round(slot * .23)));
+  const sumSize = Math.round(titleSize * .66);
+  const srcSize = Math.round(titleSize * .55);
+  const tLead = titleSize * 1.18, sLead = sumSize * 1.32;
+  const titleFont = `800 ${titleSize}px ${FONT}`;
+  const sumFont = `400 ${sumSize}px ${FONT}`;
 
-  // yer durumuna göre başlık ve açıklama satır sayısını seç
-  const fits = (tl, sl) =>
-    tl * titleSize * 1.2 + sl * sumSize * 1.35 + srcSize * 1.6 <= slot * .94;
-  let tLines = 2, sLines = 2;
-  if (!fits(tLines, sLines)) sLines = 1;
-  if (!fits(tLines, sLines)) tLines = 1;
-  if (!fits(tLines, sLines)) sLines = 0;
+  // Yer bütçesine göre başlık (öncelik: eksiksiz manşet) ve açıklama satır sayısı.
+  const budget = slot * 0.9;
+  const need = (tl, sl) => tl * tLead + (sl ? sl * sLead + tLead * .3 : 0) + srcSize * 1.7;
+  let tLines = 3, sLines = 2;
+  while (need(tLines, sLines) > budget && (tLines > 1 || sLines > 0)) {
+    if (sLines > 0) sLines--; else tLines--;
+  }
 
   stories.forEach((s, idx) => {
-    let yy = y + slot * idx + slot * .12;
+    let yy = y + slot * idx + slot * .1;
 
     // sıra numarası
-    const numSize = Math.round(titleSize * 1.5);
+    const numSize = Math.round(titleSize * 1.45);
     ctx.font = `900 ${numSize}px ${FONT}`;
     const grad = ctx.createLinearGradient(pad, yy, pad, yy + numSize);
     grad.addColorStop(0, t.accent); grad.addColorStop(1, t.accent2);
     ctx.fillStyle = grad;
     ctx.textBaseline = "top";
     ctx.fillText(String(idx + 1).padStart(2, "0"), pad, yy);
-    const numW = ctx.measureText("00").width + W * .028;
+    const numW = ctx.measureText("00").width + W * .03;
 
     const tx = pad + numW;
     const maxW = W - tx - pad;
 
-    // manşet başlık
-    ctx.font = `800 ${titleSize}px ${FONT}`;
+    // manşet başlık — eksiksiz olması hedeflenir (en çok tLines satır)
+    ctx.font = titleFont;
     ctx.fillStyle = "#f4f4ff";
-    const lines = clip(wrapText(s.title, maxW, ctx.font), tLines);
-    lines.forEach((ln, li) => ctx.fillText(ln, tx, yy + li * titleSize * 1.2));
-    yy += lines.length * titleSize * 1.2 + titleSize * .3;
+    const lines = fitLines(s.title, maxW, titleFont, tLines, false);
+    lines.forEach((ln, li) => ctx.fillText(ln, tx, yy + li * tLead));
+    let ny = yy + lines.length * tLead + titleSize * .26;
 
-    // açıklama (özet)
+    // açıklama (özet) — cümle sonunda biten temiz alıntı
     if (sLines > 0 && s.summary) {
-      ctx.font = `400 ${sumSize}px ${FONT}`;
-      ctx.fillStyle = "rgba(255,255,255,.62)";
-      const sum = clip(wrapText(s.summary, maxW, ctx.font), sLines);
-      sum.forEach((ln, li) => ctx.fillText(ln, tx, yy + li * sumSize * 1.35));
-      yy += sum.length * sumSize * 1.35 + sumSize * .3;
+      ctx.font = sumFont;
+      ctx.fillStyle = "rgba(255,255,255,.6)";
+      const sum = fitLines(s.summary, maxW, sumFont, sLines, true);
+      sum.forEach((ln, li) => ctx.fillText(ln, tx, ny + li * sLead));
+      ny += sum.length * sLead + sumSize * .32;
     }
 
     // kaynak
     ctx.font = `600 ${srcSize}px ${FONT}`;
-    ctx.fillStyle = "rgba(255,255,255,.45)";
-    ctx.fillText(`${s.source} · 🔥 ${s.score}`, tx, yy);
+    ctx.fillStyle = "rgba(255,255,255,.42)";
+    ctx.fillText(`${tidyText(s.source)}  ·  🔥 ${s.score}`, tx, ny);
   });
   ctx.textBaseline = "alphabetic";
 }
 
 function drawFooter(W, H, pad, t, handle) {
-  const size = Math.round(W * .026);
-  ctx.font = `700 ${size}px ${FONT}`;
+  const size = Math.round(W * .025);
   ctx.textBaseline = "middle";
-  const yy = H - pad * .75;
-  if (handle) {
-    ctx.fillStyle = "#ffffff";
-    ctx.fillText(handle, pad, yy);
-    const hw = ctx.measureText(handle).width;
-    ctx.fillStyle = "rgba(255,255,255,.45)";
-    ctx.font = `500 ${Math.round(size * .85)}px ${FONT}`;
-    ctx.fillText("· takip et", pad + hw + 12, yy);
-  }
-  ctx.font = `600 ${Math.round(size * .85)}px ${FONT}`;
-  ctx.fillStyle = "rgba(255,255,255,.45)";
-  const save = "kaydet 🔖  paylaş ↗";
-  ctx.fillText(save, W - pad - ctx.measureText(save).width, yy);
+  const yy = H - Math.max(pad * .68, 46);
+  const ig = (handle && handle.trim()) || "@gorkemsakinmaz";
+
+  // sol: Instagram + takip çağrısı
+  ctx.font = `800 ${size}px ${FONT}`;
+  ctx.fillStyle = "#ffffff";
+  ctx.fillText(ig, pad, yy);
+  const igw = ctx.measureText(ig).width;
+  ctx.font = `500 ${Math.round(size * .82)}px ${FONT}`;
+  ctx.fillStyle = t.accent2;
+  ctx.fillText("   takip et →", pad + igw, yy);
+
+  // sağ: YouTube
+  const yt = "▶  Görkem Sakınmaz";
+  ctx.font = `600 ${Math.round(size * .9)}px ${FONT}`;
+  ctx.fillStyle = "rgba(255,255,255,.55)";
+  ctx.fillText(yt, W - pad - ctx.measureText(yt).width, yy);
   ctx.textBaseline = "alphabetic";
 }
 
@@ -692,30 +765,32 @@ function drawThumb(W, H, t, stories, title, handle) {
   ctx.fillText(badge, pad + 22, H * .12 + 27);
   ctx.textBaseline = "alphabetic";
 
-  // sağda mini liste (ilk 3)
-  const bx = W * .66, bw2 = W - bx - pad + 20;
+  // mini liste (ilk 3 manşet, tek satır ve temiz)
+  const listFont = `700 24px ${FONT}`;
   let by = y + 8;
-  ctx.font = `700 24px ${FONT}`;
-  stories.slice(0, 3).forEach((s, i) => {
+  ctx.font = listFont;
+  stories.slice(0, 3).forEach((s) => {
     ctx.fillStyle = t.accent2;
     ctx.fillText("▸", pad, by);
     ctx.fillStyle = "rgba(255,255,255,.88)";
-    let ln = wrapText(s.title, W - pad * 2 - 30, ctx.font)[0];
-    if (ln.length < s.title.length) ln = ln.replace(/\s+\S*$/, "") + "…";
+    const ln = fitLines(s.title, W - pad * 2 - 30, listFont, 1, false)[0];
     ctx.fillText(ln, pad + 30, by);
     by += 40;
   });
 
-  // alt bilgi
-  if (handle) {
-    ctx.font = `700 26px ${FONT}`;
-    ctx.fillStyle = "rgba(255,255,255,.75)";
-    ctx.fillText(handle, pad, H - 42);
-  }
+  // alt bilgi — sosyal medya + tarih
+  const ig = (handle && handle.trim()) || "@gorkemsakinmaz";
+  ctx.font = `700 26px ${FONT}`;
+  ctx.fillStyle = "#ffffff";
+  ctx.fillText(ig, pad, H - 44);
+  const igw = ctx.measureText(ig).width;
+  ctx.font = `500 22px ${FONT}`;
+  ctx.fillStyle = "rgba(255,255,255,.6)";
+  ctx.fillText("   ▶ Görkem Sakınmaz", pad + igw, H - 44);
   const d = NOW.toLocaleDateString("tr-TR", { day: "numeric", month: "long", year: "numeric" });
   ctx.font = `600 24px ${FONT}`;
   ctx.fillStyle = "rgba(255,255,255,.55)";
-  ctx.fillText(d, W - pad - ctx.measureText(d).width, H - 42);
+  ctx.fillText(d, W - pad - ctx.measureText(d).width, H - 44);
 }
 
 function drawListCard(W, H, t, stories, title, handle) {
@@ -767,13 +842,13 @@ function drawSpotlight(W, H, t, s, idx, total, handle) {
   ctx.font = `700 26px ${FONT}`;
   ctx.fillText(`🔥 ${s.score}/100`, pad + cw + 24, y);
 
-  // büyük başlık
+  // büyük başlık — eksiksiz manşet
   y += 96;
   const titleSize = 62;
-  ctx.font = `900 ${titleSize}px ${FONT}`;
+  const titleFont = `900 ${titleSize}px ${FONT}`;
+  ctx.font = titleFont;
   ctx.fillStyle = "#ffffff";
-  let lines = wrapText(s.title, W - pad * 2, ctx.font);
-  if (lines.length > 6) { lines = lines.slice(0, 6); lines[5] = lines[5].replace(/\s+\S*$/, "") + "…"; }
+  const lines = fitLines(s.title, W - pad * 2, titleFont, 6, false);
   for (const ln of lines) { ctx.fillText(ln, pad, y); y += titleSize * 1.18; }
 
   // ayraç
@@ -784,13 +859,14 @@ function drawSpotlight(W, H, t, s, idx, total, handle) {
   ctx.fillRect(pad, y, W - pad * 2, 4);
   y += 64;
 
-  // özet
-  ctx.font = `400 34px ${FONT}`;
-  ctx.fillStyle = "rgba(255,255,255,.78)";
-  let sum = wrapText(s.summary, W - pad * 2, ctx.font);
-  const maxSum = Math.max(2, Math.floor((H - 200 - y) / 50));
-  if (sum.length > maxSum) { sum = sum.slice(0, maxSum); sum[maxSum - 1] = sum[maxSum - 1].replace(/\s+\S*$/, "") + "…"; }
-  for (const ln of sum) { ctx.fillText(ln, pad, y); y += 50; }
+  // özet — cümle sonunda biten, paylaşıma hazır alıntı
+  const sumSize = 35, sumLead = 51;
+  const sumFont = `400 ${sumSize}px ${FONT}`;
+  ctx.font = sumFont;
+  ctx.fillStyle = "rgba(255,255,255,.8)";
+  const maxSum = Math.max(2, Math.floor((H - 205 - y) / sumLead));
+  const sum = fitLines(s.summary, W - pad * 2, sumFont, maxSum, true);
+  for (const ln of sum) { ctx.fillText(ln, pad, y); y += sumLead; }
 
   // kaynak + tarih
   y += 28;
@@ -874,7 +950,7 @@ document.getElementById("countRange").addEventListener("input", e => {
 document.getElementById("customTitle").addEventListener("input", drawCard);
 
 const handleInput = document.getElementById("handle");
-handleInput.value = localStorage.getItem("aipulse_handle") || "";
+handleInput.value = localStorage.getItem("aipulse_handle") || "@gorkemsakinmaz";
 handleInput.addEventListener("input", () => {
   localStorage.setItem("aipulse_handle", handleInput.value);
   drawCard();
