@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T05:15:44.029224+00:00",
+  "generated_at": "2026-07-05T05:17:33.678146+00:00",
   "window_days": 7,
   "source_count": 14,
   "failed_sources": [],
@@ -37,7 +37,7 @@
     {
       "title": "GPT-5.5 Kodeksi akıl yürütme belirteci kümelemesi performansın düşmesine neden olabilir",
       "link": "https://github.com/openai/codex/issues/30364",
-      "summary": "Hacker News'te 205 puan, 70 yorum aldı.",
+      "summary": "Hacker News'te 206 puan, 70 yorum aldı.",
       "source": "Hacker News",
       "published": "2026-07-04T21:51:09+00:00",
       "category": "modeller",
@@ -62,16 +62,6 @@
       "published": "2026-07-05T05:08:28+00:00",
       "category": "genel",
       "score": 57,
-      "lang": "tr"
-    },
-    {
-      "title": "Avrupa'daki nadir kitap yayıncıları, yapay zekâ destekli kitaplara yönelik \"sipariş\" dalgasına karşı çıkıyor. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeXUxcDZvMTJBLVpDcXhhb0xIRzk4RzdUWjExZHV2LXA2Nmt0WExoaGFjLU0tRExUS3NJSjk4OFBfSlRfaUh5a29POXFXSnJXamFUUUotd3cyOWdHVEExNVlEb0pKdWl2N0R3dGdHWmVwc3pJQTk3Sm5LSE45MWRFdmJZRzBBUXNJR1MyWnYwdC05ZjA?oc=5",
-      "summary": "Avrupa'daki nadir kitap yayıncıları, yapay zekâ destekli kitaplara yönelik \"sipariş\" dalgasına karşı çıkıyor. Vietnam.vn",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T03:29:31+00:00",
-      "category": "genel",
-      "score": 56,
       "lang": "tr"
     },
     {
@@ -160,6 +150,16 @@
       "summary": "Yapay zeka ve pasif gelir: Genç nesil için yeni \"Amerikan Rüyası\". Vietnam.vn",
       "source": "Google News (TR)",
       "published": "2026-07-05T03:23:07+00:00",
+      "category": "genel",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "Avrupa'daki nadir kitap yayıncıları, yapay zekâ destekli kitaplara yönelik \"sipariş\" dalgasına karşı çıkıyor. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeXUxcDZvMTJBLVpDcXhhb0xIRzk4RzdUWjExZHV2LXA2Nmt0WExoaGFjLU0tRExUS3NJSjk4OFBfSlRfaUh5a29POXFXSnJXamFUUUotd3cyOWdHVEExNVlEb0pKdWl2N0R3dGdHWmVwc3pJQTk3Sm5LSE45MWRFdmJZRzBBUXNJR1MyWnYwdC05ZjA?oc=5",
+      "summary": "Avrupa'daki nadir kitap yayıncıları, yapay zekâ destekli kitaplara yönelik \"sipariş\" dalgasına karşı çıkıyor. Vietnam.vn",
+      "source": "Google News (TR)",
+      "published": "2026-07-05T03:29:31+00:00",
       "category": "genel",
       "score": 55,
       "lang": "tr"
@@ -317,7 +317,7 @@
     {
       "title": "\"Sınırların ötesinde\": Uzaydaki uydular ve aynalar gece gökyüzüne tehdit oluşturuyor",
       "link": "https://www.eso.org/public/news/eso2607/",
-      "summary": "Hacker News'te 119 puan, 208 yorum aldı.",
+      "summary": "Hacker News'te 120 puan, 208 yorum aldı.",
       "source": "Hacker News",
       "published": "2026-07-04T17:17:28+00:00",
       "category": "genel",
@@ -605,16 +605,6 @@
       "lang": "tr"
     },
     {
-      "title": "ABD'de veri merkezi karşıtlığı artıyor: yapay zeka yatırımlarını nasıl sarsabilir - Invezz",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWjA2OUlPdlRSVXU2QWo0MlFvRU1INXl6RTEzb3lZOUlhOHppa0YwcmQ0Y2ctbW9iRnJzcG4weUVYV0NpLUVoVjVzR25FdGpuNExzVVRrSGlnUEZLM2wtVEt1a3lUTUpFME81cjRUZWxocEZqZmNnbURsZGRyNHdfQUdnaUlBaFFsWWhabXZZZ1JiVVk0NUNnOGVqZng0RE1ySVlUOUd2cGNXQ0ZraDNCRGt4VnlrcmNkZ0lB?oc=5",
-      "summary": "ABD'de veri merkezi karşıtlığı artıyor: yapay zeka yatırımlarını nasıl sarsabilir Invezz",
-      "source": "Google News (TR)",
-      "published": "2026-07-04T12:11:28+00:00",
-      "category": "sirketler",
-      "score": 42,
-      "lang": "tr"
-    },
-    {
       "title": "İndirme: Anthropic, Claude Science'ı ve Kaliforniya'nın karbon gübresi matematiğini piyasaya sürüyor",
       "link": "https://www.technologyreview.com/2026/07/01/1139996/the-download-anthropic-claude-science-california-carbon-manure/",
       "summary": "Bu, teknoloji dünyasında olup bitenlerin günlük dozunu sağlayan hafta içi haber bültenimiz The Download'ın bugünkü sayısıdır. Claude Science, Anthropic'in en yeni amiral gemisi ürünüdür Dün ilaç yöneticileri, biyoteknoloji kurucuları ve araştırmacılara yönelik bir etkinlikte Anthropic, bilimsel araştırmaları desteklemeyi amaçlayan yeni ve önemli bir ürün olan Claude Science'ı duyurdu…",
@@ -725,16 +715,6 @@
       "lang": "tr"
     },
     {
-      "title": "İndirme: Yeni başlayan bir şirketin yapay zekanın grup düşüncesi sorununa bir çözümü var",
-      "link": "https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/",
-      "summary": "Bu, teknoloji dünyasında olup bitenlerin günlük dozunu sağlayan hafta içi haber bültenimiz The Download'ın bugünkü sayısıdır. Yüksek Lisanslar grup düşüncesi kanalında sıkışıp kalmış durumda. Bu girişim onları dışarı çıkarmaya çalışıyor. İstediğiniz sohbet robotunu (Claude, ChatGPT, Gemini) açın ve “Bana 1 arasında rastgele bir sayı verin…",
-      "source": "MIT Tech Review",
-      "published": "2026-07-02T12:10:00+00:00",
-      "category": "modeller",
-      "score": 39,
-      "lang": "tr"
-    },
-    {
       "title": "Nu Teknoloji yapay zeka platformu \"Nu AI Agent\"ı tanıttı - Anadolu Ajansı",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNd1dUUXZPNmZFT0V1MUdaNGVCWVZiSXB0c3NlODVHQ0VBZlp1SGpnRDJBdWo4aXRFNjYtSUtPODMyQ1cxdWZlQ0daQ2JkZEZYYllNdUFHcVBOUXZ4QWlyOXViSl90cGRhT1lLUUE4Z3JMUjRvbF9VOS14Z1k4cVhIaFFzakhQM1JvNF9nRmlZd2Q5Uy12R3FYblRHeHlkajJ3b1czR3BQdGtiQQ?oc=5",
       "summary": "Nu Teknoloji yapay zeka platformu \"Nu AI Agent\"ı tanıttı Anadolu Ajansı",
@@ -800,6 +780,26 @@
       "summary": "Asya borsalarında yapay zeka rallisi Uzmanpara",
       "source": "Google News (TR)",
       "published": "2026-07-04T08:17:00+00:00",
+      "category": "genel",
+      "score": 39,
+      "lang": "tr"
+    },
+    {
+      "title": "Bakır ve alüminyum fiyatlarında tarihi yükseliş! Yapay zeka talebi baz metalleri uçurdu - Dünya Gazetesi",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTUVPUTZhMk54dXp0TnpsbHVUd3VMMGVhckt2MWtTQVR6SWp6RHZhR1RDMnl4WU9BX3hydERaQ1hTOVVEZ2xpWjFudUR0TkVmSjlUZGNSLUhuRldzbTIzTDM3akNaR2dYdmlhUmlvNzloakVNb21Qb3Z6YmhtazUyVGVxeWpYUEx2ek1hQjFyd1NjV2ppZFBOSV9RNU1jMHJSbGFRN2FzczB2TTZLVlk0TUhmMk4xcEdIUm5ncDVKOHhfcjlENVAwRFlFTWk1NUNo?oc=5",
+      "summary": "Bakır ve alüminyum fiyatlarında tarihi yükseliş! Yapay zeka talebi baz metalleri uçurdu Dünya Gazetesi",
+      "source": "Google News (TR)",
+      "published": "2026-07-04T08:21:00+00:00",
+      "category": "sirketler",
+      "score": 39,
+      "lang": "tr"
+    },
+    {
+      "title": "Yapay zeka Asya borsalarını uçurdu! İlk yarının lideri yüzde 101 kazandırdı - Sözcü Gazetesi",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcFFFZXVkUUxCMkVXTktJRVVRc1Nqa0dzWDNhay0zcUFtbTlHU21IVVQtTGlQS3EtdTVjRmxBeVlwdDU3OVZFTnFLNzZFVm5TNGZKQ1h4U2VMcWUzbm1WV2xZUFRzRXJJeW1WSjlkeFIyTFJDb2Mzd21UcWR0dC1LZnhzeHdfRVV4RXBhRUVwRHA1T2dOYTlsVnRqaDlyS01CMUpkckJXdWlGSjQ?oc=5",
+      "summary": "Yapay zeka Asya borsalarını uçurdu! İlk yarının lideri yüzde 101 kazandırdı Sözcü Gazetesi",
+      "source": "Google News (TR)",
+      "published": "2026-07-04T08:27:17+00:00",
       "category": "genel",
       "score": 39,
       "lang": "tr"
