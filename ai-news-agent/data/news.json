@@ -1,9 +1,339 @@
 {
-  "generated_at": "2026-07-05T17:53:31.299080+00:00",
+  "generated_at": "2026-07-06T08:53:51.166984+00:00",
   "window_days": 7,
   "source_count": 14,
   "failed_sources": [],
   "items": [
+    {
+      "title": "Alibaba, çalışanlarının Claude Code kullanmasını yasaklıyor",
+      "link": "https://webrazzi.com/2026/07/06/alibaba-calisanlarinin-claude-code-kullanmasini-yasakliyor/",
+      "summary": "Çin merkezli Alibaba, çalışanlarının Anthropic’in yapay zeka destekli kodlama aracı Claude Code’u iş ortamında kullanmasını yasaklayacak. TechCrunch’ın aktardığına göre yasak, 10 Temmuz itibarıyla yür...",
+      "source": "Webrazzi",
+      "published": "2026-07-06T07:00:00+00:00",
+      "category": "modeller",
+      "score": 61,
+      "lang": "tr"
+    },
+    {
+      "title": "Apple'ın katlanabilir iPhone'u sınırlı üretimle gelebilir",
+      "link": "https://webrazzi.com/2026/07/06/apple-in-katlanabilir-iphone-u-sinirli-uretimle-gelebilir/",
+      "summary": "Apple’ın uzun süredir gündemde olan katlanabilir iPhone modeliyle ilgili yeni detaylar ortaya çıktı. Bu senenin başında katlanabilir model ile ilgili tahminleri sizlere aktarmıştık. Sektör kaynakların...",
+      "source": "Webrazzi",
+      "published": "2026-07-06T08:30:00+00:00",
+      "category": "modeller",
+      "score": 60,
+      "lang": "tr"
+    },
+    {
+      "title": "Alibaba, çalışanlarının Claude Code kullanmasını yasaklıyor - Webrazzi",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQ1ZHZFJIMHhWbjBLYlRNZ3YxX2RyOE9mWWxjY0JCc2VQVjVmRUpkZEh6QXZOTzlxLUxOOVp2NTVkdzEwTlFEbVlvVzZ5bk5lWktKLU5oRXZUN1RneGxRSm83NmREeDZDMUFVbTFaaWZ3dUE0elVyQTlETDhpM1FCVXF0SjZoY2VCbW81X2MtRW16WVFqakE?oc=5",
+      "summary": "Alibaba, çalışanlarının Claude Code kullanmasını yasaklıyor Webrazzi",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T07:03:08+00:00",
+      "category": "modeller",
+      "score": 59,
+      "lang": "tr"
+    },
+    {
+      "title": "VinUni, Vietnamlılar için yapay zeka yetkinliklerini ölçen bir kıyaslama aracı olan V-Bench'i tanıttı. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSmRJUTZyQVFXYkRoRTZZbUthZnBYQm1PN3JMVkFpbm9oNjg5R004VjRUTDFwME01Y09YR2FNYzR5UkFDNk9LU25oYlhOdF8xNGg0TnZBVFBEX2FPMmtqcUxFdjNrVGRrN1JueEJaTmVoWFlyM29BdHREUXROcHNNb1VVdDE3clFqbnlScVJLTklBZVpiNW5N?oc=5",
+      "summary": "VinUni, Vietnamlılar için yapay zeka yetkinliklerini ölçen bir kıyaslama aracı olan V-Bench'i tanıttı. Vietnam.vn",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T04:35:31+00:00",
+      "category": "genel",
+      "score": 58,
+      "lang": "tr"
+    },
+    {
+      "title": "Yapay Zeka Mühendisten Daha Pahalı Olduğunda",
+      "link": "https://tomtunguz.com/ai-spend-breakeven-2029/",
+      "summary": "Hacker News'te 56 puan, 50 yorum aldı.",
+      "source": "Hacker News",
+      "published": "2026-07-06T07:05:25+00:00",
+      "category": "genel",
+      "score": 58,
+      "lang": "tr"
+    },
+    {
+      "title": "Japon şirketleri, yapay zeka sayesinde üst üste altıncı yıl rekor kar elde etmeyi hedefliyor. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMEdQMjN3UVhSYWV5dm5RVFVxTHQzWERHOFlQSmw2UHRqV0ZLeWRCUEJnMUpmX0pCQjlKQmotZnVKZnVJVEEwUmliT1pVU2lSZ1Q1WkkteHZ2cWhaZU1tMmdQaUxRNXZWVWMwZzNtQmhZNkxsdTZCY0RFV2ozLVZYS1IwRXhPZDNOYXF1WVFfZnlVUGR5Y1UxR01sT25RNGJZOC1XMks2YTk?oc=5",
+      "summary": "Japon şirketleri, yapay zeka sayesinde üst üste altıncı yıl rekor kar elde etmeyi hedefliyor. Vietnam.vn",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T04:45:21+00:00",
+      "category": "genel",
+      "score": 57,
+      "lang": "tr"
+    },
+    {
+      "title": "Karabük Üniversitesinden Yapay Zeka ile Prostat Kanseri Tespiti - SonDakika",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQXJDdUJxWXBIcWhucHA2X19rUXFBdzl3cWtnQ1FzeTRzT2hpOEFQQUxnQUVLb2hQTGNzQ1NSNkNnUXVfdXIyS0RPckJGQnctWnlFRWoxY1UxajU0ZzZVZG9PeEpzTDFFMHhBN0NyQ2IxbTZKSkRmazYxZmt6NXlTUnM1OTRZMFlMMEpoMWdpbFNkNFNNU1dZdTBHckE1SUI50gGcAUFVX3lxTE81RzVLVXRfN3MzRFF2TzhmV1Zndi1IUnVya3Y0VWZ3dHBwOVhWel9wU1BsN3lMQlZfMzhTc2s0X2dFOFVRSENQRVRjc3lKNGxDeXFOMWJqZFl3ekF6ajlHWDd5c2k2ZlhSMXJ2OFpXZlhra1NvbzlURVhTRGliMk5KX0FZalJHcWljZzVJc1d4V1NDcXRNalM3QUdkNQ?oc=5",
+      "summary": "Karabük Üniversitesinden Yapay Zeka ile Prostat Kanseri Tespiti SonDakika",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T08:02:33+00:00",
+      "category": "genel",
+      "score": 57,
+      "lang": "tr"
+    },
+    {
+      "title": "Yapay Zeka Yönetişimi Üzerine İlk Küresel Diyalog toplantısı Cenevre'de başladı - Anadolu Ajansı",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSUVpOXc4Z1JMYmxoT2dDeHk1ejloOVZYN1NZVEtRY1VoOHEyczNFT0ZjY0JjWGEzZlVUZUFDOU1fdGJzamg1UndDcFgzUVFRV2xPbTlTbkZnZ2pHbHB0a0hwWTFRdWt6YTk5Vk9MU0dwSEt0cHkxZUotZW1sbDFXZ2t0NjltYVE1TjhKNGQ2Tjh5ZE1PY3V6WndGYXhTeThjeHd0WTlDaXdsd0g5OTBDMVhSTnYySlp5ZDVXcmdmX2pkeUtteXl3?oc=5",
+      "summary": "Yapay Zeka Yönetişimi Üzerine İlk Küresel Diyalog toplantısı Cenevre'de başladı Anadolu Ajansı",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T08:05:13+00:00",
+      "category": "genel",
+      "score": 57,
+      "lang": "tr"
+    },
+    {
+      "title": "Yapay zekâ talebiyle büyüyen SK Hynix, ABD'de 28 milyar dolarlık halka arza hazırlanıyor - Patronlar Dünyası",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZjlZOUd6d015SVd4VTg5Z2V3RngwbmFZZTZtSHFqUi1oNFVxUThVenQ2M1V1MFpSQ1pleHJBc3AyQWtPVXNxbGNBc0dsR3FCcWJ0ZHAxYnEyeE9HMzFGaFM0N3NCamFCQkxaWVN2Y3FBQUYxbG9XN0U2a1RLMzdpUVlCdFVELXVJejdMSE5kcGZwa0lKeU5uUTBIU1lzSGxXQ2tTUnd5NHhMS3o0aklBVnZnQmtkV3l3M2lr?oc=5",
+      "summary": "Yapay zekâ talebiyle büyüyen SK Hynix, ABD'de 28 milyar dolarlık halka arza hazırlanıyor Patronlar Dünyası",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T08:15:13+00:00",
+      "category": "genel",
+      "score": 57,
+      "lang": "tr"
+    },
+    {
+      "title": "iPhone 18de yapay zeka bileti yok - Bilim Teknoloji Haberleri - CNN Türk",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNnlvUjNySzBWekI1S244QkhreDdscGtuQkt1UnJIaWx1QUFyYXBoSTZVNFl0dG5vOHBnbjBCZUxWaE9pNG94UHcwR0pYWUhTUkhDYWRRODRxclNJRjZJRE10NkhuckhUMHVjc282Z3UtVXlaS0x0WHNfaFowNHE0Rg?oc=5",
+      "summary": "iPhone 18de yapay zeka bileti yok - Bilim Teknoloji Haberleri CNN Türk",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T08:21:33+00:00",
+      "category": "arastirma",
+      "score": 57,
+      "lang": "tr"
+    },
+    {
+      "title": "Yapay zekâ ve üretkenlik yeni tercih kriterleri - CNN Türk",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNOVB0R05SNzY2V0pXRlhXT0d3MGx6dUNDX0ZEcHJ4Mm1uakk1bkZEUGIwTnJzT21yTklINndqdUVnTmpLVHlTR2xLYV9jd2ZXZUpfRDdfREZfMHZVT1haRTJxVk52cngyeTZUNld6dmtobXlDZElHVXkxV1BWMEU4QW55NHdfUmljVkFKbmZJNTZFX2M?oc=5",
+      "summary": "Yapay zekâ ve üretkenlik yeni tercih kriterleri CNN Türk",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T08:22:53+00:00",
+      "category": "genel",
+      "score": 57,
+      "lang": "tr"
+    },
+    {
+      "title": "Fransa yapay zekalı ilk robotik askeri birimini test ediyor - Harici",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVWFwTm44aHB3Wk90M1JXMEFQbWFTR0ktZjZGV1hmVzg5anI3Vy1OY2FNQ3JtZ0RoVU5NQmNlbEZSVU93TUtyRlBRT3YzcmllT1dxNThuNk5hcUxvcFpIRFZreHhXT1A0Njk2d2U1dmthcEcyRVRDQnQ4WnNncUh6eXpJMkozSTd2T0HSAYoBQVVfeXFMT1VhcE5uOGhwd1pPdDNSVzBBUG1hU0dJLWY2RldYZlc4OWpyN1ctTmNhTUNybWdEaFVOTUJjZWxGUlVPd01LckZQUU92M3JpZU9XcTU4bjZOYXFMb3BaSERWa3h4V09QNDY5NndlNXZrYXBHMkVUQ0J0OFpzZ3FIenl6STJKM0k3dk9B?oc=5",
+      "summary": "Fransa yapay zekalı ilk robotik askeri birimini test ediyor Harici",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T08:37:30+00:00",
+      "category": "genel",
+      "score": 57,
+      "lang": "tr"
+    },
+    {
+      "title": "Yapay zekâ Türkiye'nin en iyi tatil bölgesini seçti - Sözcü Gazetesi",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdFVzdjFIQkR4aWlqQ3FGWTh0czhWMmdlUkI2YTBHVE9DZF9mVmwyalBsWFVoZ3ltRk5BUi05bkJYQk16Y2UwM01RQkxFS1FLTElUZU5Cci1TVE5KRlVPa1F1Ynd5QWVNRmlCS19DM2diLVVYNTVadDZPMWxPekpNbU1UbXRjRUxJSTk4WQ?oc=5",
+      "summary": "Yapay zekâ Türkiye'nin en iyi tatil bölgesini seçti Sözcü Gazetesi",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T08:44:48+00:00",
+      "category": "turkiye",
+      "score": 57,
+      "lang": "tr"
+    },
+    {
+      "title": "Galata bankerlerinden yapay zeka çağının bankerlerine: Parayı yönetenler dünyayı da yönetir mi? - Forbes Türkiye",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPN0hsWUJiMHhVaW14b1o0ZHFfSDNod2JjWWo5aThSUC12emVCbUVCZWZfZVFKcWNxaWM1RllHLUtaVGdVLWlQQ0puZFFER2ZxcllkZ0EwbzMxWF9fNDk1dHFZWkwzRkVpSnFnZ1N0SzZTMGRuLW9RXzh4VnNZTk9LQnB0dlRSWGxYcnp5amo4Ul9xWnBFYzRsVzdaX3FGb3lxSmdWNXBsazdNQ2VlSGFQMDc4U25DZ3hmZG1yY0dSVXVFNTgyS0lsb3NvbjU?oc=5",
+      "summary": "Galata bankerlerinden yapay zeka çağının bankerlerine: Parayı yönetenler dünyayı da yönetir mi? Forbes Türkiye",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T07:11:00+00:00",
+      "category": "turkiye",
+      "score": 56,
+      "lang": "tr"
+    },
+    {
+      "title": "Akfen Yenilenebilir Enerji, Yapay Zekâ ile Enerji Üretiminde Dijital Dönüşümü Hızlandırıyor - Turkchem",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTWk0U04zR21qVUlJSUl5OVdnZmVGNEhtMU5Xd01qZVNsSF92bnpweVJmcnJNSXJKdzF4SElxQ2ljUGJjRk0wcnNPYjBMdy03YzBXM3V2X2RfS1FQNkFYc2JTMUhodzRpTTJmV3VncEt1RTBnRUNMcUdTLTB1WTF5c2tWcmFhQ2xfVTBsSG40eWpjZHZfaVVvdkpVdWxwUmZzakpWTFI3N194amU0bXFHRg?oc=5",
+      "summary": "Akfen Yenilenebilir Enerji, Yapay Zekâ ile Enerji Üretiminde Dijital Dönüşümü Hızlandırıyor Turkchem",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T07:19:06+00:00",
+      "category": "genel",
+      "score": 56,
+      "lang": "tr"
+    },
+    {
+      "title": "Temel teknolojilere hakim olmak - Z kuşağının yapay zeka çağındaki ayırt edici tercihi. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVlBMaHNtbHJSdlFIVk1jd3B6Qmc0a19NQ09EX0JrSUZQTXNqSDNvNDcwdm8xUGUtejJsSWFheUtBd010X25qd2J6YkZXMEJXOGIwamFhMmE1QTNIN21FQjBpWk9MV0NicklSeWdja09NcUVESmZ6UExmSGZ1WWE5bE5LMFBjOWtaMVg0MmJ3RmNTS3RIT21HdzdsSQ?oc=5",
+      "summary": "Temel teknolojilere hakim olmak - Z kuşağının yapay zeka çağındaki ayırt edici tercihi. Vietnam.vn",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T07:19:53+00:00",
+      "category": "genel",
+      "score": 56,
+      "lang": "tr"
+    },
+    {
+      "title": "Seyhan Belediyesi'nden Gençlere Yapay Zekâ Hamlesi! Ücretsiz Eğitim Yoğun İlgi Gördü - 5 Ocak Gazetesi",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUjZRTjNzT1pYNEJhR25nQ2JzV3F6TUhmYi1kN09lQWlNSWZkU2JGRmJrZzBKR2ZDeGRSVWFDNDc0bDk5WU1FNHJKbG94MVIta0x5WndKZUVsWWdZLWNXZWp4Q2lTVlloQzFKWmlVSkdabzFFdGNVc29ZTXhacExvRTk0UnZ2alkzS2xkZDl6clJkQ3d3RmE3M3B3Z0ctMlF1V2J0ZE9Da29CQlNhd0xNRFln0gG3AUFVX3lxTE1DTENRNTB5eEdaYzMya2JoTzl1Yzh6NmJIMEJlcDktVk5wUFI0UVFlTkl0N3dZc210dW11OXN2cWR2Z3doWHFIMEMwYWZLUEVKdkhReGtqOFVWbEx6a0sxMXR0TEFJdEpVNFR0RU1Na1VQejU3QjNZc1dKZDR3SWM5eS03RUZWVVZLaVFObmEyRkRrMm1Pdi1WSW5YdXQxNUt0WTlSZ2RGN3ppSGViaTE2ZWc3ekZGTQ?oc=5",
+      "summary": "Seyhan Belediyesi'nden Gençlere Yapay Zekâ Hamlesi! Ücretsiz Eğitim Yoğun İlgi Gördü 5 Ocak Gazetesi",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T07:30:00+00:00",
+      "category": "politika",
+      "score": 56,
+      "lang": "tr"
+    },
+    {
+      "title": "Seyhan Belediyesi gençleri yapay zeka eğitimiyle buluşturdu - Küçük Saat | Adana Haberleri",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMWRKbW5oY3pYVWhGQnNYODdxVmE3Qm9YM3N6bEJiOXM0My1lS0x6NEtRN05yZmJBbzVGNUs1RlJPc2lWRG5oZURGb1ZyOGNGMjZidllrbThxT1lFcGs2WTN0SjY2VFF5dU80Nk1UNDdNcG9sSXV4Q3FtVVZMaURYWXVKelZWUmVDWEVfRmx4cHo5NmxRTEtVLTNCWkfSAawBQVVfeXFMTlNNZmpzQUU1UkNfNGFTZG1qd2tjSlJBMDd1QlNURWFWMk1YQl9CSS1rV2Roakx2VHZ1VVUxM3RkWkd5SEFrbl9PcEtSdkxXajBOdlZYb0lqVjN0LUhhbjg4bldOLUpOdmRreXBIQXNMZU5mNFBvbVdPeHJDUmdYQ1Y3MkRjRjloRWFyamU4QnJtc2RSc0hCRC11OUx1TVoxNTNRNTY5MW4wSlc0aA?oc=5",
+      "summary": "Seyhan Belediyesi gençleri yapay zeka eğitimiyle buluşturdu Küçük Saat | Adana Haberleri",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T07:34:00+00:00",
+      "category": "genel",
+      "score": 56,
+      "lang": "tr"
+    },
+    {
+      "title": "Yapay zeka veri merkezleri 76 yıllık şirkete ivme kazandıracak - Forbes Türkiye",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRXlfeGpnVDluMG9uZ1RGOWNHUWNUemROMzY5MmJ3S09Tam8xRG1STHA5QXpYX0hNT1lLazVod04wY2Zicy1rMlB4VUJzLXR1SzVfWEgxb1hGbUU3cXRNeXNEeXNKa0hjS0EwYXJiZGNMbnFXX1U5b2F4bW9PNDczVlZEMWtDTDdSTTU3dS1SREp1aHBqWmpxbzRxakVDODBk?oc=5",
+      "summary": "Yapay zeka veri merkezleri 76 yıllık şirkete ivme kazandıracak Forbes Türkiye",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T07:36:00+00:00",
+      "category": "turkiye",
+      "score": 56,
+      "lang": "tr"
+    },
+    {
+      "title": "Teknoloji devleri \"Yapay zeka işsiz bırakacak\" söyleminden geri adım attı: Rota artık verimlilik - Gazete Oksijen",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPcUdwOV9PajM3Smc1WWg4LU94eTZ0Vmo5dUdkS3VOX1hTLWs5Z3pLMDFBeGR4Y1pyTE9YMkNlWlRNc1dOSXg2bldYUTZTcHMyX0I5dHJ1YnF3RFBCaFZGZkZheFpMQjVWckUwb2hnMFF1bHQxWko5eTc5dFB1QUlJcnlWaHpyR2YyR3plSGlJdDJCOElabVU3OHVycHlkZWtVYnFEYlJRS1RSYW9nbGgzNGNvNWNjaWhSV2tpZk9EdVM3NmQyaWVlSUJsTGNXMms?oc=5",
+      "summary": "Teknoloji devleri \"Yapay zeka işsiz bırakacak\" söyleminden geri adım attı: Rota artık verimlilik Gazete Oksijen",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T07:43:00+00:00",
+      "category": "genel",
+      "score": 56,
+      "lang": "tr"
+    },
+    {
+      "title": "Mastercard Signals raporu: Ticaretin yeni dönemini güvenilir zekâ şekillendirecek - Fintechtime",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSzc0QW1feVpGenc5ZFF4YkFRVUI2VTEyS2l4V1VBMnFpTnhHTTZBMU84cEEtWlIzZVVRX3dyRGFvWllFQjNxZFh2YkFLUEpKUDRKeXdwekhmWExpNUphZW90a2dYSmowTmhsbGFVVGJHTUk2YVhleVYzRC15aUpzVkNKandHRGVjem8yRGM1aXhZc3p3V3c2eUZiT19HVERwbkZXcnEtdWVlVUl1S2hReE5Hcw?oc=5",
+      "summary": "Mastercard Signals raporu: Ticaretin yeni dönemini güvenilir zekâ şekillendirecek Fintechtime",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T07:57:45+00:00",
+      "category": "genel",
+      "score": 56,
+      "lang": "tr"
+    },
+    {
+      "title": "“Yapay zekâ, kritik altyapılarda karar alma biçimini yeniden şekillendiriyor!” - itnetwork.com.tr",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZXZ1SS1COHJ1dmZDZFlrZDRwUklfdk5UQU5BV3VsZlZjRmZEaXVKcXhhUjJhRU5sVjRKUWZpTXVjSVdYOHpiZ2h5WHZlVl82ZndqYkpkT1VJOC14VXJjMWFpeFktZDJoRmNTZWpvSHNTekNsOWtJQXFPcXVrU2pWR3VrbFB6WDdIRHdjaVRWWDdTWDk4NFJkM01GOXYxRUE0LWRZVzc1OA?oc=5",
+      "summary": "“Yapay zekâ, kritik altyapılarda karar alma biçimini yeniden şekillendiriyor!” itnetwork.com.tr",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T07:57:55+00:00",
+      "category": "genel",
+      "score": 56,
+      "lang": "tr"
+    },
+    {
+      "title": "Erzurum Şenkaya'da Bir İngiliz Turiste Yabancı Dil Sorunu Yapay Zeka ile Aşıldı - Mersin Haber",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYlVncG1LUlJEYnh4cjlnbUtjSWRLaTlaQ0NBVUI4a0c4MjRNcHVHcmxRakFJVVNTYUFSc2dSZ3pDM2I1OVN3NEM0dVhnWl93WC1ickUxMVZDdzJLQlNmTmdFQ2xVczd3dklZZ0VhNnQtQ3hhU1JoT3Rmd3FiZS1pTkYyOUs4MlhabEFSOU5TdEpDSUhvMFZJaUFWcE10T2RuVFNLYm1qMzJUaC1pZ0tLckZwbWFsaTRIQTBn0gFXQVVfeXFMTVdBX3FKZFJScTVhWVozeE1UWW5idHVRREFYdVhBZmhQcXhDNHVIZVRXVlphNWRKNGhGV09pWWluWFpYU19QMG5jcG4yWlMycHUteXRLT1Qw?oc=5",
+      "summary": "Erzurum Şenkaya'da Bir İngiliz Turiste Yabancı Dil Sorunu Yapay Zeka ile Aşıldı Mersin Haber",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T06:12:00+00:00",
+      "category": "politika",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "Küresel piyasalarda yapay zeka dalgalanmaları azalıyor - Bloomberght",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeFBtX1kyeGtlaWkyemNaMmJzX2V2VXVGZU1xa2RUOFNVVlE5N05ZQWd6RHhrTDQ3YkwwQ0VQcGVWeFdfMDdtZzhRVU5WMTBYM0djNTc1NzEyekZweEw4aGpQaFNFNTNWcGd4WmhEdzZPS1VNWk1ZVVR5aGotTVdlRkd2TUFOWjl4YWVScUdLN2pXTW8z?oc=5",
+      "summary": "Küresel piyasalarda yapay zeka dalgalanmaları azalıyor Bloomberght",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T06:15:40+00:00",
+      "category": "politika",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "HSBC Avrupa ilaç sektörü notlarını revize etti, yapay zeka rotasyon riskine dikkat çekti - Investing.com Türkiye",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPS2pUb0ptbDBFQkk4R2ZENUZFVTlIV2FpYTZjU2gwN3FXNXpieVhkNHJTMmZxajFuQ1BnLWM5anpoa1N0a21BWWsxcGUtWHJQX0ZjQVhDX29EZ2s2SEpZajc0allEeVh0NlZfREtpbjVna29xbEhheGp1UHFWcTd5RGZfekkyNzlJMVllczFSQnc3NXQ4enltNEdlZTRqMXQ3Q3V1TUpGdnFnZkhpRHpSTWtWY2FLZTIzZ1ZSTEIzMFhkUnQwZG1iMzliUVp1NlREMVZqcUdQOXQ?oc=5",
+      "summary": "HSBC Avrupa ilaç sektörü notlarını revize etti, yapay zeka rotasyon riskine dikkat çekti Investing.com Türkiye",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T06:22:30+00:00",
+      "category": "turkiye",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "Telefonda 'evet' yanıtı yapay zeka tuzağına dönüştü - Yeni Alanya",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPV05NRW85Zmc1R2NvelBuQi1iV3NZUnVXdzZCMVdEZHQzSXJxeUNjS1RLLV9uaElOc1ZlVUsxLXplOVVGM2hrUk9ua0JBeEt5dmUxNjBFN184Ynh3NWpEN2N0MGVVbHVSanJEZ2pyQjlfaUZ0QVBOc3hQZE4wNEd4a0N3?oc=5",
+      "summary": "Telefonda 'evet' yanıtı yapay zeka tuzağına dönüştü Yeni Alanya",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T06:29:00+00:00",
+      "category": "genel",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "Kâr güvenliğin önünde: Koalisyon, YZ şirketleri çocukları koruyamıyor - Euronews",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUThhWDJLdVRJcEtxS25Dc1A1SGdwSURfdmdNT056VkVzSFJicFdwVHc1aVlsclRraHdEZjNxaUZQM2NzaVkyaUxUMlJuUFN5cDJ1RVpJXzJfeEtjazROZnZ6dFFfUmM3LVV2eWFPZzFCQjJ6TFVjS25EV2hiUnR2VU5RMzg0YmZGMXRJUGk1NFh6WWpWVkJRbEc5bkQ1Q1ZBbmQ0T3U5RkJZTGtBV18xSHB4SG1MZw?oc=5",
+      "summary": "Kâr güvenliğin önünde: Koalisyon, YZ şirketleri çocukları koruyamıyor Euronews",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T06:43:32+00:00",
+      "category": "politika",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "Yapay zeka kariyer basamaklarını değiştiriyor: Giriş seviyesi çalışanlar geriliyor - Nefes Gazetesi",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNX3o0eWlaZWpxSXo4VVlrd2JtV2g0M1BDSEFCb2k5R0xCbndtM2hNTWZUN3dJVzl3ZmM3OTYtc09sSFpfZmwtc3d0WkNiR2lBdHg5aXdaSEFOOEdZOUhRM1dSSVJfRy0yT3gteVdDUXhsZHduMVZzd3ZBTklsSjFvUmtlRDhnOGVhYlVkZms4YzFvTGNsNWUzWjRhZXFXRHJGQ3d6R25wXzJhRlc3eFQ4WkZ1WdIBuAFBVV95cUxPa3pCYlFsMGk4ekVPMFFBR09ndEwzbzlrRG5zRVZHMzB2bUlGM3VROVBjT3FNcEJ0TTBNYW5sOEpyLXlpdjI1SjdieGllbS1MOERnVDZMbHNMbjR5V2VVVFExTjlqLXkyb0Qxb2ZCNkZtQmZqellVbUwtQVRwTGJ5ZC1mZVRNdkVPTTZLbXliVGprc3ZCUFlMMXFFdWdDdU9RT2huOW9hbm8zUkMzb3Jqem5SRmQtNWwz?oc=5",
+      "summary": "Yapay zeka kariyer basamaklarını değiştiriyor: Giriş seviyesi çalışanlar geriliyor Nefes Gazetesi",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T06:47:00+00:00",
+      "category": "genel",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "Yapay Zeka Genç Istihdamını Yüzde 16 Azalttı - Marketing Türkiye",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMGQxNFRkWlFoQjlxVXpGTXVseXBzLWtTMFZWeVl5UkVqclVBT0pTSUZiQ2dGX0p1VmVPWUZrTzQ2UHJwdnJvZmtMV3Z5QjlXV3hJZFdGUjZTeHFIS01VaDlDaVJ5OHc4b25aQUpWSm9wa1MwYnZfd0ViVWZNV191VlRnSFltdjB1OE5vaUcwRmZCWmhZ?oc=5",
+      "summary": "Yapay Zeka Genç Istihdamını Yüzde 16 Azalttı Marketing Türkiye",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T06:49:44+00:00",
+      "category": "turkiye",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "Yapay zekaya göre Türkiye'nin en iyi tatil beldesi seçildi! - TREND - Mynet",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNY1ZudUJOaGl1Y1VpMm9yMGM2SzdTbWlpRzllaUItV1BxMXRlbHRIQmRLNVloSWdJMkFIdDEteFZ3ME5qcHFYSEhvaURCNkVmRWM0QjhIUHhkOXhmWTJGOG9QSjZXZzhvdEpCNUl5enpZdG5NckdwU2x4WXlsRS1Ma1BvdEh1MkdzZVhnWTVPaXJKdE9DdWFoWNIBngFBVV95cUxOQlNOYVBxOU56eU1UU2dkUzlIczhGby1VYmZEbkJJR3lEbEhLMkFReDdZblhid0t2VzJNSENaRk5Vd2dLZVRnNVNNYm92VXlicEdNZ1pUOTBmeUI4Mkg2Y1Y5cTN0TlRoRG0yLWtDMTl6bXJNMzZDOGZRNTgydXF1LWtZcUpsNS01aGhsbHdZSHJfZGJHSUVwQlh2SE15Zw?oc=5",
+      "summary": "Yapay zekaya göre Türkiye'nin en iyi tatil beldesi seçildi! - TREND Mynet",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T06:51:40+00:00",
+      "category": "turkiye",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "OMÜ’den yapay zekâ destekli, radyasyonsuz omurga bozukluğu teşhis cihazı İhlas Haber Ajansı - İhlas Haber Ajansı",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNX1NMd0NiUWNWY0RaR2Q5V1FKLXBtNWhDY0RURmIyMHBBbjlSWEhIMFZxaUl0SmlrSVhTZ3NBa3MxMk5FUWgzYjVOQUhWUDh0ODY3STIwb0ExMXhyU0N6dDctRjNSMVN6U2RqSHcwUkhsSVdYY1B5M0RfaXlaMzR6YTQzenNMRHNSQzJDWVdDX2lRVTB1eGxsSDhOd3l3WmFsbzFYZGRFUDk4NWlVZElpT2VweG9WOVV0QkdjTg?oc=5",
+      "summary": "OMÜ’den yapay zekâ destekli, radyasyonsuz omurga bozukluğu teşhis cihazı İhlas Haber Ajansı İhlas Haber Ajansı",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T06:51:52+00:00",
+      "category": "genel",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "Wall Street’te yapay zeka rallisi alarmı: S&P 500 için düşüş uyarısı - Nefes Gazetesi",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOTJxZ1I3alZDU1NOWWdwUGdESkdFU1FPdEpFaUdxUVduWDNEV0RSelFCT1dXZmJmbHRPZFpYVTYySHYzTEx0ZkFDTVd6VmxEaDdXV3FEWU01SWRGMDZrUnh5QkJoQmVDYV9QYm8tT1NoTmNsSDZZNFNWTjBtLWExYXFkWUlBZ0kwelpwYnEyLWFaa0FWU3h2UjlUdzlxUdIBowFBVV95cUxPSlN1VHdnLVVFV05rYWtYeFFGX2FUNlN6SXNKSXJoX0VjdGxHOGh3UjV4bjhGOWkwWGs0WDlIa0lDVHJUaHhwUnM0NXdlYWQzUU1UY0NINkI4azZweWlIQmZPUm1kQUlpX1BHZUFMUGN5OFlNTkRiN1B2TGdnRW82ZHE2ZEQ3LUhBTE5fYlNuNGJJSlg0TW9tRGdpSFFjRUNHbWZr?oc=5",
+      "summary": "Wall Street’te yapay zeka rallisi alarmı: S&P 500 için düşüş uyarısı Nefes Gazetesi",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T06:54:41+00:00",
+      "category": "genel",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "İlk defa yapay zekâ tarafından tasarlanan bir aşı insanlar üzerinde test ediliyor. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSjhPMUZwQ1hTdTVJaktxV0lJdWRfaHVyVndIWDVtZ3c1aFRBREJkOEpmR09RLU12ajNHeHE2emh6bmxKLW4zaTlabGozVEx2X1JmYXNkX3JER0Vma0xuYjNoajdta0MtcDlMdkEtYWpRcER5QUtqbjB4MU5YbS1CV2tPajhybDdfd2JXWlpOWXE1clNNOXU0bFgteUp3UXhYUnhaYVZYeHQyZw?oc=5",
+      "summary": "İlk defa yapay zekâ tarafından tasarlanan bir aşı insanlar üzerinde test ediliyor. Vietnam.vn",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T07:03:46+00:00",
+      "category": "genel",
+      "score": 55,
+      "lang": "tr"
+    },
     {
       "title": "Çıldırtan Google reklamı, kurucu babaların yapay zekayı benimsediğini hayal ediyor",
       "link": "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence",
@@ -11,7 +341,147 @@
       "source": "The Verge AI",
       "published": "2026-07-05T14:23:11+00:00",
       "category": "modeller",
-      "score": 67,
+      "score": 54,
+      "lang": "tr"
+    },
+    {
+      "title": "Yapay zekâ çevirisi ve dilsel kimlikle ilgili endişeler. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNN05hU3FaZWRBOHN0eW9IVUltbzE1SEpWVDFZZjdNOGlyS2R4U0VtZVh1SEh6bWNaR2pSTFhudlF6emoyNnZKMFFMcFpwM2JLM2RXSnZkUk9VR3dJM0I1MERXT0VSWDVrTU1OdG9yc29BdERHTlJZLUloQmZSVEhvN3NnZw?oc=5",
+      "summary": "Yapay zekâ çevirisi ve dilsel kimlikle ilgili endişeler. Vietnam.vn",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T05:15:17+00:00",
+      "category": "genel",
+      "score": 54,
+      "lang": "tr"
+    },
+    {
+      "title": "VinUni, Vietnamlılar için yapay zeka modellerinin yeteneklerini ölçmek amacıyla V-Bench adlı bir kıyaslama aracı piyasaya sürdü. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeGVkbFM0bVBjYjBYTU5LNU1fcWhrMjZQZmU4UXlhYWlJSWFnc1NsdHo4THp3aTJsQkdCNWV3VXJ3QTktcFpURzA5V01vUld1a05CN2hTQ2VObDRkVzdTQWdaOEJ1SWRNVmVKWFAtWWFlZUJJY0lWUnNjOFhybVp0N2pXaVhmS0NZYjhUZ3V4aWp6dnFXZVZZb1BMcDF0MlNjWEhxT204RQ?oc=5",
+      "summary": "VinUni, Vietnamlılar için yapay zeka modellerinin yeteneklerini ölçmek amacıyla V-Bench adlı bir kıyaslama aracı piyasaya sürdü. Vietnam.vn",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T05:21:34+00:00",
+      "category": "modeller",
+      "score": 54,
+      "lang": "tr"
+    },
+    {
+      "title": "Yazarlar yapay zekaya dava açtı: 75 milyon dolar isteniyor - Nefes Gazetesi",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYU1lbmx5RTc0MEhkT2dCWkRNM0ExamZQeXVkM3RDUGF6YTB6d2RiM1MzZTNONXFlbWdlVlFERzFORmZNQ2ZHRkFsclpoZXFRMHlPMXVUaC1nTzhYQUdSckMwdFRFcXRSYTVDNno4cHZlRE1BWWJSTVNMU3R0Y2ptOF9GRl9QZ0F5NkVGT0cwQWR4ZmPSAZgBQVVfeXFMTzhyY19fb2F6cG9xazlZaDlTZmhlajFXRnFrejBJOENUVmVieG1zc21CcFZ4VnNwSjgtM1V4Y1BnMEZGanpaWGdoS2JEMGJGRHRDV3dfMkY5S1NDUW1HNDg3bVdGeTJtSDMyR0RQbHZ4MlRPc3VicWdid0VKQTZtWXN2ejhWd1ZKLVlidGZpcXoyQkZ0b3pVNFY?oc=5",
+      "summary": "Yazarlar yapay zekaya dava açtı: 75 milyon dolar isteniyor Nefes Gazetesi",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T05:21:43+00:00",
+      "category": "genel",
+      "score": 54,
+      "lang": "tr"
+    },
+    {
+      "title": "[GALERİ] Yapay zekâ çılgınlığı hızla yayılıyor, ancak bedeli birçok insanın düşündüğünden çok daha yüksek. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQR3JySW1YYjhsNlFLWHo0bHB1UXdhZ3pJMm0wT25xYURQQjcycWZQWWJmZXBscHl1ckh6bTVUMWktMlJ1ZnV0QS1PNksyeDY4S2NIZHJsM0E3ejlNU3BjMXdrTGxxY19NeWFKZ0F0Q1pvZEFiNUQ3NEY0Uk1yWW9ueUljUVczbTYzN29QM0c2RWMyMVBPZ0E?oc=5",
+      "summary": "[GALERİ] Yapay zekâ çılgınlığı hızla yayılıyor, ancak bedeli birçok insanın düşündüğünden çok daha yüksek. Vietnam.vn",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T05:25:18+00:00",
+      "category": "genel",
+      "score": 54,
+      "lang": "tr"
+    },
+    {
+      "title": "Yapay zekâya en çok sorulan sorular ortaya çıktı! Milyonlarca kişi aynı konuları merak ediyor - Haberton",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPYlY2em1NYlhaU2w0dUpnSmhQWXpDZVhpTXpvQmNMRE9qWXFPLThucnpfNUtndEM2NExUa3NCX3RVQ0hYRFhuVHo1UUZ0bWNSR1hsUDdWT0taNDVLWUNFLUVxMHFTNTFsRzVCXzZWOUVWUE9ERWNrZ2JoZjRxTkFWUDFZUTZHMEIxeUhuZTA0ZWxjU1Z0dkxubGNYOExJdlFXSjFYUmJXQlg2cEFYUW1TVjZEZGY?oc=5",
+      "summary": "Yapay zekâya en çok sorulan sorular ortaya çıktı! Milyonlarca kişi aynı konuları merak ediyor Haberton",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T05:33:00+00:00",
+      "category": "genel",
+      "score": 54,
+      "lang": "tr"
+    },
+    {
+      "title": "Yapay zeka teknolojileri genç istihdamını daraltıyor - Dünya Gazetesi",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUWZrTnJnTmp3enpqWk9tbE9jZE4tRW5IX3BobzZZQ3daV21scVNfbW9tcU9BbHlHazYxal9oYkg1NXlCN1o4ekNtN2o4SEY0bWNneHdxX2VFSURPQ1lVc3hzaTA1aEN3XzY1aVo5R1YyTmhneGU1VGpJTmFqWHo5VllicHJMNnNjdnItM1NLVzBOdEs4Y0ViWjNkN0M?oc=5",
+      "summary": "Yapay zeka teknolojileri genç istihdamını daraltıyor Dünya Gazetesi",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T05:38:00+00:00",
+      "category": "genel",
+      "score": 54,
+      "lang": "tr"
+    },
+    {
+      "title": "Yapay zekâ ve dijital çağda sürdürülebilir kalkınmanın zorlukları. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZU1RVkR6Z09KdWU2bjNnblYxNXFBd3NvYWlRU2U5OHhodFlwV3JfU3p1UWJzQ1BFY3R2eVg1VC1McEYyR0JrNFFOeTVwTjV4cGFsdUtHQnZlSHAzalVKWVRzS1E3SWw2eW13OHFDSnRZWDVjaFRQay1hemdocElmNjZkVlFNQQ?oc=5",
+      "summary": "Yapay zekâ ve dijital çağda sürdürülebilir kalkınmanın zorlukları. Vietnam.vn",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T06:01:48+00:00",
+      "category": "genel",
+      "score": 54,
+      "lang": "tr"
+    },
+    {
+      "title": "Ülkedeki bazı zenginler yapay zekanın çocuklarına ders vermesine izin veriyor",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep",
+      "summary": "Amerikalıların çoğu yapay zekaya güvenmiyor. Pizza için güvenli malzemelerin ne olduğunu bilmediği kanıtlandı. İnsanlar yapay zeka müziği dinlemek bile istemiyor. Ancak çocuklarına eğitim vermek için geleneksel okullar yerine yapay zekaya yönelen Amerika'nın bazı zenginleri için bunların hiçbiri önemli değil. Forge Prep ve Alpha gibi şirketler […]",
+      "source": "The Verge AI",
+      "published": "2026-07-05T22:30:54+00:00",
+      "category": "genel",
+      "score": 53,
+      "lang": "tr"
+    },
+    {
+      "title": "BofA'dan Wall Street uyarısı: Yapay zekâ rallisinde balon sinyali, S&P 500'de sert düzeltme riski artıyor - Para Analiz",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPcjVzOVZTdnFqVUtuODBEZDVuOW1ueGkwR0I1NC1SRTFZemRhWUc2T0FHeXpGbXQ4dWNMMkFSOXBGWVg3MUIxZEU2am9oOHRkT3BGb0FjNEhtNHB0WDg5R0ZheHo2QjE0Z0NQX3RkMjNRNWJBS3pYRmE1dHN1MWl3X2IwbW0yUGV5TmNOZlg3cTluc3dWVkNTTy1PcXhWRHZ0TjVZeEdXa0hfeWJzVTEzS0F1THhsR0R3VW8xMmVfM3Uzc3Uzdml0NmVPN3RldnA3anR0Xw?oc=5",
+      "summary": "BofA'dan Wall Street uyarısı: Yapay zekâ rallisinde balon sinyali, S&P 500'de sert düzeltme riski artıyor Para Analiz",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T04:39:53+00:00",
+      "category": "genel",
+      "score": 53,
+      "lang": "tr"
+    },
+    {
+      "title": "Samsung'un karında devasa artış bekleniyor - NTV Haber",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOHpNN2hXMXlVMGNiZm9DMmQtcmxlTjNaT0lETC1COHdkUjJRWkh4T2Y3d3JSODl3Tk5HTWlQX1FSUnhHMkM5ZVZYWHMzU0JiYndKZTBFa21QNnB2T2g2b2dBOGNvWndldnVRQUJOTDR6ZEJuVUMtcTVxSFpXZHhkNHk4RFRJN2c?oc=5",
+      "summary": "Samsung'un karında devasa artış bekleniyor NTV Haber",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T04:46:49+00:00",
+      "category": "politika",
+      "score": 53,
+      "lang": "tr"
+    },
+    {
+      "title": "🤗 Çekirdekler: Büyük Güncellemeler",
+      "link": "https://huggingface.co/blog/revamped-kernels",
+      "summary": "",
+      "source": "Hugging Face",
+      "published": "2026-07-06T00:00:00+00:00",
+      "category": "genel",
+      "score": 52,
+      "lang": "tr"
+    },
+    {
+      "title": "Nomura, yapay zeka bellek talebinde yavaşlama korkularının abartıldığını söylüyor Yazar Investing.com - Investing.com Türkiye",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNazRyYklib1lkd2pIdmVYTE4wXy01NlhIcWVVbjk0bXNTTVNLQXpHMld1NnFaYTJmY1pwcHJqVlVKTTFyRDdRdkZwYXl5ZnJyd3hIQjlOYjRlSzBFN2JIVW5UMVhjQmNuMGloTDZlOHJhd0t4RU82YkJEeTQ2UHdVV09FaE9ZR0xpSEQ0VUJRV3pQLTNGMkVza1NyU2x1UTNXZ1ZjeUhLdThkWlkxeUZfb202aS1WTVE3SXAxczdqRTZYb2wwR1UtcXV3?oc=5",
+      "summary": "Nomura, yapay zeka bellek talebinde yavaşlama korkularının abartıldığını söylüyor Yazar Investing.com Investing.com Türkiye",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T03:29:12+00:00",
+      "category": "turkiye",
+      "score": 52,
+      "lang": "tr"
+    },
+    {
+      "title": "Yapay zeka bağımlısı olduğunuzun 10 işareti - Posta",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORmRyTnRRdlVhcmxaU25aVEM3dnNuUS1WYktaQVhMZGNyLWpzYW81MDc3RjBubS1CRlVCTjVSUmxzTUhMV3hHMlhzTy01S290Q1ZjeHNVcVNPeE5zcEN3d1R6cTh4LV9DbnAzOWlSNjAyQW5mcWtSQm5XZjJrYW1jUko3UjlrXzltanNOMmc2bEpZSkhYSWw3Ymd5Y0J5Z2c2elE?oc=5",
+      "summary": "Yapay zeka bağımlısı olduğunuzun 10 işareti Posta",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T04:00:00+00:00",
+      "category": "politika",
+      "score": 52,
+      "lang": "tr"
+    },
+    {
+      "title": "Doktorların yeni gözdesiydi, bakanlık uyardı: Yapay zeka mahremiyeti tehdit ediyor! - Posta",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRjd4eTc1ZGZmeE9EVVNtNnFvZk14N3kzOGZXNlVYdlowWDZZVE8tbGVkODN0OGMySVc4cHJMMXllSWxqd3VWSDEyRE1xdEJnNDRYTFN6aEJLTGdWajNOcHByR1dBc0lZbGd2R3dIajAwS3htUTJEU3gzSU9oMXFnMUxQYm9XbTR4V1RUSlNkWGdTeTZ4ekdvSlV2ZmFodXVURl9ZN2QyVkxndHpQTGlPY2ZGNldyNC0xdERmSA?oc=5",
+      "summary": "Doktorların yeni gözdesiydi, bakanlık uyardı: Yapay zeka mahremiyeti tehdit ediyor! Posta",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T04:00:00+00:00",
+      "category": "genel",
+      "score": 52,
       "lang": "tr"
     },
     {
@@ -21,17 +491,157 @@
       "source": "The Decoder",
       "published": "2026-07-05T15:58:56+00:00",
       "category": "modeller",
-      "score": 64,
+      "score": 51,
       "lang": "tr"
     },
     {
-      "title": "Amazon, Mechanical Turk'e yeni müşteri kabulünü durduracak",
+      "title": "TSMC: Citi hedef fiyatı yükseltti, yapay zeka talebiyle 2026 rehberliğini artırmasını bekliyor - Investing.com Türkiye",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNVFQ2WWU3WVFqanJWVkZ2SnlPWVg4QnhKVXpUR05SOTlHZnV2NEF6V1NuNC0takRNRUJZNmdrZHdFYVc3bkN4aUhHaXVzd04zeVVSRzR5WW9RbHV2OHYxSC0ybE5Fdk9LTkhkNndGYld6ZzR6OW9IQ3pLT2hPU3hGODRSYldnajFVWkdZUTUtaFNVYjZfWkY4VzNBNE9zVm8zRDJGTklCdDBITTFVMmM1MklhemU4YktTQVBrYVJqcWhtbnMwUm9mMFYwRnVDSkRFSWtLRUtXVDM1QUpTdTFoNG1ZQktjblhv?oc=5",
+      "summary": "TSMC: Citi hedef fiyatı yükseltti, yapay zeka talebiyle 2026 rehberliğini artırmasını bekliyor Investing.com Türkiye",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T02:30:49+00:00",
+      "category": "turkiye",
+      "score": 51,
+      "lang": "tr"
+    },
+    {
+      "title": "Yapay zekâ yönetimi için standartlar oluşturmak. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFByOTBBNVF1RFBSc0VEOWxLVENucUozUkVEWnhCeFhTRTNhUGZmaWQ1N2RWbnc5ejVtN3lWLVJweVFoN1NhTE1zbzhiM2xuek9taHBkUUt5bjkydWxGQjVqR2ctTExQMnlXZUJaeFp6TFlBSXVWVHZrMVFB?oc=5",
+      "summary": "Yapay zekâ yönetimi için standartlar oluşturmak. Vietnam.vn",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T02:35:15+00:00",
+      "category": "genel",
+      "score": 51,
+      "lang": "tr"
+    },
+    {
+      "title": "Yapay zekâ çılgınlığı sayesinde Samsung Electronics'in kârının 18 kat artması bekleniyor. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSTFFV3REcS1naV80UVJyUnI3NTZ4RUdkX1RPazlPRUZ2ZEVaUmU2U3ZSQVRDc0pRcDRXb1pOVXRaMnJ2OXBMX1lzaWJoLThPZUE5TzBqc3FoLTZvNjNkUldEUzhPbnN1aFBnMkVEMGQtTWxndDRPQ293dVZXa3BMblF2R0oxdlZNT0hVcVBSdWdCQ3dwcDRSODhJTEFkWk0?oc=5",
+      "summary": "Yapay zekâ çılgınlığı sayesinde Samsung Electronics'in kârının 18 kat artması bekleniyor. Vietnam.vn",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T02:39:18+00:00",
+      "category": "genel",
+      "score": 51,
+      "lang": "tr"
+    },
+    {
+      "title": "Yüksek riskli 46 yapay zeka sisteminin listesi yayınlandı. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE55U3lWc3RaMFB3aTRCT1ZZTXlIMHlHOGdVMVFfNnJVWTZzQTlFcmdUZ1hSZEkyZ0hRLWZtYVhLS3FZT3RIU0UtMGFmZ19BcVlFeDdXM05EMVVFMEJFZndwN1F1QjZJeF9LR19Jc3JCdkQ0OHdFa1lr?oc=5",
+      "summary": "Yüksek riskli 46 yapay zeka sisteminin listesi yayınlandı. Vietnam.vn",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T02:44:18+00:00",
+      "category": "genel",
+      "score": 51,
+      "lang": "tr"
+    },
+    {
+      "title": "Eğitimde yapay zeka uygulamalarına ilişkin düzenlemelerin standartlaştırılması. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1LNWprcnNNOW5PcEgxY2psSGVwTDZtMTZ5c3o2UjFUTWU5NTFEc0lBRGpXRkxHMnUwakVfYnJTMkZBc2Rqbm5RVnJqM1BLdHMzM0U2WmpWU0p2ZE8wdWYxSmNyUTkyVnVEam9LWmdQMkdUQXoycnFYekpR?oc=5",
+      "summary": "Eğitimde yapay zeka uygulamalarına ilişkin düzenlemelerin standartlaştırılması. Vietnam.vn",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T02:53:30+00:00",
+      "category": "politika",
+      "score": 51,
+      "lang": "tr"
+    },
+    {
+      "title": "Foxconn'un satışları yapay zeka talebiyle yüzde 40 arttı - Foreks.com",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNRW5zWll3cEwzNzFVMi1taVFFQmppNDZvLWxzUW8xNlZJYzY4ZUlDSTdpMjc5d0VIcU5LNlR0Mkh0cVRaY2c5ZnVSZFZzRjdvWkU1MXJONmVtQW5fTVcwRm9RSnJqRkx6ODhjV2RKZ2pSRUxmZngtUDlyT00tcTRJUzlIS1A1c0gyemMwemZFOFVLS1BOUnMwdzNTaVJKbHlfcV9LQWxDb1lRMGxrcnVhdmdJYkl4OVdRcTBfdzdIby1EWTU5TmlrRzJXS1pqc2J4LTBGbDR3X0pNck9MdFR3SHozVm83WU5WYXZSRGU5QUViZw?oc=5",
+      "summary": "Foxconn'un satışları yapay zeka talebiyle yüzde 40 arttı Foreks.com",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T03:01:46+00:00",
+      "category": "politika",
+      "score": 51,
+      "lang": "tr"
+    },
+    {
+      "title": "VinUni, Vietnamlılar için yapay zeka modellerinin yeteneklerini değerlendirmek üzere V-Bench adlı bir araç geliştirdi. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaXduTlpCcTdjUEJVdXoxNUpPRHhxeU1oREh4YXNqaGNfakF6TWJyVko3TktTRVJYVTRWNU00MkdNRnE0MXV6MFhfcUZIa2JjUUs2LTBCS18xUnF6V0dpZU9FQ1ZwZ1pJaldBOXU4Mmc3dEVTSUpKWS03OVZZQXlyeFd4ZHJOTEhVN3ZNSGdNMzVKUHZsTkR4Yk1JYzdVSnlaSmRxTlFNYWsxTEhlZ2hKVE1mVkRYQQ?oc=5",
+      "summary": "VinUni, Vietnamlılar için yapay zeka modellerinin yeteneklerini değerlendirmek üzere V-Bench adlı bir araç geliştirdi. Vietnam.vn",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T03:09:44+00:00",
+      "category": "modeller",
+      "score": 51,
+      "lang": "tr"
+    },
+    {
+      "title": "Amazon, Mechanical Turk'e yeni müşteri kabul etmeyecek",
       "link": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/",
       "summary": "Amazon'un Mechanical Turk'ünün son günleri olabilir bunlar.",
       "source": "TechCrunch AI",
       "published": "2026-07-05T17:43:36+00:00",
       "category": "sirketler",
-      "score": 64,
+      "score": 50,
+      "lang": "tr"
+    },
+    {
+      "title": "Microsoft yapay zeka bulutuna liderlik ediyor ama piyasa hâlâ inanmîdor - Martin Cid Magazine",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5TVTJUQ1Q2NXUzdGRPV2pucXV1d3NFSVoyWU5ZRWVPUUhNM2U5TWt4UDV3TzRLbjcyT3pkdEsyMm1tU2RVVy1sRGtEZFhNbGNoVlJUT1ZFM25NWWJ3NEhpM09CSElNejdlejE1RWtFVlJ3VkhtX2c?oc=5",
+      "summary": "Microsoft yapay zeka bulutuna liderlik ediyor ama piyasa hâlâ inanmîdor Martin Cid Magazine",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T02:00:00+00:00",
+      "category": "sirketler",
+      "score": 50,
+      "lang": "tr"
+    },
+    {
+      "title": "AWS, 300'den fazla kuruluşa dezavantajlı öğrencilere yapay zeka ve bulut bilişim becerileri kazandırma konusunda destek veriyor. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOW92aDBUc2lzNWpoaU5jSWtEZDFiblJhdHNyMl8yQW8yTWF6N19TODBXN1NvaEpsSXFKQkl2bThFNFJGQkhCeDZnRkgxaWhkbHZ4T21HOUtRZ2gxcVFzTVdHOUMtTV9kMXRxS1l2Z0FzN2ZZWjVCRXBmNU5WQmoxZ2NMcXIyb0g0T19zenlOb1Zpc2RKZVlBYjZBTVB1MHRocGc?oc=5",
+      "summary": "AWS, 300'den fazla kuruluşa dezavantajlı öğrencilere yapay zeka ve bulut bilişim becerileri kazandırma konusunda destek veriyor. Vietnam.vn",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T02:13:00+00:00",
+      "category": "genel",
+      "score": 50,
+      "lang": "tr"
+    },
+    {
+      "title": "Dünyanın en büyük merkez bankaları neden yapay zekâ konusunda uyarıda bulunuyor? - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNHlMTmdGcmdWVUpMbWcwWFVUeTZ5a21WMzBWUlpyeFBCWHNJcFY0TFMxY21FczZ4X1BxQkFYLXRRcWdsNC1oaE9TMllFLVVUOVhabTlZUEViM0c0VU45Rng4ckYwZ2dUMnZtVnJHU1pKVDRqYWxGemRkVFA0MFIwUmFrMmtsTTVuZDBYcEtxa0huMWVoelE?oc=5",
+      "summary": "Dünyanın en büyük merkez bankaları neden yapay zekâ konusunda uyarıda bulunuyor? Vietnam.vn",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T02:13:03+00:00",
+      "category": "politika",
+      "score": 50,
+      "lang": "tr"
+    },
+    {
+      "title": "Foxconn’un 2Ç geliri yapay zeka desteğiyle fırladı Yazar Investing.com - Investing.com Türkiye",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbGN4NDYwdGFLMVpaakFVNDhsVi1fb2wyTjRSSm9PLTJsUERMWDJWVjNnc2RGeTlKN2E3RUZjSHZZclc4eVBwTEN2eHIyanVlSlU0aFNDVFUxamFUNFBOTGdaNHE3dURpYllFaXdxTUhtTHNqWHcyb05WUTIyLXZOd2FLaWxURUlGMTY5SU1IdlZSTXlRbGdGUWhBYjAyZnNEZmZvbFF3?oc=5",
+      "summary": "Foxconn’un 2Ç geliri yapay zeka desteğiyle fırladı Yazar Investing.com Investing.com Türkiye",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T00:13:58+00:00",
+      "category": "turkiye",
+      "score": 49,
+      "lang": "tr"
+    },
+    {
+      "title": "Fransız ve Hint liderler, yapay zekâ yatırımlarını çekmek için kişisel bağlantılarından yararlanıyor. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZkFTYWdyVDFlVnNYOXhsR182LU5HYUQzT0U2dGN5dUNCTkhaR01IYnBwZkFOa0ZBQ1VrNXZnLW5NTHZjNmlIb1VySE1MaTdNbldsbWFQUUd1X1o1cmljSlFkc01hWG00czBtY2xsbkQyWmlXS2pXSGRqU3I5OXRfV3JnZEdCOE1UMkZ1bG5CcGN5dw?oc=5",
+      "summary": "Fransız ve Hint liderler, yapay zekâ yatırımlarını çekmek için kişisel bağlantılarından yararlanıyor. Vietnam.vn",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T00:50:58+00:00",
+      "category": "sirketler",
+      "score": 49,
+      "lang": "tr"
+    },
+    {
+      "title": "Yapay zekâ çağında eğitim reformu: Singapur yükseköğretimi \"yapay zekâ odaklı\" hale getiriyor. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOW5zUEhHVE9PTlJyN0h3NG1rYVQxbWEwelJ0dTlkdEZOYVBBTUo0a016Mk0tQW5RUUdhSGpKNDNaeVcxMGJGcUtKWG9EX3FQblcxWmZad2pPYTY4Z3hpV1JLUVlJZHZ5eDVjTTc2U0kzZk50SkpkUUk5YmFuTlFIdXZLMG5KVzZhY3VsdA?oc=5",
+      "summary": "Yapay zekâ çağında eğitim reformu: Singapur yükseköğretimi \"yapay zekâ odaklı\" hale getiriyor. Vietnam.vn",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T00:52:48+00:00",
+      "category": "genel",
+      "score": 49,
+      "lang": "tr"
+    },
+    {
+      "title": "Yapay zekâ rekabeti artıyor - Yeni Şafak",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1sYUZNT3BkSDlEV3BYdE5QZHVpam9HUVVRRFlHX01TQjdyNlcxVXp2R3ZoNWxmNGVMV003U3RNQVVaU1k5TkJ6Q0FxNlU4eTlIckFXVWI4Qy0tRkR2REtINjRSZ3hQU3B2b2dDX0REc1dYaW04cElQNNIBgwFBVV95cUxQc3RsOFEzNnBkc0dIWWhWd1NZTGQ0SEdubm8zTm1yQ3V6NF9vRnZpOFFSM0tuaEFSZU1qenVEOV83M3RtYjlyZEtKZEhDZk5xU3YweUNZbVcyU1NOb1plcE92SWtBZXlGUFJLa3hZQnB1Q2otTUpjUm9LNU5tNW1sRHdMZw?oc=5",
+      "summary": "Yapay zekâ rekabeti artıyor Yeni Şafak",
+      "source": "Google News (TR)",
+      "published": "2026-07-06T01:00:00+00:00",
+      "category": "genel",
+      "score": 49,
       "lang": "tr"
     },
     {
@@ -41,7 +651,47 @@
       "source": "The Decoder",
       "published": "2026-07-05T09:02:36+00:00",
       "category": "politika",
-      "score": 59,
+      "score": 48,
+      "lang": "tr"
+    },
+    {
+      "title": "Yapay zekâ çağında üniversite tercihleri ​​için kayıt olma. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5KN3gtTmZWNk1UbkNhZEh2WDRmTzNtNDVCOEtTUVEwdldlaWE0bUVmSEdFQ3k1TmJ6WFlwZzZabC1JTFR2eEpPcFY2SzJ1bXNYZE5RWDdfU1VNckY0TjAwdFh4STRkZ1VlbElhX2UzVnVxSG1WaVNFYVZqUQ?oc=5",
+      "summary": "Yapay zekâ çağında üniversite tercihleri ​​için kayıt olma. Vietnam.vn",
+      "source": "Google News (TR)",
+      "published": "2026-07-05T23:18:26+00:00",
+      "category": "genel",
+      "score": 48,
+      "lang": "tr"
+    },
+    {
+      "title": "Güney Kore, yapay zeka alanında bir güç merkezi olma hedefine olan bağlılığını sürdürmektedir. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUHdGa0RzR1ZQTm9CZ0FISmNfOWM5VGRVUE9fS205aHdIWlh4WUFWX2ZaLVNlU2prc1hqeEVTbUZLdzZ0aE5KX1FvWXpvQVY4TzJSSzJZdWNfaXNHaVV5Zld0aWlCa0dqV1pjbndxVkpMa2tiY2Q2QXlkc09COEdhNmxkOA?oc=5",
+      "summary": "Güney Kore, yapay zeka alanında bir güç merkezi olma hedefine olan bağlılığını sürdürmektedir. Vietnam.vn",
+      "source": "Google News (TR)",
+      "published": "2026-07-05T23:40:43+00:00",
+      "category": "genel",
+      "score": 48,
+      "lang": "tr"
+    },
+    {
+      "title": "ByteTree: Yapay zekâ hisselerinde 1999 benzeri balon oluşuyor, Bitcoin ise enflasyona karşı güvenli varlık olmayı sürdürüyor - Para Analiz",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNdUcxb0c4S0dzWlpEaWFkSUhTYUxnSmYzNWNsZlc2VzhLM0JUMC1NQzVFWk15a1N2N0NDZHJmSTA1MTdvTVdYVVgzSkpnSDRCa09NZDE1WmZyeE1RWF9JY09RR0VydDlYOW1pdDBuQ3EyY2tQTEJTNUxxMjVBaFkwLXVNeU1KNTF4bm9rWWdTZFFhaFo5QlktZDg1djhnX3ZITFVhTElkbkNTNWhzMVhoTzMwcThHZ3Z5WllUQXJwVEE4VEkxcUpTR0lVc01ZdXRvNlFhLU9HbTlFRmgybGQ0UzdXeGJndnExVHByS0h3?oc=5",
+      "summary": "ByteTree: Yapay zekâ hisselerinde 1999 benzeri balon oluşuyor, Bitcoin ise enflasyona karşı güvenli varlık olmayı sürdürüyor Para Analiz",
+      "source": "Google News (TR)",
+      "published": "2026-07-05T23:41:43+00:00",
+      "category": "genel",
+      "score": 48,
+      "lang": "tr"
+    },
+    {
+      "title": "GPT-5.5 Kodeksi akıl yürütme belirteci kümelemesi performansın düşmesine neden olabilir",
+      "link": "https://github.com/openai/codex/issues/30364",
+      "summary": "Hacker News'te 362 puan, 148 yorum aldı.",
+      "source": "Hacker News",
+      "published": "2026-07-04T21:51:09+00:00",
+      "category": "modeller",
+      "score": 46,
       "lang": "tr"
     },
     {
@@ -51,457 +701,17 @@
       "source": "Ars Technica",
       "published": "2026-07-05T10:55:02+00:00",
       "category": "politika",
-      "score": 57,
+      "score": 46,
       "lang": "tr"
     },
     {
-      "title": "Baidu'nun \"Sınırsız OCR\" özelliği, hafızayı insanın unutması gibi ele alarak düzinelerce belge sayfasını tek geçişte işler",
-      "link": "https://the-decoder.com/baidus-unlimited-ocr-processes-dozens-of-document-pages-in-one-pass-by-treating-memory-like-human-forgetting/",
-      "summary": "Baidu'nun Sınırsız OCR'si tek geçişte düzinelerce belge sayfasını okuyordu; önceki sistemler bu sayıyı yaklaşık onda buluyordu. Değiştirilmiş bir dikkat mekanizması, model kaç sayfa işlerse işlesin hafıza kullanımını düz tutar. Şu anda en önemli OCR kriterinde en üst sırada yer alıyor. Baidu'nun \"Sınırsız OCR\" makalesi, hafızayı insan gibi ele alarak düzinelerce belge sayfasını tek geçişte işler",
-      "source": "The Decoder",
-      "published": "2026-07-05T15:25:07+00:00",
-      "category": "modeller",
-      "score": 57,
-      "lang": "tr"
-    },
-    {
-      "title": "Nvidia rüzgarı çevresini de besliyor: Foxconn'un satışları yapay zeka talebiyle sert yükseldi - Gazete Oksijen",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQRmVaU0VtcUdFTFBfaTVmYk1kemhjaVZCYVByMlhYVk1rRjUyd25FRXlKWGNuNE5mRFdLem1sanZKODlwMXg3VkhZLXhwUDFteE4tc3NoNGo3RjRtRXJpYzRBVTdycmw3ZURQVlViT09xS3dKZi05eUxGQ2VJeXNIWFpVRHk0MjRJYll6djduZXBNaExybmhiYUVPTjF0MGs2VjlCaGZHT1k1MXNCbEF0MlhxTC1wd2VJUjR0QlhaSFYwRldBb0duLXJtVGI?oc=5",
-      "summary": "Nvidia rüzgarı çevresini de besliyor: Foxconn'un satışları yapay zeka talebiyle sert yükseldi Gazete Oksijen",
+      "title": "Yapay zeka çağında insan olmak (1) - Yapay zekâ çağında talim-i esmâ - Yeni Asya",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMjU1UXNJV3gwUDg5OW5ESE80Sm5EazNCVloxUHh0UWR4UDBzR1lNcUIwVm9VMzFhNlFnV1BTNXNrd2hrdXp2RW1IRTVpd0E1cF9ad2RrVmp4U1drRm5yVHo3T0xneTYzRWZibkFwek82ZHV2d0ozLXlYVzNsdjlWQ3NLWF9aV3BmbllPal95Q3NsWFlUVEIzUklEeTF6U28za1FEMnduRWtTRnl1bW4ydVgyOVZndlItN0E?oc=5",
+      "summary": "Yapay zeka çağında insan olmak (1) - Yapay zekâ çağında talim-i esmâ Yeni Asya",
       "source": "Google News (TR)",
-      "published": "2026-07-05T17:09:00+00:00",
-      "category": "sirketler",
-      "score": 57,
-      "lang": "tr"
-    },
-    {
-      "title": "Yapay zeka dalgasının yarattığı oynaklığa rağmen Hint hisse senetleri yatırımcıların ilgisini çekiyor. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOY3VSNkE4ZXFSQUJ4eXFGQjlhOWdOUXJHRW9vT095ejVjQzhVQ1htUzJMTXBYdmZFN0trS2tPUXdBMVVSSHg4S3h3dTdNelZjeldfSXAwYW9WVVItMGZiZkxPaEtUVmhUU0VCd0V2azlIazY0em1ma3dHLTYzX0tuaHZXUlVIcThKc3ozTmVR?oc=5",
-      "summary": "Yapay zeka dalgasının yarattığı oynaklığa rağmen Hint hisse senetleri yatırımcıların ilgisini çekiyor. Vietnam.vn",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T16:28:13+00:00",
-      "category": "sirketler",
-      "score": 56,
-      "lang": "tr"
-    },
-    {
-      "title": "Yapay zeka Kioxia’yı yeniden zirveye taşıdı - Technopat.net!",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUFBXYnJPVGpLU2JsUXlqbEJZTXAtMUk1MWlNbVNoUFQ5Yk1RN2FROXFOSEROV0l3bDVlX2dHV0tSMHQ3WFpfcGhBcm5ROVV0RG90bVk0VTByUDZwdGUzb3JMRVIyLVBSaE9kLUZ1d0drQWJvY0FYOG50SUYweHhVNnJSaFPSAYoBQVVfeXFMUEdhWHJ1NE4wRk54Y2xaOWRlVV9iSVpXaHdIUzV1Qi1NV2RfdTdjNlBlRVpfenp0RTFwMDB4WENRdmFURWt1Z09BdV9Pd0RER3hxdXBoNEJab3AwZmlxbDVDR0xnaGFfZ2FOZHhOeTRPZVhtaWZoSHFCNVhiVldxR3RTczNHTnNxNGlB?oc=5",
-      "summary": "Yapay zeka Kioxia’yı yeniden zirveye taşıdı Technopat.net!",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T16:41:44+00:00",
+      "published": "2026-07-05T21:00:22+00:00",
       "category": "genel",
-      "score": 56,
-      "lang": "tr"
-    },
-    {
-      "title": "Yapay zeka çılgınlığı Foxconn'u uçurdu! Satışlar 79 milyar dolara çıktı - GZT",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYXAtSFFsd1k4WWp3UXdVbkYxWnAtbnp4VzdBVWQzRHA5RmdFQUYyS3hOeUhHclBFek5pT3pyeGdMamxhai1VOTgyWEM4QVZIUDZfYTJEdzB3R3otMTFldXpEQmtfUzRkZzVxT1hJQnR0UDY5WF95VHdlM1ZOalNVejRNSDV2T0JxLVdZamNla0JQaE5saGtfNVNaYWljZE9Nc3JfMXRkTkk?oc=5",
-      "summary": "Yapay zeka çılgınlığı Foxconn'u uçurdu! Satışlar 79 milyar dolara çıktı GZT",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T16:56:50+00:00",
-      "category": "genel",
-      "score": 56,
-      "lang": "tr"
-    },
-    {
-      "title": "Nokia’nın Tuşlu Telefonlarında Yapay Zeka Dönemi - ShiftDelete.Net",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE95eDZudGc2S0t6NHJGeDZSa0ZYMG5RRzYwNmVNRFd6Ylpfbk9keXdfS2xCeDBGaW4yQTdiVVNMY3ZYbENNUmtxWlJWVzhxclRSUnM0aEZtS25JdjFhTEQ2WTVkalpUUVJnTW1idGVEQXRaQ2pPdFJZNHduSdIBgwFBVV95cUxNMW45RUMyalk3dEJMcXVzR29tQnYwVml4cExvTHhZQVRrNks3UXFyb3J6MDBCZkFJVVJLdUlUWko0ZElqM2NJeUVPakM2dDdiOHI0SWY5UFJTTG9UcDhoTEprOVVET2xaSjlHVEFES0Y4RXBEQ051R21MVDZsd3BtQVE4cw?oc=5",
-      "summary": "Nokia’nın Tuşlu Telefonlarında Yapay Zeka Dönemi ShiftDelete.Net",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T17:00:00+00:00",
-      "category": "genel",
-      "score": 56,
-      "lang": "tr"
-    },
-    {
-      "title": "Trump yönetiminin güvenlik kurallarının zayıflatılmasını önermesiyle kimyasal kazalar artıyor",
-      "link": "https://arstechnica.com/science/2026/07/chemical-accidents-rise-as-trump-administration-proposes-weakening-safety-rules/",
-      "summary": "İnsanları yaralayan veya öldüren kazalardan kaynaklanan kimyasallar son yıllarda neredeyse yüzde 50 arttı.",
-      "source": "Ars Technica",
-      "published": "2026-07-05T11:05:22+00:00",
-      "category": "genel",
-      "score": 54,
-      "lang": "tr"
-    },
-    {
-      "title": "Manisa'da yangınlara karşı yapay zeka destekli erken uyarı sistemi - hibya.com",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOd3FzbU1kMkpPNnJENk9keFBxcFdrNFcyWTVjeXY2d1liTUJOZEFvQl9UYk5IbjhXNE5kcjlXU1B3c3dWWWg4STJZWkdiNWk3d3gzall5V0xiZ0s5N1Y3ZXVrSFQyZk5oRDJjY0d3T3pXSDVueFNZZVN5VTB4U1VBVHd4ZktDTVVudThJMFZBaXdwOHRn?oc=5",
-      "summary": "Manisa'da yangınlara karşı yapay zeka destekli erken uyarı sistemi hibya.com",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T14:23:17+00:00",
-      "category": "genel",
-      "score": 54,
-      "lang": "tr"
-    },
-    {
-      "title": "LENOVO HİBRİT YAPAY ZEKA İLE MALİYETLERİ 8 KATA KADAR DÜŞÜRÜYOR - Analiz Gazetesi",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQUc0MWg1SzBZRWk1cXF1UVJuckROc3pVRWdCNnc5NnRzVnJpTm8zUHV5SEw0RTJzUW9HY0RxeE1VSURnVWFfSC1vdlhLS1hHaFY5cDRFQVJXeUYwdXhsQUV3Wl9UaXFYZDlNLUo0WlllNlI4WWNXTUpqTkM0Z0FFY1FHbU5ETUN6RW5NSWkwRG0zbUhYTUw1d2Y5d0RGS1pzQnQ2cWxjTEM?oc=5",
-      "summary": "LENOVO HİBRİT YAPAY ZEKA İLE MALİYETLERİ 8 KATA KADAR DÜŞÜRÜYOR Analiz Gazetesi",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T14:24:52+00:00",
-      "category": "genel",
-      "score": 54,
-      "lang": "tr"
-    },
-    {
-      "title": "Artık Gördüğümüze De Güvenemiyoruz - Analiz Gazetesi",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWjhFeVg4bTJnLTlNc2lLRnY2MXJQZ1g5Uk42cHlYcUdPWXptbVFjM1cydXpDdWtvVGVNYUp1Z1RMVmNJMVE3TjJCRnlwV2pxNEpvQ1U3YWdmc0s1NnN0OEsxSGxqWnItejl6cVVNajM4azF1MUFyN2N2MFA5eUtIQWtB?oc=5",
-      "summary": "Artık Gördüğümüze De Güvenemiyoruz Analiz Gazetesi",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T14:24:52+00:00",
-      "category": "genel",
-      "score": 54,
-      "lang": "tr"
-    },
-    {
-      "title": "Fatma Turgut: Yapay zekaya karşıyım! - Ege'de Sonsöz",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBicHZjaFliVEhjcnktc2ZBZDBYU0hRTUJzVm5EMjl3Mi1xYnF3Z3h5RTFuZUd6amhjWXFtSm9YRjB0UVpLV210RXUyVmFzb1hxMERFdV9EVE8xYmxqeUF6M0NsZVBxcHpNWW5HdUFXeErSAXZBVV95cUxOSDVGaVdNN0xoMmtLSE9uWGZ5YXp1bkY4aG1hQUVoQzNIZl9CNTIyeWxUNTk0UXVjTlE0QVVQbG1LWXlma0ZQSWgzdGhMVEJWUjVFTndMeTdSQWJvbUI3dXVjbDB6SkZyanNENk0zSG01aWdwemtn?oc=5",
-      "summary": "Fatma Turgut: Yapay zekaya karşıyım! Ege'de Sonsöz",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T14:30:00+00:00",
-      "category": "genel",
-      "score": 54,
-      "lang": "tr"
-    },
-    {
-      "title": "Yapay zekâ: Yapay zekânın avantajı, kopyalanması zor teknolojilerde yatmaktadır. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYVpGU0NxdkNWbnlSblZORkUxajdyM1d2cjJ2R293LWJzU0pPcWJsRzd3TnN0Sktad1pGeW54R3ZsOTdXWlpvNm5EMjQya3NvempWWGtvZjVjaGNmUkhMTHJzRVR1bkJpNUxXR2pqUGFmN3JOcTk3SGd0Q3JaamVKRDBmMU53ZUdIQ1ZfWGowVE5UZw?oc=5",
-      "summary": "Yapay zekâ: Yapay zekânın avantajı, kopyalanması zor teknolojilerde yatmaktadır. Vietnam.vn",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T14:39:31+00:00",
-      "category": "genel",
-      "score": 54,
-      "lang": "tr"
-    },
-    {
-      "title": "Ticaret Bakanlığı'ndan kritik yapay zeka düzenlemesi! - Yenigün Gazetesi",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbDIyRUQwMkYzRDUxQkQteDlWNUlYejBKZzVuUk9NV1JnVTNWSmxaNkdGdG90Z2ltTFMzQWJoUlJsMVNfN3VXLXp2T0dyQnpPQ2dtMDNKY19NOVRjcFd4RGtPdnRnZzJvWWVtM21NX1cyZU1Ed0JTRkJ2V2VUX0NkWW84NUpvT2tfbVhBQmlsc2VBdnJybTR5NFBBeFFieHR10gGmAUFVX3lxTE9qbEpjV1FfT0NDQk96TkFkMHBLbmllQkx5MVdxYUZEYklWV3FYWnZ6U19xUFpSd2FVdjdiOS1wUVVVLXd2dGdreGVZbVlIdmNOZ1ZsU1dWb0dmS2U4ZV9GR2U3ajkyaG5SdzdqQmZsNFdBYWotRU4wb3BKNGdBaV8tNUg2Rk02SU13ZVBUOW8zOFFhSUctMU4taWxSNWMtV1pXcFEtNkE?oc=5",
-      "summary": "Ticaret Bakanlığı'ndan kritik yapay zeka düzenlemesi! Yenigün Gazetesi",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T14:57:00+00:00",
-      "category": "politika",
-      "score": 54,
-      "lang": "tr"
-    },
-    {
-      "title": "Yapay Zeka 2050’nin Küresel Güç Haritasını Çizdi: Türkiye Kaçıncı Sırada? - Ekonomim",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcHlhR2JPZEJERlJNLVNJQlRJVjJaendiZUw4dGtERmN1SHNUY3k0YUVfYkVBaGxhR003SjNOVV80OG1VWllsRWVFWUxyeWhSOVU1Q3otU29ORWJWc3ZJelpEbGdzalVyMDJncm80Zjd5alFsTVh4X3BLNzQzZkVxR1R4c201N3FiOTVBX3NyN1RubnBKcUs1SU5Ud2M1ekxuc0pFXzQtTHppQkpUVndxenVlQ09Kanl3bHZwbS1pLUFBU0tlckgw0gHMAUFVX3lxTFBHT0JzVFBYTVN0bmItQWpuV2hrSklCeks4aXZ4S2VqVnVza3RmZ1dqMHc0c29NVlo1Z3dJNzVSeTM5UEtWX3hoSTEzUWdnV3FWRzRTcVpIUWVmSGNLVVBHQkpZOTVHVDl0al8yaGpVSVR4MHFLeVpWR0s2TlE0T3lMNXZmdTdDVGFHVEh3Z2JUQWk5WEg4MDVrXzBndWZZb196ZFZ5UnplUHhXZEhzNkxLS25kLS1vc0s5Z2xFX1pPZjN5U1VFdFpiemxSRw?oc=5",
-      "summary": "Yapay Zeka 2050’nin Küresel Güç Haritasını Çizdi: Türkiye Kaçıncı Sırada? Ekonomim",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T15:09:59+00:00",
-      "category": "turkiye",
-      "score": 54,
-      "lang": "tr"
-    },
-    {
-      "title": "GPT-5.5 Kodeksi akıl yürütme belirteci kümelemesi performansın düşmesine neden olabilir",
-      "link": "https://github.com/openai/codex/issues/30364",
-      "summary": "Hacker News'te 344 puan, 143 yorum aldı.",
-      "source": "Hacker News",
-      "published": "2026-07-04T21:51:09+00:00",
-      "category": "modeller",
-      "score": 53,
-      "lang": "tr"
-    },
-    {
-      "title": "Yapay zeka arama aracıları aramada başarısız olmaz; sorgular belirsizleştiğinde doğru soruları sormada başarısız olurlar",
-      "link": "https://the-decoder.com/ai-search-agents-dont-fail-at-searching-they-fail-at-asking-the-right-questions-when-queries-get-ambiguous/",
-      "summary": "Yapay zeka arama aracıları, aramanın kendisi nedeniyle çok adımlı araştırmalarda nadiren başarısız olur. Onların asıl sorunu, sorgular belirsiz olduğunda kullanıcıdan açıklama istemek değildir. DiscoBench adı verilen yeni bir kıyaslama, takip soruları sormak yerine tekrar tekrar arama yapan modellerin aslında yüzde 51,9 ile sadece tahmin yürüten modellerden daha kötü performans gösterdiğini gösteriyor. En iyi model bile toplamda yalnızca yüzde 43'e ulaşıyor",
-      "source": "The Decoder",
-      "published": "2026-07-05T07:52:17+00:00",
-      "category": "modeller",
-      "score": 53,
-      "lang": "tr"
-    },
-    {
-      "title": "Yapay zekalı özel okullar, geleneksel eğitim yerine kişiselleştirilmiş öğrenme konusunda zengin ABD'li ailelere satış yapıyor",
-      "link": "https://the-decoder.com/ai-private-schools-sell-wealthy-us-families-on-personalized-learning-over-traditional-education/",
-      "summary": "ABD'li varlıklı aileler çocuklarını, yılda 75.000 dolara varan ücret karşılığında iki saatlik yapay zeka eğitimini proje bazlı atölyelerle birleştiren Alpha School gibi yapay zeka okullarına giderek daha fazla gönderiyor. Bu trend, geleneksel okulların doğru beceriler olmadan kullanıldığında yarardan çok zarar getirebilecek teknolojiyi benimsemekte zorlandığı yapay zeka çağında giderek büyüyen bir eğitim açığının altını çiziyor. makale",
-      "source": "The Decoder",
-      "published": "2026-07-05T10:45:46+00:00",
-      "category": "genel",
-      "score": 53,
-      "lang": "tr"
-    },
-    {
-      "title": "Kioxia, yapay zeka hamlesiyle Toyota'yı geride bıraktı - Yeniçağ Gazetesi",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNFZhV0JpWmxKdjF4QldSX1dvQXBBMlI0Wm5QWlBQd1FVclNFbHpwMWR3Sm9HeTZjOFRrUU04YjhrV0pVbFpfU2RqdU5ZdDh6dUxfZ0JtWjQzWjhrVU1qV0hwMHZqVm9CbnIwNXVJZlJWY2lDZWNmN1NNcVZnTmdBdmxDZ1NNVUthZjl1Y3ROZDc3cVM2R0Nia3BrZVI2QQ?oc=5",
-      "summary": "Kioxia, yapay zeka hamlesiyle Toyota'yı geride bıraktı Yeniçağ Gazetesi",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T13:33:56+00:00",
-      "category": "genel",
-      "score": 53,
-      "lang": "tr"
-    },
-    {
-      "title": "Yapay zeka talebi Foxconn’un satışlarını sıçrattı: 79 milyar dolarlık satışa ulaştı - İstanbul Ticaret Gazetesi",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQc0tQdVhMdWQ3Z3RNdWhfTFNRdlhpcHdLMGlNVHpZcmFHcmtDM2FLRDE5VDJRQkFLcUVxamFxR1FtaW5UdDk1cjlfT05Cb0xTbmRHdEphZ1NsSzE4MXI0SEtLbzJhY3J4Skh3aVBXdnEtX0ZIam9QaGRpTllGSDFNcXlsRExxU0lPRmk4M1BEMkZxaFFtcWRRVThVU1d2ZXhEQWxPa1dpcUJOdmZOM2c5cUNjOGlsaHdq?oc=5",
-      "summary": "Yapay zeka talebi Foxconn’un satışlarını sıçrattı: 79 milyar dolarlık satışa ulaştı İstanbul Ticaret Gazetesi",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T14:08:42+00:00",
-      "category": "politika",
-      "score": 53,
-      "lang": "tr"
-    },
-    {
-      "title": "Mistral CEO'su Mensch, tescilli yapay zeka modellerinin laboratuvarlara iş süreçlerinizde ön sıralarda yer verdiğini söylüyor",
-      "link": "https://the-decoder.com/mistral-ceo-mensch-says-proprietary-ai-models-give-labs-a-front-row-seat-to-your-business-processes/",
-      "summary": "Mistral'ın kurucusu Arthur Mensch, şirketleri kapalı yapay zeka modellerine güvenmemeleri konusunda uyarıyor. Yapay zeka laboratuvarlarının giderek daha fazla müşteri verisi sakladığını ve bazı durumlarda bunu rakip olarak kendi müşterilerinin peşine düşmek için kullandığını iddia ediyor. Bu endişe geçerli ancak Mistral performans açısından OpenAI veya Anthropic'in sınır modelleriyle gerçekten rekabet edemiyor ve stratejik avantajı olarak AB egemenliğine büyük ölçüde güveniyor",
-      "source": "The Decoder",
-      "published": "2026-07-05T10:22:06+00:00",
-      "category": "modeller",
-      "score": 52,
-      "lang": "tr"
-    },
-    {
-      "title": "ABD'de temiz enerji fiyatları, yapay zeka yarışı nedeniyle hızla yükseliyor. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQc1ZEOXpNRklHa1E0SFJucnBpUmhJaEhpLWFibTNJSWhZWURJVVpfRy1PT1BCZ1Z4c3RxdWhnSXh1b3NMRG1lVHBmSDhCZVRMYlBPdmVCY3NubVg0eDJjYWhpWTVGTjZTVm5fd1NiSlVCRnFXenlFVXVSYUh3VWMzX0ln?oc=5",
-      "summary": "ABD'de temiz enerji fiyatları, yapay zeka yarışı nedeniyle hızla yükseliyor. Vietnam.vn",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T12:17:59+00:00",
-      "category": "genel",
-      "score": 52,
-      "lang": "tr"
-    },
-    {
-      "title": "İŞKUR’da yapay zeka dönemi: Sanal iş ve meslek danışmanı geliyor - Türkiye İş Dünyası Haberleri",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOWphVFFQX2lWOVlBVW41bmpsMGxmNmdEUmNKQlJRX2o3Vkp6OFVDMEQyalpsZzdKX29iVGxVM3RsenNkV2hNOFJKRGVnUmdjM1VRU1FleHFwWE5vdFBCSVRFTEhBWlpORjd4ZkNSZUplUGpGQUlYQmJuRWxTNUpENko4RDdVV0VxS2U4SWJWZG1aRFRCNFlGOHY3SU1qSTRrNjlr?oc=5",
-      "summary": "İŞKUR’da yapay zeka dönemi: Sanal iş ve meslek danışmanı geliyor Türkiye İş Dünyası Haberleri",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T12:30:26+00:00",
-      "category": "turkiye",
-      "score": 52,
-      "lang": "tr"
-    },
-    {
-      "title": "» Yapay zeka şirketleri de göz dikti: Her eve bir batarya - 10haber.net",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZFk0RWYyNXJpUk1JUW1CcjdsRmlDbHBiQW01THV6Qy1KWGNmRzlRYVR6cnloNmJFU1NIQmEwZENuTG5BT1BSOUxBZmQ1bUhVekt0RlROamVYUmt5NFJFaG9DYVJ3V1ZoNHR4YTZiZDNDbzl0ekV3c2o1RUJKUGgyUVc5QVhVaVNpVG5SOUNNY3NscXFX?oc=5",
-      "summary": "» Yapay zeka şirketleri de göz dikti: Her eve bir batarya 10haber.net",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T13:10:06+00:00",
-      "category": "genel",
-      "score": 52,
-      "lang": "tr"
-    },
-    {
-      "title": "Eğitim ve Öğretim Bakanlığı, üniversitelerde yapay zeka kullanımında ilk kez altı ihlal tespit etti. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUXRlYTRZczlpLVp1LVM0a2o3dDlmcF9YZzZTM2F4Z1ZkdURUdlZyYWEyZ2hIOWNtdGVkUmg5ZVppSXlENXhLWk0xYVFtZXp2ZTl1N2U4V3JTQjNvOEZNSG5ScC1kMzZLR0dRWjlCWldEVC1ZUWlfR3lNOWVRRndHT2g0dDJxWWduZi02UFZCMlRaVU1RWnQzMFpZLWw4c3c?oc=5",
-      "summary": "Eğitim ve Öğretim Bakanlığı, üniversitelerde yapay zeka kullanımında ilk kez altı ihlal tespit etti. Vietnam.vn",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T13:14:16+00:00",
-      "category": "genel",
-      "score": 52,
-      "lang": "tr"
-    },
-    {
-      "title": "Açık kaynaklı araç pxpipe, Claude Code ve Fable 5 jeton maliyetlerini %70'e kadar azaltmak için PNG'lerdeki metni gizler",
-      "link": "https://the-decoder.com/open-source-tool-pxpipe-hides-text-in-pngs-to-cut-claude-code-and-fable-5-token-costs-up-to-70/",
-      "summary": "Açık kaynak aracı pxpipe, Claude Kodu için uzun metin istemlerini kompakt PNG'lere dönüştürerek Anthropic'in görselleri metin içeriğine göre değil piksel boyutuna göre ücretlendirmesi gerçeğinden yararlanır. Geliştirici Steven Chong, doğruluk ve hız karşılığında yüzde 59 ila 70 arasında maliyet tasarrufu sağladığını bildirdi. Açık kaynak aracı pxpipe makalesi, Claude Code ve Fable 5 token maliyetlerini %70'e kadar azaltmak için PNG'lerdeki metni gizler makalesi ilk olarak ortaya çıktı",
-      "source": "The Decoder",
-      "published": "2026-07-04T18:11:33+00:00",
-      "category": "modeller",
-      "score": 51,
-      "lang": "tr"
-    },
-    {
-      "title": "Telefonda bu 3 soruyu duyarsanız sakın 'evet' demeyin! Yapay zekalı dolandırıcıların yeni sinsi tuzağı - Posta",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOYU0zdVhqZHEtQTlfRDNxd1JMTmlJbHdNWFRNd2ExTFZJc3Q4cU15V1lsRnZFMDVYOEhqYlFQd0haeTNZUlp0RjVHSEVCWmpubEVIS0ZCZWh5NmVxNnFCREhIbWNrTlNfLUpyRFNuRFE0eFlaOWpfZm5zV1FvTi1xT3pCOEROWHRBTDNmNUdTWTVsaFJ2OVRtYjBFZUdfT3VKdFFDMWMzZzh2MTVBelBPRlVySjJwcEd2dVBtNW5BVlZKN2x5Nm1xSUotc21reHJXcTV4eDZrT2tGczBLbnc?oc=5",
-      "summary": "Telefonda bu 3 soruyu duyarsanız sakın 'evet' demeyin! Yapay zekalı dolandırıcıların yeni sinsi tuzağı Posta",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T11:14:00+00:00",
-      "category": "genel",
-      "score": 51,
-      "lang": "tr"
-    },
-    {
-      "title": "Yapay zeka dalgasının yarattığı oynaklık ortamında Hint hisse senetleri \"güvenli liman\" haline geldi. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQX012eVFyTVNIMFZlcDhYNWZYYVJXTnJkOTIzbmxSbm4xR3M2NUxpUDBDVGhZRnR2UUZJYU5GbnZmRkp1OHF3clBkTU1PUUdlNVVGN1Q2Y3hyUWk4c1J2UTFZSHZ4ZGNqUjF5Sk9NMzhsWDdqdjhEdktiREFVOUJTUVNvSWV0eXRxM3Flc2FnS2U0QXppb3JUbV9MVFRDQk5HYWc?oc=5",
-      "summary": "Yapay zeka dalgasının yarattığı oynaklık ortamında Hint hisse senetleri \"güvenli liman\" haline geldi. Vietnam.vn",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T11:43:56+00:00",
-      "category": "genel",
-      "score": 51,
-      "lang": "tr"
-    },
-    {
-      "title": "İŞKUR’da dijital dönüşüm: Yapay zeka asistanı önümüzdeki yıl hizmete açılıyor - A Haber",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQM3ZFMGxzOExWTDc2ZE9VamNfeXE3d0VQRFlFVXdCOXVYd2pxOWJOUXlmUGF4NmFaWERVT29LUEt6QTNjZXhMbkstclpUSWtNNWJ3c2U2VXgzakNPb25sZ3d5VmJobmtDc2pESmFDS2wtbTBOTGMyVndES0cydndmQVVWYU15YXI5LWtidEFXanIyMUpwZUlERXRUMTdhWjdyUFNMNEh4OVhCX01ZWXRsY2NXX3RQYXJ1WW9nYUtrZw?oc=5",
-      "summary": "İŞKUR’da dijital dönüşüm: Yapay zeka asistanı önümüzdeki yıl hizmete açılıyor A Haber",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T11:46:45+00:00",
-      "category": "genel",
-      "score": 51,
-      "lang": "tr"
-    },
-    {
-      "title": "Yapay zekânın bilinmeyen yüzü! Her sorunun görünmeyen bir bedeli var - Haber 7",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVmxpZGtnc3JJYWtJbVZiYzBUOHNnS3VTTUNVZEFQNzlIdGVlMmFDRzRrV2htVEJGeU5qcl9EZnVZQUFmemx2bXNHZldXelAyTzFwQzZ4TEUzR1NQbnhqS19ySHQ2OEN6YkN1Q0N1QXVRbTlpNUJrVDB0Z0hOd0lIcXdUR2JXUGp5Q3cwR3drcjlJM2M3Ti16TGQ1MVQ0MVhQNnE0c1RKMEhhaWY3Z3RydTVuZ21zT3PSAboBQVVfeXFMT01hc0FjXzFUdXlEUkstZFV3WUNyNXUteC1JSjhNMDJPT2ZSQjY0TWkwUmFtcFdENXFSZWdjRUd4SHpnWlVkbF9HS3FzVHRfOHVKbHNmTFZOS25PVVBHMzdtLVhhQjF6THdXMVpGalFBZnBSalE3RVBmTFQwaDlEcHdjNF9OX2VlVms0OFVzazFaaUxOeDZvbnBkWkRpU0NCVHAxVEx4aVZ1aDE1d0xFQ1NwZERRMlB1Qnln?oc=5",
-      "summary": "Yapay zekânın bilinmeyen yüzü! Her sorunun görünmeyen bir bedeli var Haber 7",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T11:50:00+00:00",
-      "category": "politika",
-      "score": 51,
-      "lang": "tr"
-    },
-    {
-      "title": "Google, 1776'yı Google Workspace ve yapay zeka ile yeniden yazdı - Yeniçağ Gazetesi",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORHlINEM5NW84bWhLQ3RPTTY5WENyUm42bjZDdHV0bnktNUZoMW5JNmJrT2NiY3VYd0YtcWtzcG1BNHo4T3ZhLUJQa2FIRTI3U1ZRZzdsVXFJcWxsNUZmdXJlWHdDVnVrR1d3cV9SdDl1N0djalltVjhzUnN6ZXlFa3R6SjZJQkJKU1htSlU3RWd5NTRLTGt6djBfLTIwUU9LMTNoX1hDamo1dzg?oc=5",
-      "summary": "Google, 1776'yı Google Workspace ve yapay zeka ile yeniden yazdı Yeniçağ Gazetesi",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T12:04:39+00:00",
-      "category": "sirketler",
-      "score": 51,
-      "lang": "tr"
-    },
-    {
-      "title": "TEMİZ ENERJİNİN DİJİTAL DÖNÜŞÜMÜNE YAPAY ZEKâ DESTEĞİ - Analiz Gazetesi",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUG1sYVA1R3RabkVIS19tZ21iWldacVBYVlZYYzJhZUVHblZlNnAwNm5fU3VsQnM1TG13SmxFSlpLeENsVGhRQVZQOWZXb3Q0YkRuYnk5ZDBGSVFWbUxPUmZhOENCYnB1NHdJVHRXbjdjeC1ueTNBNFdPOWFLanJJQ2p0cTZDRHRIUWNob29fX01pVWx1aEdtZDMxWQ?oc=5",
-      "summary": "TEMİZ ENERJİNİN DİJİTAL DÖNÜŞÜMÜNE YAPAY ZEKâ DESTEĞİ Analiz Gazetesi",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T12:14:00+00:00",
-      "category": "genel",
-      "score": 51,
-      "lang": "tr"
-    },
-    {
-      "title": "Mistral AI nedir? OpenAI rakibi hakkında bilmeniz gereken her şey",
-      "link": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
-      "summary": "Bazı açık kaynaklı yapay zeka modelleri sunan Mistral yapay zeka, 2023'teki kuruluşundan bu yana \"sınır yapay zekasını herkesin eline geçirme\" hedefiyle önemli miktarda fon topladı.",
-      "source": "TechCrunch AI",
-      "published": "2026-07-04T15:51:32+00:00",
-      "category": "sirketler",
-      "score": 50,
-      "lang": "tr"
-    },
-    {
-      "title": "Yeni Google reklamı, yapay zekanın yardımıyla yazılmış bir Bağımsızlık Bildirgesi'ni hayal ediyor",
-      "link": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
-      "summary": "Bağımsızlık Bildirgesi'nin imzalanmasından iki yüz elli yıl sonra yeni bir reklam şu soruyu soruyor: Ya Kurucu Babaların Google Workspace'e erişimi olsaydı?",
-      "source": "TechCrunch AI",
-      "published": "2026-07-04T20:55:25+00:00",
-      "category": "sirketler",
-      "score": 50,
-      "lang": "tr"
-    },
-    {
-      "title": "Mühendis adaylarından yapay zeka destekli hava savunma sistemi - Haberler",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMF8tbjcyUGVZQ1RZUG9CSUx1TFRJTkxqWHJuY1ZEN0FUOWZoeE00UzNyaVJ2RjUyd3ZXWEdlYk9jNjFSSXBoY1FHN1RXVldyTEgyRkpnbFJwSDFLc3Bud2JaWXQ3OWxwNHBXblV5VkxGTDh3UUMzM0l2TmdaU1dxQl9oaDNaRXI4U2pDeUphaG52LW5CdTJ6TnNudWt6M1piM0thaDBaNUhKRWJVeXFTTjBnSUJpTlpuOTRxRk0wSHN6Q0F1OEc3N3ppU3Bid0XSAccBQVVfeXFMUF9aQ0Z1cXNndVJ6d1hud0RCR29SQklEYUV1d2g1ZmRPcl82ZWoycDV3OUt3akM0amVrVEFiX3paUHc4R1RSc2NYTjZBT3NvVmNNSnBBZmJTOEp0djBjTVc1Nmh0TXU1VlVmTnI2c2NEZ1pkZFBMQV9JVHEySUEtTUlOamxIcjctN1hESFBkcGZySHlKaldDeFFubzBPajg4OVNyLXBqeUpDaXR5QmY0Z1pFVE5FdS1zOC1fSUpPbk9PaEY0dHU0NA?oc=5",
-      "summary": "Mühendis adaylarından yapay zeka destekli hava savunma sistemi Haberler",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T10:22:58+00:00",
-      "category": "genel",
-      "score": 50,
-      "lang": "tr"
-    },
-    {
-      "title": "ABD hükümeti ile hisse görüşmesi yapıldı mı? OpenAI sonrası yeni gelişme - CNBC-e",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ004Z0pyMWozMGhZY3ZOZnNLZzZmX2xjSzlIVzRQSTBEaXMyUDZVYWxXUWxUM3VHVERxb3FGblhqd2x2eWg4Q0JfX3dXc0huRjczY2VjSzZsYkZNemtCREVVYVBmbDBPUkVFa1pUdXZYaDRDMXV2WHgtbjBnUmVvVjBJcFZHUVZkUDlIRzFZYzVqUzF4NmhYSTFaQjZJc19mRWtGbnNqSTliNXFKR1E?oc=5",
-      "summary": "ABD hükümeti ile hisse görüşmesi yapıldı mı? OpenAI sonrası yeni gelişme CNBC-e",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T11:12:20+00:00",
-      "category": "sirketler",
-      "score": 50,
-      "lang": "tr"
-    },
-    {
-      "title": "Yapay zekâ çağında genç nesli eğitmek: Geride kalmamak için uyum sağlamak. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPd202THBBaDJDbm91YVNoX1Q3d2ZJQ0VBcUpZRlVUMTVQMk12TjdaR1lGNUU4UDJJMXE3dndjT0M1NDQtVVVEbVdYYVd2TXJLNDlmWW9FSXl0UmpzX1ZWaml3Q0JweFl0Y0JvSnFiZVpYS1ZnZ213NmZfeEl4Y3MzNG1KN0VIQk1sY3FIMm1mMnJmY1o2bzBqVTh1emNiQ1lwckE?oc=5",
-      "summary": "Yapay zekâ çağında genç nesli eğitmek: Geride kalmamak için uyum sağlamak. Vietnam.vn",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T09:31:28+00:00",
-      "category": "genel",
-      "score": 49,
-      "lang": "tr"
-    },
-    {
-      "title": "Yapay zekâ, inşaat sektörünün milyarlarca dolar tasarruf etmesine nasıl yardımcı oluyor? - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNckhMSTVQRUg3SmthMThOczc4ZWJnaHBTMUdSOVREZGFTWnRWajZ3aElUdW0yXzgzM2VUcVZEZGRla1NabXNmMEI5MU1hTHFxb1BYLWc2VVRkMTc0VFBSNFMyZ0dkWVB4b0VOMWxUTVRvUHRzMnpiYmhDSU1LTEttNGRvcDBEMnlWUV9PVktLRE8?oc=5",
-      "summary": "Yapay zekâ, inşaat sektörünün milyarlarca dolar tasarruf etmesine nasıl yardımcı oluyor? Vietnam.vn",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T09:42:52+00:00",
-      "category": "genel",
-      "score": 49,
-      "lang": "tr"
-    },
-    {
-      "title": "[GALERİ] İşletmeler yapay zekaya büyük paralar harcıyor; uzmanlar kayıplardan nasıl kaçınılacağını açıklıyor. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMFducldpdFNkbjR4SS0xbW02b2JMVHNPdkltY19QWmFMTFpUX1hiQzZFcVJTRUdLNk5LbGNaOTJndGY3R05zc0wwZUZiT0laTHpmREhOd2lfQ241RnhsVmdVV1daX0VBMlRHZGx1TW5USmkzM1BJXzhrRUVLMDJtcFB0Y2tocV9qaTFINFdVUW5SR0FmRDFHZg?oc=5",
-      "summary": "[GALERİ] İşletmeler yapay zekaya büyük paralar harcıyor; uzmanlar kayıplardan nasıl kaçınılacağını açıklıyor. Vietnam.vn",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T09:51:21+00:00",
-      "category": "genel",
-      "score": 49,
-      "lang": "tr"
-    },
-    {
-      "title": "Nvidia tedarikçisi Foxconn'un satışları yapay zeka talebiyle sıçradı - Bloomberght",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNN1dHcmlpcDd4cW9iTzhqMkhITF9HalF4cmpmaVEyREQ5TzVhNEhMZVF3Yms3Sm5pQW9yWVhFeHJ0cHVXUFNGUDJaQ25QbkYyWnR4cnNFU0IyYmJHRTN1RXVyYjBnYWZtYm1WM3NYaHM0UkRpcGRETEQ1dl9ZQVBJNVVhN2l1OEh6M21qZnVpR3N0RkNsVWRmZHNLNTRZRU5JanVVQ1VFUQ?oc=5",
-      "summary": "Nvidia tedarikçisi Foxconn'un satışları yapay zeka talebiyle sıçradı Bloomberght",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T09:57:52+00:00",
-      "category": "sirketler",
-      "score": 49,
-      "lang": "tr"
-    },
-    {
-      "title": "Çocuklar yapay zekayı yetişkinlerden üç kat daha hızlı benimsiyor - Gazete Oksijen",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbjdJVGlsUG1mTDViR1BrUHVnY1dGVElFZ24zT1lMNUpSdmU4Z3RaZUlucXNSOGZOZHFNcXJpWXlUZE9kLVJhQzE4NXBxVWFnNjlTR2UyY3Vjb0pkejJ0dEpXa2w0cndIMXQyV21ycjVjOUN3bWE4d0NSY3R6Vzk5cngxRnAzZjEtdXFVZzctbzBDWDg5bm5wWEFRdFFRRk1rbFZ2aGRlYkxQSzd5bGR0eUNFTU0zakct?oc=5",
-      "summary": "Çocuklar yapay zekayı yetişkinlerden üç kat daha hızlı benimsiyor Gazete Oksijen",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T10:03:00+00:00",
-      "category": "genel",
-      "score": 49,
-      "lang": "tr"
-    },
-    {
-      "title": "Yapay zekâ ve sanatın son kutsalları - GZT",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMDBMMGo0MTBSUGxrakpiNnpTYUhMeThVdTZwUS1yTm9YcDhBYlJJYWVjYW96bXJUeXVfSkZuMVdSMzdsbmVib1J0NzFTdWZ4cnJUSko3Tnk0WEJsVWJYYkdza2pSNnQ0NFVjbVJVNkZZRlN3MF91c2sybTZTUzhIdjNWMXJpallNLVBldDBqWTVMWTA?oc=5",
-      "summary": "Yapay zekâ ve sanatın son kutsalları GZT",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T08:00:44+00:00",
-      "category": "genel",
-      "score": 48,
-      "lang": "tr"
-    },
-    {
-      "title": "Hollywood stüdyolarına rest: \"Siz de yapay zekâyı nasıl kullandığınızı açıklayın\" - Milliyet",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVFBOT1J4TGgzSmdKMzM0RnZKRlpTUTJkUENXbmpjTDVIWWFzUVVZQmlQX25BZmctcVdmbHZEWkVqSDVFdTA5WTQ0eVFkTEQxS3NWbjhFS2wyV1ZXOHAxNWkxQ2l6U0xvU2lYdjg5ZGUwTzhiQzB1Vk1USnUtMWd3VUNZR3BMc3FVY0o3U1BfaEdfTGFXeDJfN19SNHd0eXdrWnpDQmJOR0JpdDdUZ1J3RHdiUGZyY0QzMjd1VEpWbE00Zw?oc=5",
-      "summary": "Hollywood stüdyolarına rest: \"Siz de yapay zekâyı nasıl kullandığınızı açıklayın\" Milliyet",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T08:16:46+00:00",
-      "category": "genel",
-      "score": 48,
-      "lang": "tr"
-    },
-    {
-      "title": "Sony doğruladı: Playstation'da yapay zeka dönemi - DonanımHaber",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVEtmZFBIdmlPU3Rmd0Nic3J2aHlCbUZmYmRROVJLbmhkdXV6bXBZVVM4dXEwYzBDaEdYMU1jSEdhV3R4N2dkMHVVUGJNYlhzU3M1aEpmbS04d0MzS3M4VG5oSkFWOGhfSk1fV3pwU2RxU1B4ZFEyWUFmemdWb2xQdGV3VklpUTN2R01uZdIBkgFBVV95cUxQcnkxNWNVS3RqNGNtaFZUS3VJaHM0alRDbDdIcWlXUUxpenRDbl9WdEU1b0o4T1J5NFJLdms2Y242cWtjZ3R0YXNpNWM3dUM3X3V5eHJnQWxPZVdLeHlMNXBEZVU5UkxjNVNVcDBHOHZ0Z1RVYnFrWkx3QzktOE1zZEp3T2dQRkNWSHNtaFRZVENndw?oc=5",
-      "summary": "Sony doğruladı: Playstation'da yapay zeka dönemi DonanımHaber",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T08:30:00+00:00",
-      "category": "genel",
-      "score": 48,
-      "lang": "tr"
-    },
-    {
-      "title": "Yapay zeka tasarlamış gibi: Kurak toprakların arasındaki vadiye köy kurdular - TREND - Mynet",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaGItSWt0QXBGUXR3Q2oxLUs2TURKUzlCQkozcVU5cWtYdUV6bVVtczNvaXR1V0JXaDRpb3FLNjVvMzBJUDU1b04zMnduMkhzalB0RVNKOGY4Mk1ScU1aYjJoYkpXQk5ld29VanRvci0wQ0FaSzhPMGxZSTYwRUxsYmZfbF9RbUlvMmlFN1YwcFBfOUFkeXowTnBROEk2U3MxWl9HMmUzdUwzclFFVDQw0gG0AUFVX3lxTE5ZZC1neFpnc1RfRFZieUhtVjQ3SDdIcVY1ckYwYmJjU0VNMEMycklucmJ2Uktad19uY1hPenhObHRwNFBXMzU2SU5OWGZ4OGNfYzdXVERsWFZYOHp5dTRfRUtoRzl0S0hRNWNIMjg3MTdUc2NCSWZuU2x6Vms5NnNqaDNTRWdabTh0b3pSR2tuNTQwQ1U3emsxSncwNl9PSGJ5eV92MFlqZkY2SE1XMC1KTmhLZg?oc=5",
-      "summary": "Yapay zeka tasarlamış gibi: Kurak toprakların arasındaki vadiye köy kurdular - TREND Mynet",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T08:54:49+00:00",
-      "category": "genel",
-      "score": 48,
-      "lang": "tr"
-    },
-    {
-      "title": "Trilyon dolarlık yatırım dalgasının \"yapay zeka balonu\" riski oluşturduğuna dair uyarı. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUGllZWd3QXo5eHAzd1l3U05EZ0ZuOF9GeEpib05KdEdFN2IxWlpuRzJhWlpkbHlXNzZrNGlKT2piSTU2eEUyVGE0OVJDbEpSUlpuS3JFNW9MRFU4MkRIVDVEWTBvX19wSGJJVWtwbnRRUHhZSnJ2N0dwNFdqU3pwcXNsYWtWeXZCR0RLN0NXRmM?oc=5",
-      "summary": "Trilyon dolarlık yatırım dalgasının \"yapay zeka balonu\" riski oluşturduğuna dair uyarı. Vietnam.vn",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T09:02:27+00:00",
-      "category": "sirketler",
-      "score": 48,
+      "score": 46,
       "lang": "tr"
     },
     {
@@ -511,27 +721,37 @@
       "source": "The Verge AI",
       "published": "2026-07-03T13:56:52+00:00",
       "category": "modeller",
-      "score": 47,
+      "score": 44,
       "lang": "tr"
     },
     {
-      "title": "Çin'in yapay zekâ uygulamaları pazarı yıllık %20'den fazla büyüyor. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOU2E0c2sxWjhIZDdvSXhRX1plcmRfWFJRZlJPZW1uNUU1UWZoRFJ1aVRLRXc2M1dPWDdtWWx2WWJTdEVtc2xIRmNZdEJpRndfNEM1WHZnVENLLXBtWVZ4S180TnV1THg0QWYtYVNzYWlGY1pVYzZ0S2VwYVhUN1N0clhhZ25oUHBOUVg5M1BITWU1dTBTWnc?oc=5",
-      "summary": "Çin'in yapay zekâ uygulamaları pazarı yıllık %20'den fazla büyüyor. Vietnam.vn",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T06:53:59+00:00",
-      "category": "genel",
-      "score": 47,
+      "title": "Mistral AI nedir? OpenAI rakibi hakkında bilmeniz gereken her şey",
+      "link": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
+      "summary": "Bazı açık kaynaklı yapay zeka modelleri sunan Mistral yapay zeka, 2023'teki kuruluşundan bu yana \"sınır yapay zekasını herkesin kullanımına sunma\" hedefiyle önemli miktarda fon topladı.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-04T15:51:32+00:00",
+      "category": "sirketler",
+      "score": 44,
       "lang": "tr"
     },
     {
-      "title": "SpaceX, yapay zeka destekli akıllı telefon mu geliştiyor? - Milliyet",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQlpBOUgycHF2TDBZVXYzV0xxcDhvaWdNdGlQaWNla3dOQ0ZUZ1JkMnZlT3dRdWduOFlXeDBhVi1LdkpuSm1wWjhSRUNyS29BX25mc29Na19wZmRxTllCTFk4X2VmZ0RsOGpPZjJJcmtrYndZNjI4ejlnd05nU2ZHT0FZc2l4ZTZ1N2pkcVlxVDYwenVoSVQ5cUYxVG9xZzdxNzRj?oc=5",
-      "summary": "SpaceX, yapay zeka destekli akıllı telefon mu geliştiyor? Milliyet",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T07:19:05+00:00",
-      "category": "genel",
-      "score": 47,
+      "title": "Açık kaynaklı araç pxpipe, Claude Code ve Fable 5 jeton maliyetlerini %70'e kadar azaltmak için PNG'lerdeki metni gizler",
+      "link": "https://the-decoder.com/open-source-tool-pxpipe-hides-text-in-pngs-to-cut-claude-code-and-fable-5-token-costs-up-to-70/",
+      "summary": "Açık kaynak aracı pxpipe, Claude Kodu için uzun metin istemlerini kompakt PNG'lere dönüştürerek Anthropic'in görselleri metin içeriğine göre değil piksel boyutuna göre ücretlendirmesi gerçeğinden yararlanır. Geliştirici Steven Chong, doğruluk ve hız karşılığında yüzde 59 ila 70 arasında maliyet tasarrufu sağladığını bildirdi. Açık kaynak aracı pxpipe makalesi, Claude Code ve Fable 5 token maliyetlerini %70'e kadar azaltmak için PNG'lerdeki metni gizler makalesi ilk olarak ortaya çıktı",
+      "source": "The Decoder",
+      "published": "2026-07-04T18:11:33+00:00",
+      "category": "modeller",
+      "score": 44,
+      "lang": "tr"
+    },
+    {
+      "title": "Baidu'nun \"Sınırsız OCR\" özelliği, hafızayı insanın unutması gibi ele alarak düzinelerce belge sayfasını tek geçişte işler",
+      "link": "https://the-decoder.com/baidus-unlimited-ocr-processes-dozens-of-document-pages-in-one-pass-by-treating-memory-like-human-forgetting/",
+      "summary": "Baidu'nun Sınırsız OCR'si, tek geçişte düzinelerce belge sayfasını okurken, önceki sistemler yaklaşık on sayfa civarındaydı. Değiştirilmiş bir dikkat mekanizması, model kaç sayfa işlerse işlesin hafıza kullanımını düz tutar. Şu anda en önemli OCR kriterinde en üst sırada yer alıyor. Baidu'nun \"Sınırsız OCR\" makalesi, hafızayı insan gibi ele alarak düzinelerce belge sayfasını tek geçişte işler",
+      "source": "The Decoder",
+      "published": "2026-07-05T15:25:07+00:00",
+      "category": "modeller",
+      "score": 44,
       "lang": "tr"
     },
     {
@@ -539,269 +759,49 @@
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeE1waHRwM0NQQlpwRVpROXRDUzhwVkM1ZXV1ODllMnMteEp3TERpWTZ1Y0NxYmlCV3k3ZDc4N1NieUpBcUtNOXp2WUFfZmZfbzNJdHNUdmxuYk1jMVNvUHhZc0lNekxCdTduckxEcDM0ZG1qeUhGTlozdXd5M2Z6THB1ZlNwamJLOTlQWFV6U29JM1hLcTh0MFN6Mi1fSzc3M3o5OFFfN2p2dw?oc=5",
       "summary": "İŞKUR’da yapay zeka dönemi: Sanal danışman gelecek yıl devrede Takvim",
       "source": "Google News (TR)",
-      "published": "2026-07-05T07:26:19+00:00",
+      "published": "2026-07-05T19:07:08+00:00",
       "category": "genel",
-      "score": 47,
+      "score": 44,
       "lang": "tr"
     },
     {
-      "title": "Samsun'da Yapay Zeka Kullanımı ve Su Yönetimi Üzerine Yapılan Uyarılar - Mersin Haber",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOT0hfOHQyRTJDYVU3T2FsUnVRc1Y3VWMyRUFpbi1zaFBFaE1waVhoZFVwYXU3empob2FTc0lfR3JIcW0yRHV4UkJFRXBiT2dMeEozNXJTd1lhRnFtdk1kdlFoaDdYOGdNazcwMVpESFdkTFNNNkNLQS1tZy1aVkhaZndyOE9OT1F0YjNVd3Z1RThtRU1oVzlFdWF5UTNBT2d0cnpLZ2JrSnZPMVgteEZv0gFXQVVfeXFMTVZKMUp6OEV5Qm9PSjhrOTFXclBIb3VRTHo4Q1NvTm41MlRqb1hSckRXX2J1RWxGcVlaYnlSQmRlM051UWZiNTZQUERuZFBvMXBBcWt1ZC13?oc=5",
-      "summary": "Samsun'da Yapay Zeka Kullanımı ve Su Yönetimi Üzerine Yapılan Uyarılar Mersin Haber",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T07:45:00+00:00",
-      "category": "genel",
-      "score": 47,
-      "lang": "tr"
-    },
-    {
-      "title": "KTSYD’de “Yapay Zeka ve Spor Haberciliği” semineri verilecek - Kıbrıs Postası",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWF8wc0NiVEljc3NQZktGak40SFZtOVJybnNJSXhMTV90SHF2YWN2cGVjbWZJeHBhbDJyQ242SWVLN29TNU83WU9wdksyaWszM3U0ek43Q0Z3d2pxQzd6b05Kakl4UW4tSFhUTnJaRjltY0Z3OU9IQlpGd3l0SGZzMkh0UXVfV0hzcDl3YUpfTnVCOTgyOTBWcnpwOWIyY2liNXlrUmFiZnMtQQ?oc=5",
-      "summary": "KTSYD’de “Yapay Zeka ve Spor Haberciliği” semineri verilecek Kıbrıs Postası",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T07:51:00+00:00",
-      "category": "genel",
-      "score": 47,
-      "lang": "tr"
-    },
-    {
-      "title": "Yapay zekâ insanları tamamen yerini alırsa, üniversite diplomasının değeri nerede kalır? - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBZQlNXVGhWUGhxZmY2RlR5Vk51U215SHFpQjZZRjBKWldtbWRNSHVQdUU1T2xGb0s4Yngyakdja3hwNXdRTEM3cGlOdS1MOUJUUTF3VkRkZkFibGxCdktVcEMzaTZiV25pa2pmbFc2WE1PYU1USjNnRzk2dXZzZTg?oc=5",
-      "summary": "Yapay zekâ insanları tamamen yerini alırsa, üniversite diplomasının değeri nerede kalır? Vietnam.vn",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T07:52:04+00:00",
-      "category": "genel",
-      "score": 47,
-      "lang": "tr"
-    },
-    {
-      "title": "Samsun'da Yapay Zeka Kullanımının Su Kaynaklarına Etkileri Üzerine Uyarılar Yapıldı - Mersin Haber",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMFJBZWFnd0hOUkVHRHE4eTNJcTVwckpQLUV4TEswWkRGbW5QajloS0E3clNZQzB2RmRUZzhaSXdLQWxGMnR3Mm0tNGpHLXVseTZFd2tlV0x4WGxPTl95ZldtYy1NTmRyemtBcnF1M3Qzd256WXdWdWNfRktnWEQ4OTNRd05PTGxuWVhOWUJqc2V3NWt2T1RGcThUMHV5OTFCUWpKTUJzaHFXLVlCMy1TRFZ1WW41dm11cGpyUDVnX3PSAVdBVV95cUxQOEhWZk5vbHlCQzZWUGo2ZEstN2lZdmkzSG4xWjVWMmg2VkZyRjJza1JuaGxJbkNmMUt6bUpUTEJ0LU93RkVxUElTLWk0REVUb2d1SG10UGM?oc=5",
-      "summary": "Samsun'da Yapay Zeka Kullanımının Su Kaynaklarına Etkileri Üzerine Uyarılar Yapıldı Mersin Haber",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T07:53:00+00:00",
-      "category": "genel",
-      "score": 47,
-      "lang": "tr"
-    },
-    {
-      "title": "Yapay zekanın görünmeyen su yükü: 'Dijital geleceği inşa ederken su kaynaklarımızı tüketmeyelim' - Samsun Canlı Haber",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORi1HUTA1NUl2MkllUy1yazJBYnZiRnVieDlTeWZTZWpOMUk1M2JzUGpuenNVZ3A5cFhha1Vrbmpwam5SZVJYWXZmYXdBM0JYb3ViWVh1X3Z0dHBRekJIb1d0TjdVbGI2MjBtQWJGSF9XOW1BLUdGYmlwZENUeUdiVExZbUtRakxXX1dXcjZfS19UUzRSWVQ4YUk2TS1BRFl0a3VsMUZvX2tEdHo4a2dNOW4xWlhiYW11RzA0VUdiNVkxSXRD0gHKAUFVX3lxTFA5Uk9BZ090Wm93VzFyZTVuem9SZl83ZDZMLW1ma3VDTlJsUXJJOVBpalRwNG5oTmRZVFlxVXNOa0ZmYktWSnY1RTVWMHl5ZHp1Ul9wNUhLTWZNREdUUUJvaXB1dU53Mm1rb1E4Y1AwRTNwX3ZqRHhIS0pRb0hiYXRvaUhCa21EMHJaQnQwZVQzMzRsLWEwSDV4R25QblNoQmdCa1F1NGthQndqUFIzdm04WmVQZm9RRl9hVGVZakg1WWNfNUdKT1Jtd2c?oc=5",
-      "summary": "Yapay zekanın görünmeyen su yükü: 'Dijital geleceği inşa ederken su kaynaklarımızı tüketmeyelim' Samsun Canlı Haber",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T07:53:37+00:00",
-      "category": "politika",
-      "score": 47,
-      "lang": "tr"
-    },
-    {
-      "title": "Yapay zekayla polis oldular… Tüm Avrupa ülkelerini dolandırdılar! - CNN Türk",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTTVqc05VUENaZ1M4dEhEVkNhVy02VVVSUFR3OURWS0Z4U05JM3Q5NC1CWDB5aXdnTHh4Q3d3T3lnVEtzalVGTHRtanBMaElHX3JIeVhDbS1Rem8xdERJc3pBWkRFQmRCbUkxcW1LcjF2RUJNVDVZVTVGeVFvQk5BSFNVamhXSmdzQ3NsTjk2WnE2cU9xdnRwVG1FTFdVN1lIeEo5Sm91dFZlandwakE?oc=5",
-      "summary": "Yapay zekayla polis oldular… Tüm Avrupa ülkelerini dolandırdılar! CNN Türk",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T07:53:53+00:00",
-      "category": "genel",
-      "score": 47,
-      "lang": "tr"
-    },
-    {
-      "title": "Yapay zekanın görünmeyen su tüketimine kritik uyarı - SonDakika",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbWVIQ0VFazduV2FQZU1nUG5ibHRvQVlyWVFZUVdrUTlQMXZTcEV3TVJiM3N4cWoyalFuVEx6T2c3d3hrTlZSVnExVkJMbFkxaHVBNW44bFpzdVlHaEhpaVdPSEg4d0lGQjQwbmJ0MmdvWU50eW9OXzZyeS1PeVd6Um5VUjYyT3VjdWdsalJJUVdGQUtET0lZbGdPNkZzZnprQlk40gGbAUFVX3lxTE90VTJ4LVJYeGd0bjdoajlnYWs4SFFlcGxjUHdPQnNMU09fN0pYeTFuYnp2XzVRTlN1c0tzNFF4N210V2txUjh4eVpVclZMTVpBUEUxUFhiOUx0Zmt3Z0I2ZDFsYjlYQkZnWFpBTmxIQjdEc2lNZ2M3NXNqT0dRRVRHNW5KSmVpdTVlX1dRZV91cEFJVThzeTVBNXg4?oc=5",
-      "summary": "Yapay zekanın görünmeyen su tüketimine kritik uyarı SonDakika",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T07:54:54+00:00",
-      "category": "genel",
-      "score": 47,
-      "lang": "tr"
-    },
-    {
-      "title": "OpenAI kurucu ortağı, artık kimsenin yazılım öğrenmeyeceği \"neredeyse arayüzsüz\" bir gelecek öngörüyor",
-      "link": "https://the-decoder.com/openai-cofounder-envisions-almost-no-interface-future-where-nobody-learns-software-anymore/",
-      "summary": "Greg Brockman, ChatGPT'nin 2023'te yoğun bir şekilde pazarlanan eklentilerinin \"modeller hazır olmadığı için\" başarısız olduğunu kabul ediyor. Uygulama uzantıları yerine geleceği görünmez, bağlama duyarlı bir aracıda görüyor. Ancak OpenAI'nin kendi Kodeksi bu vizyondan hala ışık yılı uzakta. OpenAI kurucu ortağının makalesi, artık kimsenin yazılımı öğrenmeyeceği \"neredeyse arayüzsüz\" bir geleceğin The Decoder'da ilk kez ortaya çıktığını öngörüyor.",
+      "title": "Yapay zeka arama aracıları aramada başarısız olmaz; sorgular belirsizleştiğinde doğru soruları sormada başarısız olurlar",
+      "link": "https://the-decoder.com/ai-search-agents-dont-fail-at-searching-they-fail-at-asking-the-right-questions-when-queries-get-ambiguous/",
+      "summary": "Yapay zeka arama aracıları, aramanın kendisi nedeniyle çok adımlı araştırmalarda nadiren başarısız olur. Onların asıl sorunu, sorgular belirsiz olduğunda kullanıcıdan açıklama istemek değildir. DiscoBench adı verilen yeni bir kıyaslama, takip soruları sormak yerine tekrar tekrar arama yapan modellerin aslında yüzde 51,9 ile sadece tahmin yürüten modellerden daha kötü performans gösterdiğini gösteriyor. En iyi model bile toplamda yalnızca yüzde 43'e ulaşıyor",
       "source": "The Decoder",
-      "published": "2026-07-04T09:53:21+00:00",
+      "published": "2026-07-05T07:52:17+00:00",
       "category": "modeller",
-      "score": 46,
+      "score": 43,
       "lang": "tr"
     },
     {
-      "title": "Hayran kurgu topluluğu yapay zekayla ve kendisiyle savaş halinde",
-      "link": "https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector",
-      "summary": "Geçtiğimiz hafta, üretken yapay zeka kullanan yazarların kökünü kazımak amacıyla yeni bir hayran çalışması hareketi başladı. Ancak uygulanan tespit yöntemleri sorgulanabilir ve herhangi bir fanfic yazarı çapraz ateşte kalabilir. Claude, ChatGPT ve diğer yapay zeka araçlarının kullanımıyla ilgili yaygın hoşnutsuzluk uzun süredir […]",
-      "source": "The Verge AI",
-      "published": "2026-07-04T12:00:00+00:00",
-      "category": "modeller",
-      "score": 46,
-      "lang": "tr"
-    },
-    {
-      "title": "Alibaba'nın çalışanların Claude Kodunu kullanmasını yasakladığı bildirildi",
-      "link": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
-      "summary": "Alibaba'nın Claude Code'u yüksek riskli yazılım olarak sınıflandırdığı bildirildi.",
-      "source": "TechCrunch AI",
-      "published": "2026-07-04T16:32:08+00:00",
-      "category": "modeller",
-      "score": 46,
-      "lang": "tr"
-    },
-    {
-      "title": "ÇİN'DE YAPAY ZEKÂ TALEBİ ARTTI - Denizli Yeni Olay Haber",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9RMUZqQlBxRmhuZnJrRjJKb0xKODFTMTBsOGlqeUxQYUFlQnBzX0NLZTg3NzB4cTZMTGN4YW1adEl4QTRpdzZDNHcwLVFUVkFVM2hEaWYzTWVfeENGclFWaURzaTUtVzBMVnpSeDduUW0yei1MR2tERmxfaFNxQkE?oc=5",
-      "summary": "ÇİN'DE YAPAY ZEKÂ TALEBİ ARTTI Denizli Yeni Olay Haber",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T06:10:42+00:00",
-      "category": "genel",
-      "score": 46,
-      "lang": "tr"
-    },
-    {
-      "title": "ZENGİNLERİN YENİ TERCİHİ YAPAY ZEKA DESTEKLİ EĞİTİM - Denizli Yeni Olay Haber",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdy1JTzNnb3ZFT19meHE1aHhqSWNTd3lKZlM0VEh1WjFueG9sZVlDU1pUVVFFNE50MjdJM1B4QXhoQl9vOGpWenQ0V1d6dS1iU0lsVTFnSmFfWjJxb3JIcVFyczhMc3JJaDZLVkJJWHZfMU9Rckx4bi01MHJ5dU9jckFsQ3lDdzJkQ1VJbmhvLTdlOGpqekN1T3E1ZVk?oc=5",
-      "summary": "ZENGİNLERİN YENİ TERCİHİ YAPAY ZEKA DESTEKLİ EĞİTİM Denizli Yeni Olay Haber",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T06:15:42+00:00",
-      "category": "genel",
-      "score": 46,
-      "lang": "tr"
-    },
-    {
-      "title": "Yumurta tüketimi Alzheimer ile ters orantılı",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42002260/",
-      "summary": "Hacker News'te 67 puan, 48 yorum aldı.",
-      "source": "Hacker News",
-      "published": "2026-07-05T00:48:15+00:00",
-      "category": "genel",
-      "score": 45,
-      "lang": "tr"
-    },
-    {
-      "title": "57 sayılı Kararın uygulanmasından 18 ay sonra yapay zeka geliştirme süreci hız kazandı. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMTZUMmJZQWFZNHlaeTVUVnZWa3BoZjdmZUx4NC1ScjNjaGxjem5kM3NEOW1maU9Zc09CSGxrM2JqTnN4UTd1T1pmZXYxaUFtVVoxWWU3Qm1aSE9PWmphVTlfOVBNX1lUVzlES05SQkdtazhXR0dVZHpKNWd3cHlCZWVUaXBNbWF0enlEbWMzQQ?oc=5",
-      "summary": "57 sayılı Kararın uygulanmasından 18 ay sonra yapay zeka geliştirme süreci hız kazandı. Vietnam.vn",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T05:08:28+00:00",
-      "category": "genel",
-      "score": 45,
-      "lang": "tr"
-    },
-    {
-      "title": "Antropik geliştirici, Fable 5 için öncelikle kendi kör noktalarınızı bulmaya odaklanan ilham verici ipuçları paylaşıyor",
-      "link": "https://the-decoder.com/anthropic-developer-shares-prompting-tips-for-fable-5-that-focus-on-finding-your-own-blind-spots-first/",
-      "summary": "Antropik geliştirici Thariq Shihipar, Claude'un yeni modeli Fable 5'te darboğazın artık modelin kendisi değil, kullanıcının kör noktaları olduğunu savunuyor. Programcıların uygulamayı Claude'a devretmeden önce bilinçdışı bilgi boşluklarını sistematik olarak ortaya çıkarmak için kullanabilecekleri kör nokta geçişleri ve yapılandırılmış röportajlar gibi teknikleri anlatıyor. Antropik geliştiricinin ipucu paylaştığı makale",
-      "source": "The Decoder",
-      "published": "2026-07-04T12:37:51+00:00",
-      "category": "modeller",
-      "score": 44,
-      "lang": "tr"
-    },
-    {
-      "title": "Çalışma alanı örnekleri veya tüketici hesapları arasında potansiyel oturum/önbellek sızıntısı",
-      "link": "https://github.com/anthropics/claude-code/issues/74066",
-      "summary": "Hacker News'te 312 puan, 130 yorum aldı.",
-      "source": "Hacker News",
-      "published": "2026-07-04T14:03:40+00:00",
-      "category": "genel",
-      "score": 44,
-      "lang": "tr"
-    },
-    {
-      "title": "Midjourney, Hollywood stüdyolarının yapay zeka kullanımlarının ayrıntılarını açıklamasını istiyor",
-      "link": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
-      "summary": "Üç Hollywood stüdyosuyla devam eden hukuki anlaşmazlığın bir parçası olarak Midjourney, bu stüdyoları yapay zekayı nasıl kullandıklarını açıklamaya zorlamaya çalışıyor.",
-      "source": "TechCrunch AI",
-      "published": "2026-07-04T18:00:05+00:00",
-      "category": "genel",
-      "score": 44,
-      "lang": "tr"
-    },
-    {
-      "title": "Dünya Piyasaları: Endeksler Rekor Kırarken Yapay Zekâ Hikâyesi Yeniden Yazılıyor - Para Analiz",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQT0NCTGZ3VnVFLU1KYVFscHZIbWZkV21lOGR6dkFKQmQ5Tm1vOWVIWHlJd3R3cTVPdWpJblYwRndkSlI5V1ZLaHprTUFJOVl4SWozZXA0TWMxdG05NDhjRGVfZ25uTHNpT3FqTlpXY2IxSzBfVTRrSm9ndHBtQVZpN2NJeXpkUkNHYzRFN3pUWDExQnA4T2U0V3lrczAtOFVDQVhBcWg4TVFGc25DNllJ?oc=5",
-      "summary": "Dünya Piyasaları: Endeksler Rekor Kırarken Yapay Zekâ Hikâyesi Yeniden Yazılıyor Para Analiz",
-      "source": "Google News (TR)",
-      "published": "2026-07-04T21:51:31+00:00",
-      "category": "politika",
-      "score": 44,
-      "lang": "tr"
-    },
-    {
-      "title": "Yapay zekâ artık sadece büyük şirketlerin oynadığı bir oyun değil. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0xbHd1TDMwbmNQb1BOalh2Y1B4eHlKNjN5aHc3cVRMd1RXZUNQUVN1Wl9JNUVpaVJpMDVUZG1jbXJBcXNtTXA2NnhHZFhYblE4emRDZTdkRFNJTlhIRXo4VUVsejN3bEJhOFBmN1VpUENmOXBXRmFBS3dWSjA?oc=5",
-      "summary": "Yapay zekâ artık sadece büyük şirketlerin oynadığı bir oyun değil. Vietnam.vn",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T03:15:43+00:00",
-      "category": "politika",
-      "score": 44,
-      "lang": "tr"
-    },
-    {
-      "title": "Yapay zeka ve pasif gelir: Genç nesil için yeni \"Amerikan Rüyası\". - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNb0lJblBSUzdTLV9pMzVQSk8yYkZMb2szYVlRRzZwMEZjODQycmZtYjhXSDFiODYtbHlJTWpZX0lYUExPSUlxM0w5aGI5d2tSMGhybHBsNXBRS2had00tMy1zeVZHSTFzOGdISUoyQ1pDazlVYVNma0VxaTBZWXJKRExzc1pRdw?oc=5",
-      "summary": "Yapay zeka ve pasif gelir: Genç nesil için yeni \"Amerikan Rüyası\". Vietnam.vn",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T03:23:07+00:00",
-      "category": "genel",
-      "score": 44,
-      "lang": "tr"
-    },
-    {
-      "title": "Avrupa'daki nadir kitap yayıncıları, yapay zekâ destekli kitaplara yönelik \"sipariş\" dalgasına karşı çıkıyor. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeXUxcDZvMTJBLVpDcXhhb0xIRzk4RzdUWjExZHV2LXA2Nmt0WExoaGFjLU0tRExUS3NJSjk4OFBfSlRfaUh5a29POXFXSnJXamFUUUotd3cyOWdHVEExNVlEb0pKdWl2N0R3dGdHWmVwc3pJQTk3Sm5LSE45MWRFdmJZRzBBUXNJR1MyWnYwdC05ZjA?oc=5",
-      "summary": "Avrupa'daki nadir kitap yayıncıları, yapay zekâ destekli kitaplara yönelik \"sipariş\" dalgasına karşı çıkıyor. Vietnam.vn",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T03:29:31+00:00",
-      "category": "genel",
-      "score": 44,
-      "lang": "tr"
-    },
-    {
-      "title": "İşimizi elimizden alacak derken şimdi de işlerin başına geçti: Yapay zekâ dijital yöneticiye dönüştü - Hürriyet",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZXJyX1JMc0RweE1kRU81YmM0VUpBenEyYjNZTDJmUVlFVE53ekF2MHhMTWhwUkxqMF9CMVBvRFUxOWgxQWJMenZHUllzb0ZNbUNOWGxkanlnNmRDMTBoQnc2WDVzVVViZ0thdmVmSmg5OFBCQnN1d191b2RNTm5pYXJkTGdSQjZfZXEyWDhZMHJ6VHoxMmpmQ1BlUHFwUmZuRGNra2xjaDdyZXFCTEFSUFZzRDR1eC1YTHA0dTNxN05IVEVLWElnZzJDNEFqMWVJeHN4WTZn?oc=5",
-      "summary": "İşimizi elimizden alacak derken şimdi de işlerin başına geçti: Yapay zekâ dijital yöneticiye dönüştü Hürriyet",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T04:00:00+00:00",
-      "category": "genel",
-      "score": 44,
-      "lang": "tr"
-    },
-    {
-      "title": "A’dan Z’ye yapay zeka destekli TV serisi - Posta",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQVc0QlFXYVNGMURlSUwzLXRab0JaRGM5X3VvVFRMcXFLRGxMOTZpU05KekRVZW9jUjRpckwtaGFPaldRdGhfbHBiRzNNaWxud0pHWVZqRGVDU1hKMXc5X1BXcnlpYVh3RUg5YklkeFBOdW51TkktSDlHSU5FSWV3cmZiNjBvZw?oc=5",
-      "summary": "A’dan Z’ye yapay zeka destekli TV serisi Posta",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T04:00:00+00:00",
-      "category": "genel",
-      "score": 44,
-      "lang": "tr"
-    },
-    {
-      "title": "İklim hedeflerine yapay zekâ freni - Milliyet",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOODdBejlXSmNwVnJSZmR6UFppNTI1WFo0OTdLd1lLbnNXTjJ4dVgwaVZNLTRwcTVlNXA2Qm0yeTZ2b29JU0EtaVRDTjNFOFZwZXJrTms3WW1sN2V5UnoybTBVaUphQ0dnZWJic2IxX1U3ZjdHNG9YN3JVcS1SOEdxeC04SWs?oc=5",
-      "summary": "İklim hedeflerine yapay zekâ freni Milliyet",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T04:01:43+00:00",
-      "category": "genel",
-      "score": 44,
-      "lang": "tr"
-    },
-    {
-      "title": "Vietnam'ın Yapay Zeka Ekosistemini Şekillendirmek - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5QU01Kb0pxRExjV0dnSG1JbkQ0WEVVZS0tTEkzWnQydk1qUmRXTlZjZFVZcDBwZVNoclJJRlJuNVR0T1IxUHdGZ1hNbVJ1NDBVWkxza195dlh5TXhGcEt5UGZYVm9tZnpSWmdlWQ?oc=5",
-      "summary": "Vietnam'ın Yapay Zeka Ekosistemini Şekillendirmek Vietnam.vn",
-      "source": "Google News (TR)",
-      "published": "2026-07-05T01:56:00+00:00",
+      "title": "Trump yönetiminin güvenlik kurallarının zayıflatılmasını önermesiyle kimyasal kazalar artıyor",
+      "link": "https://arstechnica.com/science/2026/07/chemical-accidents-rise-as-trump-administration-proposes-weakening-safety-rules/",
+      "summary": "İnsanları yaralayan veya öldüren kazalardan kaynaklanan kimyasallar son yıllarda neredeyse yüzde 50 arttı.",
+      "source": "Ars Technica",
+      "published": "2026-07-05T11:05:22+00:00",
       "category": "genel",
       "score": 43,
       "lang": "tr"
     },
     {
-      "title": "Midjourney'in tıbbi tarayıcısının perde arkasına bakıldığında birçok soru cevapsız kalıyor",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video",
-      "summary": "Midjourney, fütüristik tıbbi tarayıcısının daha fazlasını gösterdi. Hala işe yaradığına dair pek fazla kanıt göstermedi. Görüntü üretmesiyle tanınan yapay zeka girişimi, kaplıcalara yerleştirmeyi planladığı ve ucuz, ayrıntılı, radyasyonsuz görüntülemeyle tıbbı dönüştüreceğini umduğu tank ultrason tarayıcısının kamera arkası videosunu yayınladı. Yaklaşık 20 dakikalık tur […]",
-      "source": "The Verge AI",
-      "published": "2026-07-03T11:49:10+00:00",
-      "category": "modeller",
-      "score": 42,
+      "title": "Yapay zeka Kioxia’yı yeniden zirveye taşıdı - Technopat.net!",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUFBXYnJPVGpLU2JsUXlqbEJZTXAtMUk1MWlNbVNoUFQ5Yk1RN2FROXFOSEROV0l3bDVlX2dHV0tSMHQ3WFpfcGhBcm5ROVV0RG90bVk0VTByUDZwdGUzb3JMRVIyLVBSaE9kLUZ1d0drQWJvY0FYOG50SUYweHhVNnJSaFPSAYoBQVVfeXFMUEdhWHJ1NE4wRk54Y2xaOWRlVV9iSVpXaHdIUzV1Qi1NV2RfdTdjNlBlRVpfenp0RTFwMDB4WENRdmFURWt1Z09BdV9Pd0RER3hxdXBoNEJab3AwZmlxbDVDR0xnaGFfZ2FOZHhOeTRPZVhtaWZoSHFCNVhiVldxR3RTczNHTnNxNGlB?oc=5",
+      "summary": "Yapay zeka Kioxia’yı yeniden zirveye taşıdı Technopat.net!",
+      "source": "Google News (TR)",
+      "published": "2026-07-05T16:41:44+00:00",
+      "category": "genel",
+      "score": 43,
+      "lang": "tr"
+    },
+    {
+      "title": "Yapay zeka çılgınlığı Foxconn'u uçurdu! Satışlar 79 milyar dolara çıktı - GZT",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYXAtSFFsd1k4WWp3UXdVbkYxWnAtbnp4VzdBVWQzRHA5RmdFQUYyS3hOeUhHclBFek5pT3pyeGdMamxhai1VOTgyWEM4QVZIUDZfYTJEdzB3R3otMTFldXpEQmtfUzRkZzVxT1hJQnR0UDY5WF95VHdlM1ZOalNVejRNSDV2T0JxLVdZamNla0JQaE5saGtfNVNaYWljZE9Nc3JfMXRkTkk?oc=5",
+      "summary": "Yapay zeka çılgınlığı Foxconn'u uçurdu! Satışlar 79 milyar dolara çıktı GZT",
+      "source": "Google News (TR)",
+      "published": "2026-07-05T16:56:50+00:00",
+      "category": "genel",
+      "score": 43,
       "lang": "tr"
     }
   ]
