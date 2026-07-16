@@ -1,9 +1,39 @@
 {
-  "generated_at": "2026-07-16T07:12:17.167889+00:00",
+  "generated_at": "2026-07-16T12:12:58.811397+00:00",
   "window_days": 7,
   "source_count": 14,
   "failed_sources": [],
   "items": [
+    {
+      "title": "Eski OpenAI CTO'su Murati'nin Thinking Machines, ABD laboratuvarlarına öncülük eden ancak Çin'i takip eden 975B parametreli bir model olan Inkling'i bırakıyor",
+      "link": "https://the-decoder.com/ex-openai-cto-muratis-thinking-machines-drops-inkling-a-975b-parameter-model-that-leads-us-labs-but-trails-china/",
+      "summary": "Eski OpenAI CTO'su Mira Murati tarafından kurulan Thinking Machines Lab, 975 milyar parametreye sahip çok modlu bir açık ağırlık modeli olan Inkling'i piyasaya sürdü. Yapay Analiz Zeka Endeksi'nde ABD'nin açık ağırlık modellerine liderlik ediyor, ancak en iyi Çin açık modelleri hala bazı görevlerde onu geçiyor. Fiyatlandırma, bir milyon girdi tokenı başına 1,87 dolardan başlıyor ve Thinking Machines, Inkling'i cezalandırma için bir üs olarak sunuyor.",
+      "source": "The Decoder",
+      "published": "2026-07-16T09:55:28+00:00",
+      "category": "modeller",
+      "score": 68,
+      "lang": "tr"
+    },
+    {
+      "title": "xAI, büyük veri ihlalinin ardından GitHub'da \"Grok-Build\" açık kaynaklarını kullanıyor",
+      "link": "https://the-decoder.com/xai-open-sources-grok-build-on-github-after-massive-data-breach/",
+      "summary": "xAI'nin komut satırı aracı \"Grok Build\", SSH anahtarları ve şifre veritabanları da dahil olmak üzere tüm dizinleri sessizce Google Cloud sunucularına yükledi. Tepkinin ardından Elon Musk, yüklenen tüm kullanıcı verilerini sileceğine söz verdi ve xAI, Apache 2.0 lisansı altında 844.530 satırlık Rust kod tabanının tamamını açık kaynaklı hale getirdi. Büyük veri ihlalinin ardından GitHub'da xAI açık kaynaklı \"Grok-Build\" makalesi ilk olarak Th'de yayınlandı",
+      "source": "The Decoder",
+      "published": "2026-07-16T07:56:21+00:00",
+      "category": "sirketler",
+      "score": 66,
+      "lang": "tr"
+    },
+    {
+      "title": "OpenAI GPT-Red'i Duyurdu: Yapay Zekâ Güvenliği Artıyor - Webtekno",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tT0hkRWlERlFEdEo3OWUtTkZ3Y0paNVpQX2F2OHpKWTcxSGlrMllDcjAzb0pEWHpOSGhzUEhfbzQ0SFFtSFljTHhqQzVnd3pxcm5iQll5NHJMT1k0Tm56RldWOERSQTBfX1ZZVQ?oc=5",
+      "summary": "OpenAI GPT-Red'i Duyurdu: Yapay Zekâ Güvenliği Artıyor Webtekno",
+      "source": "Google News (TR)",
+      "published": "2026-07-16T10:49:24+00:00",
+      "category": "modeller",
+      "score": 65,
+      "lang": "tr"
+    },
     {
       "title": "Botlar Ekibe Katıldığında: Botların Benimsenmesi ve Açık Kaynak Yazılım Projelerinin Kurumsal Yapısı",
       "link": "https://arxiv.org/abs/2607.13679",
@@ -11,7 +41,17 @@
       "source": "arXiv cs.AI",
       "published": "2026-07-16T04:00:00+00:00",
       "category": "arastirma",
-      "score": 68,
+      "score": 63,
+      "lang": "tr"
+    },
+    {
+      "title": "OpenAI, Codex için geliştirilen fiziksel kontrol cihazı Codex Micro'yu duyurdu",
+      "link": "https://webrazzi.com/2026/07/16/openai-codex-icin-gelistirilen-fiziksel-kontrol-cihazi-codex-microyu-duyurdu/",
+      "summary": "OpenAI, yapay zeka destekli yazılım geliştirme aracı Codex için tasarladığı fiziksel kontrol cihazı Codex Micro'yu duyurdu. Codex Micro, klavye tasarımcısı Work Louder ile ortaklaşa tasarlandı. 230 do...",
+      "source": "Webrazzi",
+      "published": "2026-07-16T10:00:00+00:00",
+      "category": "sirketler",
+      "score": 63,
       "lang": "tr"
     },
     {
@@ -21,7 +61,17 @@
       "source": "arXiv cs.AI",
       "published": "2026-07-16T04:00:00+00:00",
       "category": "arastirma",
-      "score": 67,
+      "score": 62,
+      "lang": "tr"
+    },
+    {
+      "title": "OpenAI ilk donanımını tanıttı: Yapay zeka görevlerini tek tuşla yöneten Codex Micro geldi - CHIP Online",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZ3A1V3d5b25OSzdoejdoMC05MEV0aFhVdkMwYTQtbzN2Q0VoS21xMVlZOWR4c09nWnZNTHIxZTZYRmE0VWtEWDhnSHRpclNUb0liMHk1U0YwNFRlNmNhQkRfQlRIdEJwYlJiRmFoVTBXbEdQNGpJRkFvRjhYZS1tZWNDWkRXbHdUNmkzamx6TGpSQ0xaVkc2c0diVW5ubF9sZ3dRUUZleTEzSUF2cUhuYVdleEVUZHhhekI0WVlaNVZ3ZktvLVZGOUN6cw?oc=5",
+      "summary": "OpenAI ilk donanımını tanıttı: Yapay zeka görevlerini tek tuşla yöneten Codex Micro geldi CHIP Online",
+      "source": "Google News (TR)",
+      "published": "2026-07-16T11:30:00+00:00",
+      "category": "sirketler",
+      "score": 62,
       "lang": "tr"
     },
     {
@@ -31,7 +81,7 @@
       "source": "arXiv cs.AI",
       "published": "2026-07-16T04:00:00+00:00",
       "category": "modeller",
-      "score": 66,
+      "score": 61,
       "lang": "tr"
     },
     {
@@ -41,7 +91,87 @@
       "source": "arXiv cs.AI",
       "published": "2026-07-16T04:00:00+00:00",
       "category": "modeller",
-      "score": 66,
+      "score": 61,
+      "lang": "tr"
+    },
+    {
+      "title": "Visa, Stripe ve Google, yapay zeka ajanlarının birbirine ödeme yapmasına olanak tanıyan büyük açık kaynak projesine katıldı - CoinDesk",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPamR2dFF4NW81V3VJd05RYnoxaUhMNU9qVGlicFd6eEUzSl81X2FsZ1VIb0NMWDhFODNDRHlMTUpSY1RHSGJtZ3QxQmJKYl9NZl80NmVJLWlyQm1EclNOZ2cxcVp3bXBTM2FoY0c3Q1NsQ1FTdlE3dGFHMk5wY1k0UlhuMWtCN2hnMzluaHFVb3JGaGhzZHU1THlyTzVTLXk5RTdFNzJnclZkbjhSUE5TeGJfMlRQR0YxNk9GNlZOeGFVc2t0?oc=5",
+      "summary": "Visa, Stripe ve Google, yapay zeka ajanlarının birbirine ödeme yapmasına olanak tanıyan büyük açık kaynak projesine katıldı CoinDesk",
+      "source": "Google News (TR)",
+      "published": "2026-07-16T11:29:55+00:00",
+      "category": "sirketler",
+      "score": 61,
+      "lang": "tr"
+    },
+    {
+      "title": "TSMC’nin ikinci çeyrek kârı yapay zeka talebiyle rekor kırdı; hisseler geriledi - Investing.com Türkiye",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdFliOFBQd0VnWjd6am5uZFEtWXFPYU9LekQ0ZTJtcUN0b1g3U0d1VTBQNXVqcWRXRkc5OHk0UzRGSHVLTUJUS2NGNFNIZ0Z1THRtNDFrZHNObjJRVDc5SkNXOHpQei1JbW1nMk1kd0IxODUxTktOVG1IZmZTNzNBeHRieW1laW95QjVILWgwQWQtQVhBV2kxMll1c3Q3bU05VnNUbE55V0hTZnM?oc=5",
+      "summary": "TSMC’nin ikinci çeyrek kârı yapay zeka talebiyle rekor kırdı; hisseler geriledi Investing.com Türkiye",
+      "source": "Google News (TR)",
+      "published": "2026-07-16T11:33:17+00:00",
+      "category": "turkiye",
+      "score": 61,
+      "lang": "tr"
+    },
+    {
+      "title": "Daha Yeni Modeller, Aynı Avantaj",
+      "link": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
+      "summary": "",
+      "source": "Hugging Face",
+      "published": "2026-07-16T11:49:48+00:00",
+      "category": "modeller",
+      "score": 61,
+      "lang": "tr"
+    },
+    {
+      "title": "Türk girişimci tarafından Almanya'da kurulan microagi, 55 milyon dolar yatırım aldı",
+      "link": "https://webrazzi.com/2026/07/16/turk-girisimci-tarafindan-almanya-da-kurulan-microagi-55-milyon-dolar-yatirim-aldi/",
+      "summary": "Robotik alanında çalışan microagi, 55 milyon dolar yatırım aldı. Şirketin 55 milyon dolarlık tohum yatırım turuna Hummingbird liderlik etti. Almanya merkezli microagi'nin yatırım turunda Northzone, Lo...",
+      "source": "Webrazzi",
+      "published": "2026-07-16T08:00:00+00:00",
+      "category": "sirketler",
+      "score": 60,
+      "lang": "tr"
+    },
+    {
+      "title": "Gemma 4, araç çağırma hatalarını ve aynı adla kısaltılmış yanıtları düzelten gizli bir güncelleme alıyor",
+      "link": "https://the-decoder.com/gemma-4-gets-a-stealth-update-that-fixes-tool-calling-bugs-and-truncated-responses-under-the-same-name/",
+      "summary": "Google, Nvidia Hopper GPU'larındaki performansı hızlandıran, araç çağırma hatalarını düzelten ve kesik yanıtlarla ilgili sorunları gideren açık yapay zeka modeli Gemma 4'e bir güncelleme gönderdi. Gemma 4 makalesi, araç çağırma hatalarını ve ilk olarak The Decoder'da görülen aynı adla kısaltılmış yanıtları düzelten gizli bir güncelleme alıyor.",
+      "source": "The Decoder",
+      "published": "2026-07-16T09:07:58+00:00",
+      "category": "sirketler",
+      "score": 60,
+      "lang": "tr"
+    },
+    {
+      "title": "ABD'de ısı pompaları neden hala bu kadar sıcak?",
+      "link": "https://www.technologyreview.com/2026/07/16/1140505/heat-pump-sales-us/",
+      "summary": "Yazın en yoğun olduğu dönemde ısıtma cihazlarını düşünmek bile yasa dışıymış gibi geliyor (cidden, New York'taki sıcak hava dalgaları çok acımasızdı) ama ısı pompaları hakkında konuşmamız gerekiyor. Cihazlar ısıtma için elektrik kullanıyor, inanılmaz derecede verimliler ve yükselişteler. (Değeri ne olursa olsun, çok fazla ısı…",
+      "source": "MIT Tech Review",
+      "published": "2026-07-16T10:00:00+00:00",
+      "category": "genel",
+      "score": 60,
+      "lang": "tr"
+    },
+    {
+      "title": "TSMC’nin kârı yüzde 77 artarak rekor kırdı, yapay zeka çiplerine talep fabrikalarını tüketti - Martin Cid Magazine",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA5Q0JydV92Qmo2bUFFWkswd3lMSDNaMkNyTGZibDNST1ZiZTdnMmRHNW5vdUg4czZtbmlveVB1aVB3bWJvazVUMFZOdm1tN0FzUHIwWjhYX2VFYXNzMXNOUHJvNHVVU1E3enV6blRXeFNxMEk0d2c?oc=5",
+      "summary": "TSMC’nin kârı yüzde 77 artarak rekor kırdı, yapay zeka çiplerine talep fabrikalarını tüketti Martin Cid Magazine",
+      "source": "Google News (TR)",
+      "published": "2026-07-16T10:53:22+00:00",
+      "category": "donanim",
+      "score": 60,
+      "lang": "tr"
+    },
+    {
+      "title": "Daniel Ek'in sağlık şirketi Neko Health, 700 milyon dolar yatırım aldı",
+      "link": "https://webrazzi.com/2026/07/16/daniel-ek-in-saglik-sirketi-neko-health-700-milyon-dolar-yatirim-aldi/",
+      "summary": "Neko Health'in 1,8 milyar dolar değerleme üzerinden 260 milyon dolar yatırım aldığını 2025'in ocak ayında sizlere aktarmıştık. Şirket, yeni bir yatırım haberiyle gündeme geldi.Neko Health, 700 milyon ...",
+      "source": "Webrazzi",
+      "published": "2026-07-16T12:00:00+00:00",
+      "category": "sirketler",
+      "score": 60,
       "lang": "tr"
     },
     {
@@ -51,7 +181,7 @@
       "source": "Ars Technica",
       "published": "2026-07-15T22:10:41+00:00",
       "category": "modeller",
-      "score": 63,
+      "score": 59,
       "lang": "tr"
     },
     {
@@ -61,7 +191,7 @@
       "source": "arXiv cs.AI",
       "published": "2026-07-16T04:00:00+00:00",
       "category": "modeller",
-      "score": 63,
+      "score": 59,
       "lang": "tr"
     },
     {
@@ -71,7 +201,7 @@
       "source": "arXiv cs.AI",
       "published": "2026-07-16T04:00:00+00:00",
       "category": "politika",
-      "score": 63,
+      "score": 59,
       "lang": "tr"
     },
     {
@@ -81,7 +211,7 @@
       "source": "arXiv cs.AI",
       "published": "2026-07-16T04:00:00+00:00",
       "category": "politika",
-      "score": 63,
+      "score": 59,
       "lang": "tr"
     },
     {
@@ -91,7 +221,7 @@
       "source": "arXiv cs.AI",
       "published": "2026-07-16T04:00:00+00:00",
       "category": "politika",
-      "score": 63,
+      "score": 59,
       "lang": "tr"
     },
     {
@@ -101,7 +231,7 @@
       "source": "arXiv cs.AI",
       "published": "2026-07-16T04:00:00+00:00",
       "category": "sirketler",
-      "score": 63,
+      "score": 59,
       "lang": "tr"
     },
     {
@@ -111,7 +241,7 @@
       "source": "arXiv cs.AI",
       "published": "2026-07-16T04:00:00+00:00",
       "category": "modeller",
-      "score": 63,
+      "score": 59,
       "lang": "tr"
     },
     {
@@ -121,7 +251,7 @@
       "source": "arXiv cs.AI",
       "published": "2026-07-16T04:00:00+00:00",
       "category": "arastirma",
-      "score": 63,
+      "score": 59,
       "lang": "tr"
     },
     {
@@ -131,7 +261,27 @@
       "source": "arXiv cs.AI",
       "published": "2026-07-16T04:00:00+00:00",
       "category": "arastirma",
-      "score": 63,
+      "score": 59,
+      "lang": "tr"
+    },
+    {
+      "title": "Lütfen beni yapay zekadan vazgeçmeye zorlamayın",
+      "link": "https://www.wired.com/story/please-stop-making-me-opt-out-of-ai/",
+      "summary": "Otomatik olarak etkinleştirilen üretken yapay zeka özellikleri için \"devre dışı bırakma\" geçişlerinden bıktım. Hassas özellikler için \"katılmayı\" varsayılan ayar haline getirmenin zamanı geldi.",
+      "source": "Wired AI",
+      "published": "2026-07-16T10:00:00+00:00",
+      "category": "genel",
+      "score": 59,
+      "lang": "tr"
+    },
+    {
+      "title": "Türkiye Kripto Varlık Piyasası'nın güncel verileri",
+      "link": "https://webrazzi.com/2026/07/16/turkiye-kripto-varlik-piyasasinin-guncel-verileri/",
+      "summary": "Merkezi Kayıt Kuruluşu (MKK), Kripto Varlık Merkezi Kayıt Sistemi (KVMKS) üzerinden takip edilen Türkiye kripto varlık piyasasına ilişkin güncel verileri yayımlamaya başladı. MKK’nın açıkladığı verile...",
+      "source": "Webrazzi",
+      "published": "2026-07-16T11:00:00+00:00",
+      "category": "turkiye",
+      "score": 59,
       "lang": "tr"
     },
     {
@@ -141,27 +291,17 @@
       "source": "TechCrunch AI",
       "published": "2026-07-15T19:41:38+00:00",
       "category": "sirketler",
-      "score": 62,
+      "score": 58,
       "lang": "tr"
     },
     {
-      "title": "UESF-Bench: Birleşik Bedenlenmiş Arama ve Takip için Kıyaslama ve Araştırma",
-      "link": "https://arxiv.org/abs/2607.13621",
-      "summary": "arXiv:2607.13621v1 Duyuru Türü: yeni Özet: Dil rehberliğinde insan takibi, somutlaşmış aracılar için önemli bir yetenektir, ancak mevcut kıyaslamalar genellikle hedef kişinin bir bölümün başlangıcında görünür olduğunu varsayar. Bu ayar sorunu basitleştirir ve daha gerçekçi bir gereksinimi gözden kaçırır: Bir aracının genellikle önce dille tanımlanan bir hedefi bulması ve ardından ısrarla takip etmesi gerekir.",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
+      "title": "Karaca, yapay zeka asistanı AIDA'yı ChatGPT'de kullanıma sundu - Anadolu Ajansı",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPT1BoMnZPeTlZTEtjeVV3QjJlR0c5enQwSUlXcHZnSk4wcEd4QTRQdGxIa3FsSTNZZkVudDNfTU1NYnRrbjRHbHBPX0sxdENVeEpsejcycjBqa2ZJeVZCNDdnNzhhMlNyZDFxaG52RnZjcE9FaHJIU1R0ODhqMi1YUExZU01VMUVsMGpaRGZyU0xiTjJia0RmR2hPbERwYk9nMlZGRFNEVFJUZElzX1Q2VA?oc=5",
+      "summary": "Karaca, yapay zeka asistanı AIDA'yı ChatGPT'de kullanıma sundu Anadolu Ajansı",
+      "source": "Google News (TR)",
+      "published": "2026-07-16T09:22:48+00:00",
       "category": "modeller",
-      "score": 62,
-      "lang": "tr"
-    },
-    {
-      "title": "SingGuard-NSFA: Üretken Akıl Yürütme ve Gerçek Zamanlı Sınıflandırma Yoluyla Aracı Yapay Zeka için Genişletilebilir Korkuluklar",
-      "link": "https://arxiv.org/abs/2607.13081",
-      "summary": "arXiv:2607.13081v1 Duyuru Türü: cross Özet: Ajan yapay zeka sistemlerini hızlı ekleme, hassas bilgi çıkarma, kötü amaçlı kod istekleri, tehlikeli araç kötüye kullanımı ve kaynak tükenmesi gibi operasyonel tehditlere karşı korumaya yönelik bir koruma çerçevesi olan nsfaguard'ı sunuyoruz. İlk olarak, 185 risk değişkenini CIA üçlüsü temelli bir hiyerarşi halinde düzenleyen NSFA taksonomisini tanıtıyoruz ve",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "modeller",
-      "score": 62,
+      "score": 58,
       "lang": "tr"
     },
     {
@@ -171,7 +311,7 @@
       "source": "TechCrunch AI",
       "published": "2026-07-15T16:20:18+00:00",
       "category": "modeller",
-      "score": 61,
+      "score": 57,
       "lang": "tr"
     },
     {
@@ -181,7 +321,7 @@
       "source": "Wired AI",
       "published": "2026-07-15T18:05:00+00:00",
       "category": "sirketler",
-      "score": 61,
+      "score": 57,
       "lang": "tr"
     },
     {
@@ -191,157 +331,177 @@
       "source": "Ars Technica",
       "published": "2026-07-15T19:59:48+00:00",
       "category": "modeller",
-      "score": 61,
+      "score": 57,
       "lang": "tr"
     },
     {
-      "title": "Aracı orkestrasyonu: Kurumsal yapay zeka organizasyonlarının platform sorunu değil, dağıtım sorunu var ve çoğu sohbet robotu aracılarını arıyor",
-      "link": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
-      "summary": "101 kuruluşta temsilci orkestrasyonu, temel modelin ciddiyetine göre seçilen ve güvenilir, çok adımlı yürütmeye göre değerlendirilen model sağlayıcı platformlarında birleşiyor (Anthropic'ten Claude açık farkla önde). Ancak bu hırs gerçeğin çok ötesinde: konuşlandırılmış \"aracıların\" çoğu hala sohbet robotu paketleyicileri, işletmelerin beklediği kontrol uçağının kasıtlı olarak hibrit olmasını bekliyoruz",
-      "source": "VentureBeat AI",
-      "published": "2026-07-15T22:24:17+00:00",
-      "category": "modeller",
-      "score": 60,
-      "lang": "tr"
-    },
-    {
-      "title": "Uygulamalı Bilgi İşlem, petrol ve gaz operatörlerine tüm tesis için bir yapay zeka modeli sunmak istiyor",
-      "link": "https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/",
-      "summary": "Applied Computing, petrol, gaz ve petrokimya endüstrisi için temel bir yapay zeka modeli oluşturmak amacıyla 20 milyon ABD Doları tutarında bir A Serisi topladı.",
-      "source": "TechCrunch AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "modeller",
-      "score": 60,
-      "lang": "tr"
-    },
-    {
-      "title": "OriginBlame: Yapay Zeka Eğitim Veri Kümeleri için Kayıt ve Belirteç Düzeyinde Veri Kaynakları",
-      "link": "https://arxiv.org/abs/2607.13037",
-      "summary": "arXiv:2607.13037v1 Duyuru Türü: yeni Özet: Bir veri katkıda bulunan kişi kaldırma talebinde bulunduğunda, model eğiticileri pratik bir boşlukla karşı karşıya kalır: öğrenmeyi geri alma algoritmaları bir unutma seti gerektirir, ancak hiçbir araç hangi eğitim kayıtlarının belirli bir yazara ait olduğunu bulamaz. Mevcut kaynak sistemleri, dosya veya veri kümesi düzeyinde çalışarak felaket düzeyinde aşırı silme işlemine neden olur. Kayıt ve belirteç düzeyinde bir veri kaynağı sistemi olan ob'yi sunuyoruz",
+      "title": "UESF-Bench: Birleşik Bedenlenmiş Arama ve Takip için Kıyaslama ve Araştırma",
+      "link": "https://arxiv.org/abs/2607.13621",
+      "summary": "arXiv:2607.13621v1 Duyuru Türü: yeni Özet: Dil rehberliğinde insan takibi, somutlaşmış aracılar için önemli bir yetenektir, ancak mevcut kıyaslamalar genellikle hedef kişinin bir bölümün başlangıcında görünür olduğunu varsayar. Bu ayar sorunu basitleştirir ve daha gerçekçi bir gereksinimi gözden kaçırır: Bir aracının genellikle önce dille tanımlanan bir hedefi bulması ve ardından ısrarla takip etmesi gerekir.",
       "source": "arXiv cs.AI",
       "published": "2026-07-16T04:00:00+00:00",
       "category": "modeller",
-      "score": 60,
+      "score": 57,
       "lang": "tr"
     },
     {
-      "title": "Belnap'in Tiplendirilmiş Kasıtlı FOL'una Dayalı Nöro-Sembolik AGI Robotlarının Olasılıksal Uzantısı",
-      "link": "https://arxiv.org/abs/2607.13073",
-      "summary": "arXiv:2607.13073v1 Duyuru Türü: yeni Özet: $IFOL_B$ tabanlı nöro-sembolik yapay zeka, tamamen sinirsel sistemlerin sınırlamalarının (yorumlanabilirlik ve mantıksal yapı eksikliği gibi) kendine referans için resmi mantıksal mekanizma ile üstesinden gelmek amacıyla sinirsel öğrenmeyi ve sembolik akıl yürütmeyi birleştirmenin bir yoludur. Bu yazıda $IFOL_B$'ın bilişsel gücünü, Cur için olasılık hesaplamasını kullanarak genişletiyoruz.",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "arastirma",
-      "score": 60,
-      "lang": "tr"
-    },
-    {
-      "title": "Siber Psikolojide Yapay Zeka: Mağdurların, Saldırganların ve Savunucuların psikolojisini analiz etmek için yapay zeka kullanılarak Siber Güvenliğin geliştirilmesine yönelik sistematik bir literatür taraması",
-      "link": "https://arxiv.org/abs/2607.13123",
-      "summary": "arXiv:2607.13123v1 Duyuru Türü: cross Özet: Siber güvenlik, sistemleri, ağları ve verileri dijital saldırılara karşı koruma uygulamasıdır. Siberpsikoloji (CPSY), siber güvenlik uygulamalarını geliştirmek için psikolojinin kullanılması olarak tanımlanır. 2010'ların başlarından bu yana Yapay Zekanın (AI) evrimi, CPSY ile giderek daha fazla bütünleşti ve di kodu çözmek için gelişmiş veri analizinden yararlanıldı.",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "arastirma",
-      "score": 60,
-      "lang": "tr"
-    },
-    {
-      "title": "Boogu-Image-0.1: Açık Kaynaklı Birleşik Çok Modlu Anlayışı ve Üretimi Artırma",
-      "link": "https://arxiv.org/abs/2607.13125",
-      "summary": "arXiv:2607.13125v1 Duyuru Türü: cross Özet: Base, Turbo, Edit ve Edit-Turbo çeşitlerinden oluşan açık kaynaklı, birleşik çok modlu bir anlayış ve nesil model ailesi olan Boogu-Image-0.1'i tanıtıyoruz. Yüksek kaliteli metin-görüntü oluşturma, hızlı çıkarım, talimat tabanlı düzenleme ve iki dilli (Çince-İngilizce) metin oluşturmada rekabetçi performans sunar. Kapalı kaynaklı çoklu",
+      "title": "SingGuard-NSFA: Üretken Akıl Yürütme ve Gerçek Zamanlı Sınıflandırma Yoluyla Aracı Yapay Zeka için Genişletilebilir Korkuluklar",
+      "link": "https://arxiv.org/abs/2607.13081",
+      "summary": "arXiv:2607.13081v1 Duyuru Türü: cross Özet: Ajan yapay zeka sistemlerini hızlı ekleme, hassas bilgi çıkarma, kötü amaçlı kod istekleri, tehlikeli araç kötüye kullanımı ve kaynak tükenmesi gibi operasyonel tehditlere karşı korumaya yönelik bir koruma çerçevesi olan nsfaguard'ı sunuyoruz. İlk olarak, 185 risk değişkenini CIA üçlüsü temelli bir hiyerarşi halinde düzenleyen NSFA taksonomisini tanıtıyoruz ve",
       "source": "arXiv cs.AI",
       "published": "2026-07-16T04:00:00+00:00",
       "category": "modeller",
-      "score": 60,
+      "score": 57,
       "lang": "tr"
     },
     {
-      "title": "SteinGate: Stein Tutarsızlığı Yoluyla Kuyruğa Duyarlı Güvenli Takviye Öğrenimi",
-      "link": "https://arxiv.org/abs/2607.13175",
-      "summary": "arXiv:2607.13175v1 Duyuru Türü: çapraz Özet: Güvenli takviyeli öğrenme, genellikle nadir fakat yıkıcı kuyruk olaylarını tespit etmekte genellikle başarısız olan bir kriter olan beklenen kümülatif maliyetleri sınırlayarak güvenliği güçlendirir. Bu sınırlamaların üstesinden gelmek için bu belge, hassas kuyruk tertibatının yerine sağlam bir tutarlılık kontrolü sağlayan, sınır tanımayan bir dağıtım güvenlik sertifikası olan SteinGate'i tanıtmaktadır.",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "arastirma",
-      "score": 60,
-      "lang": "tr"
-    },
-    {
-      "title": "Sürekli Gelişen Deepfake Tespiti: Dinamik Tespit Sisteminin Mimarisi ve Genel Karşılaştırmalı Değerlendirmesi",
-      "link": "https://arxiv.org/abs/2607.13234",
-      "summary": "arXiv:2607.13234v1 Duyuru Türü: çapraz Özet: Akademik kıyaslamalarda mükemmele yakın puanlar elde eden Deepfake dedektörleri, gerçek dünya içeriğinde çöküyor: son zamanlarda yapılan değerlendirmeler, en son teknolojiye sahip açık kaynak modelleri için AUC'nin %45-50 oranında düştüğünü bildiriyor. Bu boşluğun yapısal olduğunu savunuyoruz: Statik dedektörler, hareketli bir üretken sınıra karşı bir kez eğitilir. BitMind Forensics'i (BMF) sunuyoruz.",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "modeller",
-      "score": 60,
-      "lang": "tr"
-    },
-    {
-      "title": "Vahşi doğada dört ayaklı robotlar için çevik, algısal, çok becerili hareket",
-      "link": "https://arxiv.org/abs/2607.13579",
-      "summary": "arXiv:2607.13579v1 Duyuru Tür: cross Özet: Dört ayaklı robotların engebeli dış mekan ortamlarından şehir manzaralarına kadar karmaşık arazileri geçmesini sağlamak, yalnızca yerleşik sensörler kullanılarak çoklu motor becerilerinin kusursuz entegrasyonunu, yürüyüşler arasında yumuşak geçişleri ve yüksek hızlı algısal hareketi gerektirir. APT-RL'yi (Eylemle Önceden Eğitimli Transformatör Tabanlı Güçlendirme Öğrenimi) sunuyoruz.",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "politika",
-      "score": 60,
-      "lang": "tr"
-    },
-    {
-      "title": "Derin Öğrenme Kullanılarak Pankreas Kanserinin Rezektabilitesinin Multimodal Değerlendirilmesi",
-      "link": "https://arxiv.org/abs/2607.13826",
-      "summary": "arXiv:2607.13826v1 Duyuru Tip: çapraz Özet: Pankreas duktal adenokarsinomunun (PDAC) rezektabilitesinin doğru belirlenmesi, BT görüntülemede tümörün majör peripankreatik damarlarla nasıl etkileşime girdiğinin değerlendirilmesine dayanır, ancak uzman değerlendirmesi sıklıkla önemli değişkenlik gösterir. 3D kontrastı artırılmış CT ve s'yi ortaklaşa analiz eden, tam otomatik, çok modlu bir derin öğrenme çerçevesi sunuyoruz.",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "modeller",
-      "score": 60,
-      "lang": "tr"
-    },
-    {
-      "title": "Yüksek Lisans öğrencilerinin temsillerinden beyin aktivitesini tahmin etmedeki sol-sağ asimetrisi, onların resmi dil yeterlilikleriyle ortaya çıkıyor",
-      "link": "https://arxiv.org/abs/2602.12811",
-      "summary": "arXiv:2602.12811v2 Duyuru Türü: replacement-cross Özet: İnsanlar ve büyük dil modelleri (LLM'ler) aynı metni işlediğinde, LLM'lerdeki aktivasyonlar, örneğin fonksiyonel manyetik rezonans görüntüleme (fMRI) ile ölçülen beyin aktivitesiyle ilişkilidir. Dahası, yüksek lisans eğitimi ilerledikçe beyin aktivitesini içsel aktivasyonlardan tahmin etme performansının da geliştiği gösterilmiştir.",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "modeller",
-      "score": 60,
-      "lang": "tr"
-    },
-    {
-      "title": "RADAR: Anlamsal Planlama ve Otonom Nedensel Ortam Sıfırlama Yoluyla Kapalı Döngü Robotik Veri Üretimi",
-      "link": "https://arxiv.org/abs/2603.11811",
-      "summary": "arXiv:2603.11811v2 Duyuru Türü: replacement-cross Özet: Modern robot öğreniminin kritik bir önkoşulu olan büyük ölçekli fiziksel etkileşim verilerinin edinilmesi, döngüdeki insan toplama paradigmalarının engelleyici maliyet ve ölçeklenebilirlik sınırları nedeniyle ciddi şekilde darboğaz altındadır. Bu engeli aşmak için, tamamen otonom, yakın bir robotik teknolojisi için Sağlam Otonom Veri Toplama'yı (RADAR) sunuyoruz.",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "sirketler",
-      "score": 60,
-      "lang": "tr"
-    },
-    {
-      "title": "Agito’dan yapay zekâ odaklı insurtech girişimi ThingsHappen’a stratejik yatırım - Sigorta Dünyası",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZHpJTS1YV2V2ZHlUbm1Ld2F2Y1NXS3NWY3BNS1NYQXIzeVNfUW9mLUQ0bGJqcjN5SHRSdW93ZGlrREdGMU5UclBtcF9MOHd1ekNSdFRzMjhGbk9nWVZIcG5QYlRmSkxkb085TlRKMF9mRTB4N09NX3l4dFdtZ3Q2dENXb1dUQ3dpM0dHYnotdHFRZjk5TXFsbVE1UmlXS0UwUG10VExaYmcwUlhrdUxyallVU0hkeF9rNVl0OHFNTms?oc=5",
-      "summary": "Agito’dan yapay zekâ odaklı insurtech girişimi ThingsHappen’a stratejik yatırım Sigorta Dünyası",
+      "title": "TSMC'den rekor kâr: Yapay zeka talebi büyümeyi hızlandırdı - Forbes Türkiye",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYURIQXgxT0Z3dEdhMXV6YTVBeVJGSmVsX3h3TlJjQ1VDcTEwdkIxM0xqZlJ5OW95eVh3QnREekU5ZDVjS0oyN3dnZ2ZLMFlMRG9rUGpBY3pzVXMxS0FCUWxuR2ZZcTBiMzRPaEs4bjJzS1h1VkFOcklfZ2NyTVVFRkF0VzRRdEJEeTktX1VGWFhFSDhFaGc?oc=5",
+      "summary": "TSMC'den rekor kâr: Yapay zeka talebi büyümeyi hızlandırdı Forbes Türkiye",
       "source": "Google News (TR)",
-      "published": "2026-07-16T05:52:16+00:00",
+      "published": "2026-07-16T07:46:00+00:00",
+      "category": "turkiye",
+      "score": 57,
+      "lang": "tr"
+    },
+    {
+      "title": "YC kurucuları şimdi nerede? OpenAI ve Antropik, çoğunlukla",
+      "link": "https://joinedanthropic.com",
+      "summary": "Hacker News'te 100 puan, 26 yorum aldı.",
+      "source": "Hacker News",
+      "published": "2026-07-16T08:03:35+00:00",
       "category": "sirketler",
-      "score": 60,
+      "score": 57,
       "lang": "tr"
     },
     {
-      "title": "Gemini ders kitaplarınızı ve notlarınızı kişiselleştirilmiş bir yapay zeka çalışma planına dönüştürüyor - Martin Cid Magazine",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYnlQU1cwQWNFaDZSZjBlTmFXY1QxeThjWmwtWkJQYkJJQWZFeGMtN19vUHlnWDNBUl9BNGQwczJqM1F6LTRId1dJY1BKWE13LU85b0xSZDdOZW95OTVWaUNnWXhYUzdDczRON0Q2TFhRYTV1Tm0yZ2FFYy1CUnp6aUtCZ2lIT3hUcHo4UV84UkpxbzRI?oc=5",
-      "summary": "Gemini ders kitaplarınızı ve notlarınızı kişiselleştirilmiş bir yapay zeka çalışma planına dönüştürüyor Martin Cid Magazine",
-      "source": "Google News (TR)",
-      "published": "2026-07-16T06:26:38+00:00",
-      "category": "modeller",
-      "score": 60,
-      "lang": "tr"
-    },
-    {
-      "title": "Hyundai, Boston Dynamics'in tamamını satın alıyor",
-      "link": "https://webrazzi.com/2026/07/16/hyundai-boston-dynamicsin-tamamini-satin-aliyor/",
-      "summary": "Hyundai Motor Group, SoftBank'in elinde bulunan yaklaşık yüzde 10'luk Boston Dynamics hissesini satın alarak ABD merkezli robotik şirketinin tek sahibi olacağını açıkladı. Satın alma bedeli açıklanmaz...",
+      "title": "Migros Yemek’ten Sektörde Yeni Dönem: Restoran Sadakat Programı’yla Restoranların Performansı “Hub Para” ile Kazanca Dönüşüyor! [Sponsorlu İçerik]",
+      "link": "https://webrazzi.com/2026/07/16/migros-yemekten-sektorde-yeni-donem-restoran-sadakat-programiyla-restoranlarin-performansi-hub-para-ile-kazanca-donusuyor/",
+      "summary": "Migros Yemek, restoran iş ortaklarının sürdürülebilir büyümesine katkı sağlamak ve platform üzerindeki hizmet standartlarını daha da yukarı taşımak amacıyla geliştirdiği Migros Yemek Hub programı ile ...",
       "source": "Webrazzi",
-      "published": "2026-07-16T07:00:00+00:00",
+      "published": "2026-07-16T09:32:07+00:00",
+      "category": "genel",
+      "score": 57,
+      "lang": "tr"
+    },
+    {
+      "title": "Anthropic CEO’sundan yapay zeka düzenlemeleri için büyük bağış - Harici",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPREdYT3d4NU9LM2pkcF9pNjhka0FMNEQwX1FIMjlCVHZuRlE5dENzcU5iX1ZHa25fcWVqQU1Ta2hpMnFfcE1ZYjJZdUNjcHI3Z1BZZDR1Y0ctbGQ4QUw3eldkSFM0YzR4c3ZqS0c5T1dCdUJhbWpUdHJnNlQ1cnZUR29BV0JjMWVkNHR5edIBjAFBVV95cUxPREdYT3d4NU9LM2pkcF9pNjhka0FMNEQwX1FIMjlCVHZuRlE5dENzcU5iX1ZHa25fcWVqQU1Ta2hpMnFfcE1ZYjJZdUNjcHI3Z1BZZDR1Y0ctbGQ4QUw3eldkSFM0YzR4c3ZqS0c5T1dCdUJhbWpUdHJnNlQ1cnZUR29BV0JjMWVkNHR5eQ?oc=5",
+      "summary": "Anthropic CEO’sundan yapay zeka düzenlemeleri için büyük bağış Harici",
+      "source": "Google News (TR)",
+      "published": "2026-07-16T11:23:35+00:00",
       "category": "sirketler",
-      "score": 60,
+      "score": 57,
+      "lang": "tr"
+    },
+    {
+      "title": "Çanakkale'de yapay zeka destekli Akıllı Kavşak ve Trafik Yönetim Sistemi hayata geçirildi - Haberler",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdjAtM3YtY3pFaHZoc0hscFR1UVd2WmNDb1p6QzY3RU1QMGRWT1U1d2xqb21mSUVyVGJUOWg2NlBDUjI5NXVqWFl6TWJWSER2S3p5VGJQQVp5cmNSdVdnOGhGdG4waFRjZHJPV1dQaGpjTmc3OEloZHBMaEFqMG13dE8xTFpGS0hWOTVqV2Jkdkthc3dkSmZQMUZHZ29DeDBVQmFmM3ZadWs4anRrX1lkWdIBrAFBVV95cUxPeGc3TGFmVzVNajJhUFNPdWNZdXBkeTBkb0RVQjVXNzRUd0VKekg3SV9qTlZNS3N6eVZERi05d1FQNW11Mk02YVd6SjBoOVZPMThna2xxRnlRYVIxZnBBVEY5aDQwclpxTkxfdmNqSDNKZ1JZRElabkZacFhHN3ZzWk5ONFBYNzNESFRmXzQ4YXRYZzJpVjVIVVl2SWNlVjRFMXVpYUlmb3RFektK?oc=5",
+      "summary": "Çanakkale'de yapay zeka destekli Akıllı Kavşak ve Trafik Yönetim Sistemi hayata geçirildi Haberler",
+      "source": "Google News (TR)",
+      "published": "2026-07-16T11:24:01+00:00",
+      "category": "genel",
+      "score": 57,
+      "lang": "tr"
+    },
+    {
+      "title": "George Lucas: “Yapay zeka sinemanın kaçınılmaz geleceği” - Şalom Gazetesi",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbnFYX2dMdWszNjhUVEl1eV9JdXV1b2VXY3lJQkYtRUIycXB3azJiQWpqVFNIODdXLVktMnN0NldQUlNzdG8yeElSLTlQUTJPdUt4NFRrQ1ZOeGUzVVhSc2E0YUczMjZwNEJ2aHNnTV9QLUh0RE9BMm80M0NkLTlBTVNMVFRGVktaSlZYMEROeWhkZHFFaGc?oc=5",
+      "summary": "George Lucas: “Yapay zeka sinemanın kaçınılmaz geleceği” Şalom Gazetesi",
+      "source": "Google News (TR)",
+      "published": "2026-07-16T11:44:00+00:00",
+      "category": "genel",
+      "score": 57,
+      "lang": "tr"
+    },
+    {
+      "title": "Vodafone Türkiye’den yapay zeka odaklı yeni yapılanma - Türkiye İş Dünyası Haberleri",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPWHljLUxjd1gzVDBMTlBSNHBRQjFyajZFdnp6Qks5V2NWVV9sSFNyREZRWDZubk1uV3dURFVwVkwwZ2VfeG5IZ2JPbW5QUldVdDBmOXJFTHpWZDcwbk9vU2ZQM09FX0lOMzJxQUpHVXItbUpVR2NobEVUY1dxR3ljVnRGQ0lWNzI1YmFnbDNJbXd5Z3BkTFE?oc=5",
+      "summary": "Vodafone Türkiye’den yapay zeka odaklı yeni yapılanma Türkiye İş Dünyası Haberleri",
+      "source": "Google News (TR)",
+      "published": "2026-07-16T11:48:54+00:00",
+      "category": "turkiye",
+      "score": 57,
+      "lang": "tr"
+    },
+    {
+      "title": "Nvidia ve Fujitsu’dan fiziksel yapay zeka işbirliği - İstanbul Ticaret Gazetesi",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNck5hdDMyTEFYQWJyRWQ3Q3RlaGFSSzdFdTlBX3pFbmhWV05WWWdyUUtvTkkyaVZ6M1h2anN6UXNMb0Z3Q1VCakpKT2hsTlBPdUZXcTBDTmp0eTQyaS1rVzJfN0lreTEyX3BqNXBsRWVoRTg0N251d0pNaUxRVVdVdGFSM1lObS10ZHNJNnJzRQ?oc=5",
+      "summary": "Nvidia ve Fujitsu’dan fiziksel yapay zeka işbirliği İstanbul Ticaret Gazetesi",
+      "source": "Google News (TR)",
+      "published": "2026-07-16T11:58:08+00:00",
+      "category": "sirketler",
+      "score": 57,
+      "lang": "tr"
+    },
+    {
+      "title": "Visa: \"Yapay zeka çağında ticareti stablecoinler taşıyacak\" - Haberler",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQR2VwNnRWMEZST0dWc1BhczFlTEUySHNpejJMT3Q5UWZjVFRWZndlUGZWM29JQ1VrSkNnWjNrUGtLTDItUHdxUzFEbWxuNkRhQ1plbUhnNGxQNHFzYWVOcGlWYnFqQlhMSWlzQ2dhWEs2eE1nN2ZlV3dhYXdVbDI4NWVRRy1KTDNEdklOZE51OVRwN2VDYTI5SXhmcE9RSk1BU2fSAZcBQVVfeXFMTkZwNkk1cEtHY1Q2UFhmNDBVdDdraEhfR0hfSzBhYVFnaXBtb2tVeF9aLTBRMnFTU010eV8zYUFudGpDRjgxNXdVbFlSTG9SeFF0aF96TEQyREhqS1hKMEE2VTNHVVNreXNqS0k4UTZ1NDk1aXFHdU5mU1VWRXpQTTJTM29rai10VksxcUdLMUlvUk4wUkhubw?oc=5",
+      "summary": "Visa: \"Yapay zeka çağında ticareti stablecoinler taşıyacak\" Haberler",
+      "source": "Google News (TR)",
+      "published": "2026-07-16T12:00:26+00:00",
+      "category": "genel",
+      "score": 57,
+      "lang": "tr"
+    },
+    {
+      "title": "Çalışma: Yapay zeka Batılı liderlere otokratlardan daha sert - Euronews.com",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWmZpVHdCUXE4elVwSHRybXZVT1hSY25teDhsN1oyWXhlNTZYRnZqRWkwenJaRWxDaUF5R1FyNWstYUxkZjR6eHFra2xtandXMERRMXI5ODBDOGRpWTdESDQ4djFfanl1V3JHS1dPWE0wWTBpWUNWMnROVHRFMm42R00zSEM0a283VVdBNGpqWmVtaWpCZEZRLWo1d2gwZWdMSnc2bVJHX0E1N2xNUnRrVFJTLXkweWo5YmZr?oc=5",
+      "summary": "Çalışma: Yapay zeka Batılı liderlere otokratlardan daha sert Euronews.com",
+      "source": "Google News (TR)",
+      "published": "2026-07-16T12:09:28+00:00",
+      "category": "politika",
+      "score": 57,
+      "lang": "tr"
+    },
+    {
+      "title": "Microsoft, satış ekibini OpenAI ve Anthropic'e karşı eğitiyor",
+      "link": "https://webrazzi.com/2026/07/16/microsoft-satis-ekibini-openai-ve-anthropice-karsi-egitiyor/",
+      "summary": "Microsoft'un, yapay zeka alanındaki rekabeti daha da kızıştıracak yeni bir satış stratejisi izlediği iddia edildi. Şirketin, kurumsal satış ekiplerini OpenAI ve Anthropic'in çözümlerine karşı Copilot ...",
+      "source": "Webrazzi",
+      "published": "2026-07-16T09:00:00+00:00",
+      "category": "sirketler",
+      "score": 56,
+      "lang": "tr"
+    },
+    {
+      "title": "Nvidia, yapay zeka ve robotik için Japon teknoloji şirketleriyle ortaklık kurdu - Patronlar Dünyası",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVzNjUm8xS0FYWUlOMGtYVkNfOUt6b0VoYktqUWZKNndETHV4R0JMQmJzNDlFdVNXS3lWVTVKSHpuUVNwai1zT3ZzQ09WdzJhOEVSVFFLR0dFdzQwODMxQXBabUhkNnYweHJHNlRKcTFDSVRaakxGeXFRQ0p4eEtzSVhJU0R6UkZ1M1o4WHJhNU5sR1RhVVo3Nl9QOXhpeDRNTGhZdWZzNktqamFlNXJfVg?oc=5",
+      "summary": "Nvidia, yapay zeka ve robotik için Japon teknoloji şirketleriyle ortaklık kurdu Patronlar Dünyası",
+      "source": "Google News (TR)",
+      "published": "2026-07-16T10:42:01+00:00",
+      "category": "sirketler",
+      "score": 56,
+      "lang": "tr"
+    },
+    {
+      "title": "Apple, yapay zeka çipleri üreten şirketleri satın alabilir - DonanımHaber",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRG5LRUhEVnZjelJ1YnUwS3l2bjhUUXh2cmlMV3RWSkxSaGg3OVViRzFDTW5aWktQbHA2T2p5X25QZGR1czJ0Y0M3QmJBbUdDeDhQUDhRVjlnWldkOEdJQ0lrWlNCRS1fMEhSZGxRMTVUYUdnX0xmWmdLNnpIUkd5T3NLSzI0SHVGcFZRREI3cmJSQm1EMGlLbnln0gGfAUFVX3lxTE5leTBVVHBfRlBTMVRNWmVxUzZOWjAwWnZ2WFg0RkJqUm9lY3VMX3d2OUdhWTJ5bkk3SDl0UWtrMFNaWEQ5YWU3RXgzVU11bFBpdEN2VWFnRmt3clp4OUtwNWhHdGVkR2sybjFpd0FVckFuOXR0M0VXUHpLLU95ajJtb1dLWkhpMlE5c2M4alI1Vm45LUM4X2pYM0N6RVdvTQ?oc=5",
+      "summary": "Apple, yapay zeka çipleri üreten şirketleri satın alabilir DonanımHaber",
+      "source": "Google News (TR)",
+      "published": "2026-07-16T10:48:00+00:00",
+      "category": "sirketler",
+      "score": 56,
+      "lang": "tr"
+    },
+    {
+      "title": "Yapay zeka dengeleri değiştirdi: IBM hisselerinde tarihi düşüş - İstanbul Ticaret Gazetesi",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWnRpWmswNmZYbm9NdzZFWGZFYW9JWnRqaU80NEppUTk2b0duRDg5N3MwWDVXSEhtcTZIdFlCQTRaNm9zdDZNV0xxaU43VVZyc0NpU2F2anA0RzNTbDBTN2hWTGlGNTZ2RTkwaVFCOS1DSFpMaVR3Y1dYRnE5bE1GNmV1dE1hQzcxQmNvQnhXclBxUEFCRVRoSUI2clJWQQ?oc=5",
+      "summary": "Yapay zeka dengeleri değiştirdi: IBM hisselerinde tarihi düşüş İstanbul Ticaret Gazetesi",
+      "source": "Google News (TR)",
+      "published": "2026-07-16T11:02:38+00:00",
+      "category": "genel",
+      "score": 56,
+      "lang": "tr"
+    },
+    {
+      "title": "Meta Denetim Kurulu, yapay zeka modellerinde siyasi önyargı riskine dikkat çekti - Invezz",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdGluSXpJRkJIdWd5dkRiNW04SHVyMGZwbVczdzZIYndxWUxhOU5HX0lRLTI3LVhGb2xlaWFDa0QtZmNPV09TY01vbGxhSHZkcmhCSzhrdkRReER2ZDBZcFlQcTJqbWRZekp2ZmFkRTNRd2QtU3hLWDV4cTB3S3pSal9RX08ybnczSGZxZDJRaWVvUkhPUXJPcllQMDRyWXE3X210NUw3ZUlsUld5UURucWxFb2xyVmRoeGVB?oc=5",
+      "summary": "Meta Denetim Kurulu, yapay zeka modellerinde siyasi önyargı riskine dikkat çekti Invezz",
+      "source": "Google News (TR)",
+      "published": "2026-07-16T11:13:09+00:00",
+      "category": "modeller",
+      "score": 56,
       "lang": "tr"
     },
     {
@@ -351,7 +511,7 @@
       "source": "The Verge AI",
       "published": "2026-07-15T16:00:00+00:00",
       "category": "sirketler",
-      "score": 59,
+      "score": 55,
       "lang": "tr"
     },
     {
@@ -361,7 +521,7 @@
       "source": "MIT Tech Review",
       "published": "2026-07-15T17:09:37+00:00",
       "category": "modeller",
-      "score": 59,
+      "score": 55,
       "lang": "tr"
     },
     {
@@ -371,7 +531,247 @@
       "source": "The Verge AI",
       "published": "2026-07-15T21:33:20+00:00",
       "category": "modeller",
-      "score": 59,
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "Aracı orkestrasyonu: Kurumsal yapay zeka organizasyonlarının platform sorunu değil, dağıtım sorunu var ve çoğu sohbet robotu aracılarını arıyor",
+      "link": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
+      "summary": "101 kuruluşta temsilci orkestrasyonu, temel modelin ciddiyetine göre seçilen ve güvenilir, çok adımlı yürütmeye göre değerlendirilen model sağlayıcı platformlarında birleşiyor (Anthropic'ten Claude açık farkla önde). Ancak bu hırs gerçeğin çok ötesinde: konuşlandırılmış \"aracıların\" çoğu hala sohbet robotu paketleyicileri, işletmelerin beklediği kontrol uçağının kasıtlı olarak hibrit olmasını bekliyoruz",
+      "source": "VentureBeat AI",
+      "published": "2026-07-15T22:24:17+00:00",
+      "category": "modeller",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "Uygulamalı Bilgi İşlem, petrol ve gaz operatörlerine tüm tesis için bir yapay zeka modeli sunmak istiyor",
+      "link": "https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/",
+      "summary": "Applied Computing, petrol, gaz ve petrokimya endüstrisi için temel bir yapay zeka modeli oluşturmak amacıyla 20 milyon ABD Doları tutarında bir A Serisi topladı.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-16T04:00:00+00:00",
+      "category": "modeller",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "OriginBlame: Yapay Zeka Eğitim Veri Kümeleri için Kayıt ve Belirteç Düzeyinde Veri Kaynakları",
+      "link": "https://arxiv.org/abs/2607.13037",
+      "summary": "arXiv:2607.13037v1 Duyuru Türü: yeni Özet: Bir veri katkıda bulunan kişi kaldırma talebinde bulunduğunda, model eğiticileri pratik bir boşlukla karşı karşıya kalır: öğrenmeyi geri alma algoritmaları bir unutma seti gerektirir, ancak hiçbir araç hangi eğitim kayıtlarının belirli bir yazara ait olduğunu bulamaz. Mevcut kaynak sistemleri, dosya veya veri kümesi düzeyinde çalışarak felaket düzeyinde aşırı silme işlemine neden olur. Kayıt ve belirteç düzeyinde bir veri kaynağı sistemi olan ob'yi sunuyoruz",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-16T04:00:00+00:00",
+      "category": "modeller",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "Belnap'in Tiplendirilmiş Kasıtlı FOL'una Dayalı Nöro-Sembolik AGI Robotlarının Olasılıksal Uzantısı",
+      "link": "https://arxiv.org/abs/2607.13073",
+      "summary": "arXiv:2607.13073v1 Duyuru Türü: yeni Özet: $IFOL_B$ tabanlı nöro-sembolik yapay zeka, tamamen sinirsel sistemlerin sınırlamalarının (yorumlanabilirlik ve mantıksal yapı eksikliği gibi) kendine referans için resmi mantıksal mekanizma ile üstesinden gelmek amacıyla sinirsel öğrenmeyi ve sembolik akıl yürütmeyi birleştirmenin bir yoludur. Bu yazıda $IFOL_B$'ın bilişsel gücünü, Cur için olasılık hesaplamasını kullanarak genişletiyoruz.",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-16T04:00:00+00:00",
+      "category": "arastirma",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "Siber Psikolojide Yapay Zeka: Mağdurların, Saldırganların ve Savunucuların psikolojisini analiz etmek için yapay zeka kullanılarak Siber Güvenliğin geliştirilmesine yönelik sistematik bir literatür taraması",
+      "link": "https://arxiv.org/abs/2607.13123",
+      "summary": "arXiv:2607.13123v1 Duyuru Türü: cross Özet: Siber güvenlik, sistemleri, ağları ve verileri dijital saldırılara karşı koruma uygulamasıdır. Siberpsikoloji (CPSY), siber güvenlik uygulamalarını geliştirmek için psikolojinin kullanılması olarak tanımlanır. 2010'ların başlarından bu yana Yapay Zekanın (AI) evrimi, CPSY ile giderek daha fazla bütünleşti ve di kodu çözmek için gelişmiş veri analizinden yararlanıldı.",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-16T04:00:00+00:00",
+      "category": "arastirma",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "Boogu-Image-0.1: Açık Kaynaklı Birleşik Çok Modlu Anlayışı ve Üretimi Artırma",
+      "link": "https://arxiv.org/abs/2607.13125",
+      "summary": "arXiv:2607.13125v1 Duyuru Türü: cross Özet: Base, Turbo, Edit ve Edit-Turbo çeşitlerinden oluşan açık kaynaklı, birleşik çok modlu bir anlayış ve nesil model ailesi olan Boogu-Image-0.1'i tanıtıyoruz. Yüksek kaliteli metin-görüntü oluşturma, hızlı çıkarım, talimat tabanlı düzenleme ve iki dilli (Çince-İngilizce) metin oluşturmada rekabetçi performans sunar. Kapalı kaynaklı çoklu",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-16T04:00:00+00:00",
+      "category": "modeller",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "SteinGate: Stein Tutarsızlığı Yoluyla Kuyruğa Duyarlı Güvenli Takviye Öğrenimi",
+      "link": "https://arxiv.org/abs/2607.13175",
+      "summary": "arXiv:2607.13175v1 Duyuru Türü: çapraz Özet: Güvenli takviyeli öğrenme, genellikle nadir fakat yıkıcı kuyruk olaylarını tespit etmekte genellikle başarısız olan bir kriter olan beklenen kümülatif maliyetleri sınırlayarak güvenliği güçlendirir. Bu sınırlamaların üstesinden gelmek için bu belge, hassas kuyruk tertibatının yerine sağlam bir tutarlılık kontrolü sağlayan, sınır tanımayan bir dağıtım güvenlik sertifikası olan SteinGate'i tanıtmaktadır.",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-16T04:00:00+00:00",
+      "category": "arastirma",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "Sürekli Gelişen Deepfake Tespiti: Dinamik Tespit Sisteminin Mimarisi ve Genel Karşılaştırmalı Değerlendirmesi",
+      "link": "https://arxiv.org/abs/2607.13234",
+      "summary": "arXiv:2607.13234v1 Duyuru Türü: çapraz Özet: Akademik kıyaslamalarda mükemmele yakın puanlar elde eden Deepfake dedektörleri, gerçek dünya içeriğinde çöküyor: son zamanlarda yapılan değerlendirmeler, en son teknolojiye sahip açık kaynak modelleri için AUC'nin %45-50 oranında düştüğünü bildiriyor. Bu boşluğun yapısal olduğunu savunuyoruz: Statik dedektörler, hareketli bir üretken sınıra karşı bir kez eğitilir. BitMind Forensics'i (BMF) sunuyoruz.",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-16T04:00:00+00:00",
+      "category": "modeller",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "Vahşi doğada dört ayaklı robotlar için çevik, algısal, çok becerili hareket",
+      "link": "https://arxiv.org/abs/2607.13579",
+      "summary": "arXiv:2607.13579v1 Duyuru Tür: cross Özet: Dört ayaklı robotların engebeli dış mekan ortamlarından şehir manzaralarına kadar karmaşık arazileri geçmesini sağlamak, yalnızca yerleşik sensörler kullanılarak çoklu motor becerilerinin kusursuz entegrasyonunu, yürüyüşler arasında yumuşak geçişleri ve yüksek hızlı algısal hareketi gerektirir. APT-RL'yi (Eylemle Önceden Eğitimli Transformatör Tabanlı Güçlendirme Öğrenimi) sunuyoruz.",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-16T04:00:00+00:00",
+      "category": "politika",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "Derin Öğrenme Kullanılarak Pankreas Kanserinin Rezektabilitesinin Multimodal Değerlendirilmesi",
+      "link": "https://arxiv.org/abs/2607.13826",
+      "summary": "arXiv:2607.13826v1 Duyuru Tip: çapraz Özet: Pankreas duktal adenokarsinomunun (PDAC) rezektabilitesinin doğru belirlenmesi, BT görüntülemede tümörün majör peripankreatik damarlarla nasıl etkileşime girdiğinin değerlendirilmesine dayanır, ancak uzman değerlendirmesi sıklıkla önemli değişkenlik gösterir. 3D kontrastı artırılmış CT ve s'yi ortaklaşa analiz eden, tam otomatik, çok modlu bir derin öğrenme çerçevesi sunuyoruz.",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-16T04:00:00+00:00",
+      "category": "modeller",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "Yüksek Lisans öğrencilerinin temsillerinden beyin aktivitesini tahmin etmedeki sol-sağ asimetrisi, onların resmi dil yeterlilikleriyle ortaya çıkıyor",
+      "link": "https://arxiv.org/abs/2602.12811",
+      "summary": "arXiv:2602.12811v2 Duyuru Türü: replacement-cross Özet: İnsanlar ve büyük dil modelleri (LLM'ler) aynı metni işlediğinde, LLM'lerdeki aktivasyonlar, örneğin fonksiyonel manyetik rezonans görüntüleme (fMRI) ile ölçülen beyin aktivitesiyle ilişkilidir. Dahası, yüksek lisans eğitimi ilerledikçe beyin aktivitesini içsel aktivasyonlardan tahmin etme performansının da geliştiği gösterilmiştir.",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-16T04:00:00+00:00",
+      "category": "modeller",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "RADAR: Anlamsal Planlama ve Otonom Nedensel Ortam Sıfırlama Yoluyla Kapalı Döngü Robotik Veri Üretimi",
+      "link": "https://arxiv.org/abs/2603.11811",
+      "summary": "arXiv:2603.11811v2 Duyuru Türü: replacement-cross Özet: Modern robot öğreniminin kritik bir önkoşulu olan büyük ölçekli fiziksel etkileşim verilerinin edinilmesi, döngüdeki insan toplama paradigmalarının engelleyici maliyet ve ölçeklenebilirlik sınırları nedeniyle ciddi şekilde darboğaz altındadır. Bu engeli aşmak için, tamamen otonom, yakın bir robotik teknolojisi için Sağlam Otonom Veri Toplama'yı (RADAR) sunuyoruz.",
+      "source": "arXiv cs.AI",
+      "published": "2026-07-16T04:00:00+00:00",
+      "category": "sirketler",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "Agito’dan yapay zekâ odaklı insurtech girişimi ThingsHappen’a stratejik yatırım - Sigorta Dünyası",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZHpJTS1YV2V2ZHlUbm1Ld2F2Y1NXS3NWY3BNS1NYQXIzeVNfUW9mLUQ0bGJqcjN5SHRSdW93ZGlrREdGMU5UclBtcF9MOHd1ekNSdFRzMjhGbk9nWVZIcG5QYlRmSkxkb085TlRKMF9mRTB4N09NX3l4dFdtZ3Q2dENXb1dUQ3dpM0dHYnotdHFRZjk5TXFsbVE1UmlXS0UwUG10VExaYmcwUlhrdUxyallVU0hkeF9rNVl0OHFNTms?oc=5",
+      "summary": "Agito’dan yapay zekâ odaklı insurtech girişimi ThingsHappen’a stratejik yatırım Sigorta Dünyası",
+      "source": "Google News (TR)",
+      "published": "2026-07-16T05:47:28+00:00",
+      "category": "sirketler",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "Gemini ders kitaplarınızı ve notlarınızı kişiselleştirilmiş bir yapay zeka çalışma planına dönüştürüyor - Martin Cid Magazine",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYnlQU1cwQWNFaDZSZjBlTmFXY1QxeThjWmwtWkJQYkJJQWZFeGMtN19vUHlnWDNBUl9BNGQwczJqM1F6LTRId1dJY1BKWE13LU85b0xSZDdOZW95OTVWaUNnWXhYUzdDczRON0Q2TFhRYTV1Tm0yZ2FFYy1CUnp6aUtCZ2lIT3hUcHo4UV84UkpxbzRI?oc=5",
+      "summary": "Gemini ders kitaplarınızı ve notlarınızı kişiselleştirilmiş bir yapay zeka çalışma planına dönüştürüyor Martin Cid Magazine",
+      "source": "Google News (TR)",
+      "published": "2026-07-16T06:26:38+00:00",
+      "category": "modeller",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "Çin, temiz enerji kompleksi için ilk yapay zeka işletim modelini başlattı. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMHBsRkZvVzlfandPa2U4Mm1wZDA5TWJ1bldTcmhydzQzaGFWMTNpMm5iWkp2VGlISGFtZjJUVGNVSW90WmFFZEhRai1sTlBhSkJEYXNhRGpFdG80bzFBbGlvNG5ZOXUyV1hZaDF4UzQ0LS1wNXJVM2JIWTlUQUNrbnNsVzFxOU1lSG5WR0RMbjdyWTFFSENncGd3SE5QQ2p0?oc=5",
+      "summary": "Çin, temiz enerji kompleksi için ilk yapay zeka işletim modelini başlattı. Vietnam.vn",
+      "source": "Google News (TR)",
+      "published": "2026-07-16T09:38:39+00:00",
+      "category": "modeller",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "Vietnam, Asya yapay zeka ticaret haritasındaki konumunu güçlendiriyor. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSVpZQjNzeUNiaHpsaE9ZdXZOYUNJU3ZUTkNOTzk3NER0aGc2RjVpLWkzcUl5SURiMlVhZkRjVGFuSVZ6OWY3NFFRYmxzV3FhazJYSE1RT2t4Q2JIS0NEaVNYck12cDU4cjRqZ3JCdHRsWXZrVEVZNkhVSmFZQTlzNVRmeUdDTzVJUzJ1QQ?oc=5",
+      "summary": "Vietnam, Asya yapay zeka ticaret haritasındaki konumunu güçlendiriyor. Vietnam.vn",
+      "source": "Google News (TR)",
+      "published": "2026-07-16T09:44:50+00:00",
+      "category": "genel",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "Anthropic'in hamlesi sonrası yazılım sektöründe yaşanan kıyamet senaryosu tartışmaları, finans çevrelerinde hararetli fikir ayrılıklarına yol açtı. Bank of America’nın kıdemli analisti Vivek Arya, SaaS işleri hakkında peşinen olumsuz konuşan yatırımcıları sert bir - instagram.com",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1rV2FHSHpxZ3g4SXRNQkxoOE9TeUlqYTczbmR6VkZIRk93MVBXcFl1VnJiUlJmdzI1RXhTamlSNWNocWFsZXByWlJFbVlncFFMcmc?oc=5",
+      "summary": "Anthropic'in hamlesi sonrası yazılım sektöründe yaşanan kıyamet senaryosu tartışmaları, finans çevrelerinde hararetli fikir ayrılıklarına yol açtı. Bank of America’nın kıdemli analisti Vivek Arya, SaaS işleri hakkında peşinen olumsuz konuşan yatırımcıları sert bir instagram.com",
+      "source": "Google News (TR)",
+      "published": "2026-07-16T09:51:16+00:00",
+      "category": "sirketler",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "Apple Yapay Zeka Çipi Üreten Şirketleri Satın Almayı Planlıyor - ShiftDelete.Net",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZnpTbXFTUVp5TjEtQy1Dc2p2aTM2b2oxZi1ONmVwV0syd2VvUGowQ2NaUUg5dnZaNmZLY1ZCU29fNWZGcmQ1RjhNMGdoYVptZlo1eXk1Q2lvcWJsVVRPY1pCNldKWGdoRkIxeHRuNXo0YXYxUmZ1R2VaOWZ0NGFUdDMtWW9GelhFRUktSWRVd9IBlwFBVV95cUxQN1BBTTh4alBUbFdkeU1kOTVGb1dBTEtEa0RYM21QbUFOMXA0Wl9oUVNESzZ5blQ1U3pPWWhXRTl1UEV0dENCNmc4UHhxQ0ZWUVpWMDI3X0FvUnZMMXAyUHVGQ19TcWEyVVZwbkl0Tkl5d2NOMHc2TEl4WEMyUHc5UkNqZEZNS0U0NU4xT0puQnYwa0dGOVVV?oc=5",
+      "summary": "Apple Yapay Zeka Çipi Üreten Şirketleri Satın Almayı Planlıyor ShiftDelete.Net",
+      "source": "Google News (TR)",
+      "published": "2026-07-16T10:00:40+00:00",
+      "category": "sirketler",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "Teknoloji devinden milyarlık donanım hamlesi: Apple yapay zeka pazarını kökten değiştirecek gizli avın peşinde - Yeniçağ Gazetesi",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOTlk1ZHZETWl2QnZLQlZkWUF4bnFvemFwUExfUU9nRDV3ZFVOeTBCMmlFMHNKSTBXd2lkZXBQYXBXR3gtM2J2RF9xUmZRNEk5RXRqS0s1OWpyd2pMc1pmbEhEWFgxZHhiaE84M3hURjA2SkN2eUdKUVBkaGNVZmh4ZTNBeTFfRUpLcUpZQTg5RERRaTR5dnVSeFA4TU1ZNlR1cHFxMXhZbk9TdEo4Q2h2T2pFa0hoU1NYU1JsWmhCYzdNX0VscHNydUxjTEFTdGc5QTVlaGthTDVjdFZjbUJyZGNsVktfM1F4ZGc?oc=5",
+      "summary": "Teknoloji devinden milyarlık donanım hamlesi: Apple yapay zeka pazarını kökten değiştirecek gizli avın peşinde Yeniçağ Gazetesi",
+      "source": "Google News (TR)",
+      "published": "2026-07-16T10:23:45+00:00",
+      "category": "sirketler",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "DAÜ ile Gazimağusa Belediyesi'nden yapay zeka destekli iki proje - Kıbrıs Postası",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOeFdfRjJ1VENJeV8zWVNBa1J5QmctYUNaaUZ1MDdQYl9KQ0FzOGl2VHRTSVc5akZnaHRTOWg3YTVDTWFrRGtpbG14TVhSWGJJVXRqOFdtZHRCQy1aQTRENHh6R1V3OU9HYjkwcHZYOEJtajlJRnRFYlV2bURRWmRqRGFmSDZqS05JUzFSbzVhcWl3LTJacjVkVk5LUzZENm1KYUhCR3ZaU3NTUGJPc0FSd2JB?oc=5",
+      "summary": "DAÜ ile Gazimağusa Belediyesi'nden yapay zeka destekli iki proje Kıbrıs Postası",
+      "source": "Google News (TR)",
+      "published": "2026-07-16T10:24:00+00:00",
+      "category": "genel",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "80 yıldır çözülemeyen gizemi yapay zeka çözdü! Fakat bir sorun var... - Sabah",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTmNpZ2stT1h1SnRxMDJ5NHhjN3A0OHZFNl9uRTN2dWdoa0FNOGlIWE1URm1NTkgyUlNuZ2tESnZZTVBRSjdXNEJSQ3liTGk0U2d3WUFITkFaTXlpMXU0QUhPX24zWnA0VXl4SHBYTTRXSXF1enVhaDZzZEpocW9jR0E5Vi1qdHNXblhNVU4za1R4dlpHY1pUWFZKZldHSXZHRW9tSENfTVhJYTVYVmfSAbABQVVfeXFMUDJ4R3VNT3d2R3Z3R2ZfaFBhNEJ5TUM0SER4Y1VRWXZQRGtvdkRJaF9EVGRPRXNoUUxHTzhzNE5YdmprdXBnUURKZlUzX2toVzdXdUpES0U2eWRESFc4aVM0ejVxdU5UTXNXQXExUW5RY3hiajlsS2JUXzRqWkJPcUZtdlpobkExcFQ1S2JOckNqbmtaUUtzakh1NjMtU1hNanBzeUtUNGVlQmhZNlJ0Zmc?oc=5",
+      "summary": "80 yıldır çözülemeyen gizemi yapay zeka çözdü! Fakat bir sorun var... Sabah",
+      "source": "Google News (TR)",
+      "published": "2026-07-16T10:24:01+00:00",
+      "category": "politika",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "Yapay zekâ destekli pazarlamaya yönelik talebin güçlü kalmasıyla Publicis büyüme hedefini yukarı çekti - FashionNetwork France",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNSnRFT21kWnNaSHlrZlhsNExzeHppRzNFbEptMEN2TEFsbjFvVjF0SWlIOWg2YmVMcGx0bWNvUFpwb2h2cWN2WjZuVG40aEEzWUYza0VzMU12d3lSOWFpQl9Fam5IQTAydGJiQ09HM0dQUE1ORzNhU2FhSDI3dTZlUk1MenVES3JRME9DZVVDekVJM1BDblp0TW5Uc2pkQTBxYmNkXzdYQ0pZWnRoUGhRMkhmQTduRmtnTlZXTHhhZzFaejR1UHRXaE1FZG95dGtSWnZYN0N3a1BRQnlMMG1qMWcwRWxNRmEyUjJydHhQdDl3Zw?oc=5",
+      "summary": "Yapay zekâ destekli pazarlamaya yönelik talebin güçlü kalmasıyla Publicis büyüme hedefini yukarı çekti FashionNetwork France",
+      "source": "Google News (TR)",
+      "published": "2026-07-16T10:24:31+00:00",
+      "category": "genel",
+      "score": 55,
+      "lang": "tr"
+    },
+    {
+      "title": "OpenAI araştırmacısı Miles Wang, 2 milyar dolar değerinde yapay zeka ilaç keşfi girişimi başlatmak için görüşmelerde bulunuyor",
+      "link": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
+      "summary": "Finansman tartışmaları, yatırımcıların yaşam bilimlerinde atılımlar yapmak için yapay zekayı uygulamaya ilgi duyduğuna işaret ediyor.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-15T00:27:04+00:00",
+      "category": "arastirma",
+      "score": 54,
+      "lang": "tr"
+    },
+    {
+      "title": "SpaceX, Starship lansmanı öncesinde halka arz fiyatı 135 dolara düştü",
+      "link": "https://techcrunch.com/2026/07/15/spacex-falls-to-135-ipo-price-ahead-of-starship-launch/",
+      "summary": "Hisse senedi halka arz sonrası yüksek seviyeden istikrarlı bir şekilde düştü ve bu da piyasaların CEO Elon Musk'un SpaceX'in halka açılmasından önce ve sonra verdiği sözleri yerine getirmeye başlamış olabileceğini gösteriyor.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-15T18:06:05+00:00",
+      "category": "modeller",
+      "score": 54,
       "lang": "tr"
     },
     {
@@ -381,7 +781,7 @@
       "source": "arXiv cs.AI",
       "published": "2026-07-16T04:00:00+00:00",
       "category": "modeller",
-      "score": 59,
+      "score": 54,
       "lang": "tr"
     },
     {
@@ -391,7 +791,7 @@
       "source": "arXiv cs.AI",
       "published": "2026-07-16T04:00:00+00:00",
       "category": "arastirma",
-      "score": 59,
+      "score": 54,
       "lang": "tr"
     },
     {
@@ -401,407 +801,7 @@
       "source": "arXiv cs.AI",
       "published": "2026-07-16T04:00:00+00:00",
       "category": "modeller",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "Uzun Ufuklu Yapay Zeka Aracıları için Kurumsal Bellek Alt Tabakası Olarak Oracle Aracı Belleği",
-      "link": "https://arxiv.org/abs/2607.13157",
-      "summary": "arXiv:2607.13157v1 Duyuru Türü: yeni Özet: Ajan belleği, uzun vadeli ajanlar için bir sistem sorunudur. Pratik dağıtımlar, uzun konuşmalar boyunca görev durumunun korunmasını, oturumlar boyunca kullanıcıya özgü gerçeklerin ve tercihlerin kurtarılmasını ve önceki sonuçlardan prosedürel bilgilerin biriktirilmesini gerektirir. Bu gereksinimler belge almanın ötesine uzanır: bir bellek katmanının belirlemesi gerekir",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "arastirma",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "Güvenli Ajan Davranışını İnsan Tercihleri ​​ve Gerekçelerinden Dünya Modelleri Aracılığıyla Öğrenmek",
-      "link": "https://arxiv.org/abs/2607.13172",
-      "summary": "arXiv:2607.13172v1 Duyuru Türü: yeni Özet: Ortam dinamiklerinin bilinmediği ve uygun bir ödül fonksiyonunun mevcut olmadığı ortamlarda, bir temsilci politikasının güvenli bir şekilde eğitilmesi ve iyi ve güvenli bir politikanın dağıtılması sorununu ele alıyoruz. Güvenliğin kritik olduğu ortamlar bağlamında, geleneksel takviyeli öğrenmenin pratik olmadığını düşünüyoruz ve insan girdisi kaynağına başvuruyoruz. Biz içerideyiz",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "politika",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "Ağa Bağlı Zeka: İnsan-Yapay Zeka Ekibi Bilimi için Aktif Paylaşılan Bağlam Grafikleri",
-      "link": "https://arxiv.org/abs/2607.13220",
-      "summary": "arXiv:2607.13220v1 Duyuru Türü: yeni Özet: Bilim için yapay zeka sistemlerinin çoğu, daha iyi modeller, daha büyük bağlam pencereleri, uzun ufuklu aracı yürütme veya tek bir ana kullanıcıyla çalışan dijital ortak bilim adamları aracılığıyla tek bir akıl yürütme sürecini ölçeklendirmeye odaklanır. Ancak zorlu bilimsel problemler nadiren tek bir akıl yürütme uzmanı tarafından çözülür. Üyeleri farklı önceliklere sahip ekipler tarafından çözülürler.",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "modeller",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "Acentesel Yapay Zeka için Yapay Zeka Yerel Sigortası: Fiyatlandırma, Sigortalama ve Uçtan Uca Otomasyon",
-      "link": "https://arxiv.org/abs/2607.13230",
-      "summary": "arXiv:2607.13230v1 Duyuru Türü: yeni Özet: Otonom yapay zeka sistemleri karar verebildiğinden, araçları çağırabildiğinden, dış ortamları değiştirebildiğinden ve üçüncü taraf hizmetlerle etkileşime girebildiğinden, ajansal yapay zeka yeni sigorta zorlukları ortaya çıkarıyor. Bu makale, aracılı yapay zeka dağıtımları için sigortalama, fiyatlandırma ve sözleşme tasarımına yönelik yapay zekaya özgü bir matematiksel çerçeve geliştirmektedir. Dağıtım bir risk st tarafından temsil edilir",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "arastirma",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "Harness El Kitabı: Gelişen Ajan Demetlerini Okunabilir, Gezinilebilir ve Düzenlenebilir Hale Getirme",
-      "link": "https://arxiv.org/abs/2607.13285",
-      "summary": "arXiv:2607.13285v1 Duyuru Türü: yeni Özet: Modern bir yapay zeka aracısının yeteneği yalnızca temel modeline değil aynı zamanda istemleri oluşturan, durumu yöneten, araçları çağıran ve yürütmeyi koordine eden donanımına da bağlıdır. Modeller, API'ler, ortamlar ve gereksinimler geliştikçe donanımın da sürekli olarak değiştirilmesi gerekir. Böyle bir değişiklik yapılmadan önce bir geliştiricinin veya kodlama aracısının kimliğini belirlemesi gerekir.",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "modeller",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "Kontrollü Ajanlar için Ayar Değiştirme Davranış Testi",
-      "link": "https://arxiv.org/abs/2607.13396",
-      "summary": "arXiv:2607.13396v1 Duyuru Türü: yeni Özet: Güvenilir araç devam eden bir oturum içinde sessizce değiştiğinde bir Yüksek Lisans temsilcisinin araç seçimine ne olur? Ajanların gizli güvenilirlik değişikliklerine ne kadar iyi uyum sağladığını incelemek için bilişsel psikolojiden ayar değiştirmeyi ödünç alıyoruz. Karşılaştırmalı değerlendirmemiz, birçok aracın aynı görevi çözdüğü ancak gizli güvenilirlik açısından farklılık gösterdiği, artıklıklara sahip araç-beceri kitaplıklarını bir araya getirir.",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "arastirma",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "Kentsel Bölge Profil Oluşturma için Araçla Artırılmış Kanıtlarla Çok Aracılı İşbirlikçi Muhakeme",
-      "link": "https://arxiv.org/abs/2607.13558",
-      "summary": "arXiv:2607.13558v1 Duyuru Türü: yeni Özet: Kentsel bölge profili oluşturma, kentsel bilgi işlemde temel bir sorun oluşturur ve nüfus tahmini, ekonomik değerlendirme ve çevresel izleme gibi uygulamaları destekler. Mevcut yöntemler tipik olarak bu görevi çok modlu temsili öğrenme, uydu görüntüleri, ilgi çekici yerler, metinsel açıklamalar gibi heterojen kentsel verileri birleştirme olarak formüle eder.",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "modeller",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "SAFETY SENTRY: YÜRÜT-ASK-REFUSE Yönlendirmesi aracılığıyla Bağlama Duyarlı İnsan Müdahalesi",
-      "link": "https://arxiv.org/abs/2607.13594",
-      "summary": "arXiv:2607.13594v1 Duyuru Türü: yeni Özet: LLM temsilcileri, araç çağrıları yoluyla gerçek dünya ortamlarında hareket eder ve yanlış değerlendirilen tek bir eylem, geri dönüşü olmayan zarara neden olabilir. Standart koruma, önerilen her eylemi güvenli veya güvensiz olarak etiketleyen bir koruma modelidir, ancak bu ikili görünüm iki farklı kararı birleştirir: eylemin kendi başına zararlı olup olmadığı ve kullanım durumuna göre uygun olup olmadığı.",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "modeller",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "Büyük Dil Modeli Destekli Ajan Sistemi Kullanarak Biyolojik Sistemler İçin Otomatik Adi Diferansiyel Denklem Keşfi",
-      "link": "https://arxiv.org/abs/2607.13608",
-      "summary": "arXiv:2607.13608v1 Duyuru Tür: yeni Özet: Otomatik bilimsel keşif uzun süredir hesaplamalı bilim adamlarının hedefi olmuştur; doğanın sırlarını kendi başına keşfedebilen, hesaplama sistemlerini veri uydurma araçlarının ötesine geçerek evrenin mekanik modellerinin oluşturulmasına ve iyileştirilmesine doğru hareket ettiren bir makine. Sembolik regresyon (SR) ve geniş dil modeli (LLM) tabanlı yaştaki son gelişmeler",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "arastirma",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "STOCKTAKE: Yüksek Lisans Temsilcilerinde Algı ve Eylem Arasındaki Boşluğu Adil Bir Oracle ile Ölçmek",
-      "link": "https://arxiv.org/abs/2607.13618",
-      "summary": "arXiv:2607.13618v1 Duyuru Türü: yeni Özet: Yüksek Lisans temsilcileri, maliyeti belirleyen durumun hiçbir zaman doğrudan gözlemlenmediği çok haftalı karar görevlerinde giderek daha fazla değerlendirilmektedir. Bu tür görevlerde nihai maliyet, bir aracının neden başarısız olduğunu söyleyemez: dünyayı yanlış okumuş veya doğru okuyup yine de harekete geçmemiş olabilir (bilme-yapma boşluğu). Mevcut değerlendirmeler bu iki başarısızlığı birbirinden ayıramaz; bu",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "sirketler",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "Pekiştirmeli Öğrenme Aracılarını Tümevarımsal Mantık Programlama Yoluyla Açıklamak",
-      "link": "https://arxiv.org/abs/2607.13655",
-      "summary": "arXiv:2607.13655v1 Duyuru Türü: yeni Özet: Açıklanabilir Güçlendirme Öğrenimi (XRL), Güvenlik açısından kritik ve insan merkezli senaryolarda temel bir gereksinim olan Güçlendirme Öğrenimi (RL) politikalarını daha şeffaf ve yorumlanabilir hale getirmeyi amaçlamaktadır. Ancak çoğunlukla kullanıcı araştırmalarına dayalı olduğundan belirli bir hedef kitlenin ihtiyaçlarını hedef alır ve ortak değerlendirme ölçütlerinden yoksundur. Öte yandan lojik-b",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "sirketler",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "Deneyim Hafıza Grafiği: Temsilciler için Tek Seferde Hata Düzeltme",
-      "link": "https://arxiv.org/abs/2607.13884",
-      "summary": "arXiv:2607.13884v1 Duyuru Türü: yeni Özet: Büyük Dil Modeli (LLM) aracıları, durumların, eylemlerin ve gözlemlerin sıralı yörüngelerini oluşturarak özerk karar vermede dikkate değer yetenekler göstermiştir. Bununla birlikte, karmaşık, uzun vadeli görevlerde, bu aracılar sıklıkla karmaşık hatalardan muzdariptir ve başarısızlıklardan kurtulmak için çabalarlar. Mevcut kendi kendini düzeltme mekanizmaları şunlara dayanmaktadır:",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "modeller",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "Ajan Optimize Ediciler Birleşir mi? Terminal-Bench 2.0 Üzerinde Sürekli Öğrenme Değerlendirmesi",
-      "link": "https://arxiv.org/abs/2607.14004",
-      "summary": "arXiv:2607.14004v1 Duyuru Türü: yeni Özet: Aracı optimizasyon yöntemlerinden elde edilen kazanımların çoğu tek seferliktir: bir aracı, sabit bir karşılaştırmaya göre optimize edilir ve ortaya çıkan iyileştirme, sanki yöntemin kararlı bir özelliğiymiş gibi rapor edilir. Bu, yeni hatalar ve yeni görevler ortaya çıktıkça optimizasyonun yinelemeli olarak uygulandığı konuşlandırılmış aracılar için önemli olan ayarı test etmez.",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "modeller",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "LessonBench-V1: Yapay Zeka Ders Oluşturma Aracılarını Değerlendirmeye Yönelik Bir Karşılaştırma Veri Kümesi",
-      "link": "https://arxiv.org/abs/2607.13041",
-      "summary": "arXiv:2607.13041v1 Duyuru Türü: cross Özet: Büyük Dil Modeli (LLM) tabanlı yapay zeka eğitimsel içerik oluşturma sistemleri giderek daha fazla geliştirilmektedir, ancak bunları sistematik olarak değerlendirmek için standartlaştırılmış bir kıyaslama bulunmamaktadır. Bu çalışma, 240 STEM konusunda LLM tabanlı tersine mühendislik ders planlarıyla eşleştirilmiş 647 insan tarafından yazılan dersten oluşan bir kıyaslama veri seti olan LessonBench-V1'i tanıtmaktadır.",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "modeller",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "HRO: Büyük Dil Modelleriyle Sıfır Atışlı Nesne Hedefi Gezinmesi için Hiyerarşik Odadan Nesneye Çerçeve",
-      "link": "https://arxiv.org/abs/2607.13072",
-      "summary": "arXiv:2607.13072v1 Duyuru Türü: cross Özet: Sıfır atışlı nesne hedefi navigasyonu, akıllı bir aracının, belirli bir hedef eğitimi olmadan, alışılmadık bir ortamda bilinmeyen kategorilerdeki nesneleri keşfetmesini ve bu nesnelere gitmesini sağlamayı amaçlamaktadır. Sıfır atışlı gezinme görevlerinde, önceden eğitilmiş büyük modeller genellikle aracının gezinmesine rehberlik etmek için ön bilgilerinden yararlanmak üzere kullanılır. Ancak mevcut",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "modeller",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "Kurumsal Kodlama Aracılarının Çıkarım Ekonomisi: Bulut ve Şirket İçi Yüksek Lisans Örneği Örneği",
-      "link": "https://arxiv.org/abs/2607.13080",
-      "summary": "arXiv:2607.13080v1 Duyuru Türü: çapraz Özet: Otonom kodlama aracıları, mühendislik kuruluşlarını, yüksek belirteç maliyetinde güçlü akıl yürütme olan API tabanlı sınır modelleri ile akıl yürütme doğruluğunun bir miktar kaybıyla düşük marjinal maliyetli ölçeklendirme ve veri egemenliği vaat eden şirket içi nicelenmiş açık ağırlık modelleri arasında seçim yapmaya zorlar. Bu ödünleşimi tek geliştiricili, rastgele olmayan bir yöntemle inceliyoruz",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "modeller",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "Mimariden Önceki Temel Çizgiler: Otonom Sızma Testi için Kodlama Aracılarının Değerlendirilmesi",
-      "link": "https://arxiv.org/abs/2607.13085",
-      "summary": "arXiv:2607.13085v1 Duyuru Türü: cross Özet: Son otonom penetrasyon testi belgeleri, sınır yüksek lisans eğitimlerinin çevresine çok bileşenli güvenlik donanımları eklerken yüksek kıyaslama puanları bildiriyor. Bu sistemler sıklıkla hem mimariyi hem de omurga modelini değiştirdiğinden, performansın ne kadarının temel modelden ziyade donanımdan geldiğini söylemek zordur. Bu makale bir devamı sunmaktadır.",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "modeller",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "Birikmiş Davranış Kuralları Yoluyla Kendini Geliştiren Yapay Zeka Kodlama Aracıları: Kapalı Döngü Çerçevesi",
-      "link": "https://arxiv.org/abs/2607.13091",
-      "summary": "arXiv:2607.13091v1 Duyuru Türü: çapraz Özet: LLM tabanlı kodlama aracıları, insan inceleme geri bildiriminden gelen düzeltmeleri saklayacak bir mekanizmadan yoksun oldukları için oturumlar boyunca aynı sınıftaki hataları tekrarlarlar. Kabul edilen her inceleme yorumunun kalıcı bir davranış kuralı olarak kodlandığı, temsilcinin kendi kendine tespit edebileceği hata sınıfları kümesini giderek genişleten kapalı döngü bir çerçeve sunuyoruz.",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "arastirma",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "ShortOPD: Kısa-Uzun Politikaya Dayalı Damıtma ile Budanmış LLM'lerin Kurtarılması",
-      "link": "https://arxiv.org/abs/2607.13124",
-      "summary": "arXiv:2607.13124v1 Duyuru Türü: cross Özet: Yapılandırılmış budama, LLM'leri sıkıştırmanın donanım dostu bir yoludur, ancak çoğunlukla çoktan seçmeli tanıma görevlerinde doğrulanırken aynı sıkıştırılmış kontrol noktaları, dağıtımın gerçekte gerektirdiği serbest biçimli oluşturmada çökebilir. Bu boşluğu iki gözlem takip ediyor. Birincisi, açgözlü \\textsc{pass}@$1$ sıkıştırmadan sonra neredeyse yok oluyor, ancak \\te",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "politika",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "Modeller Neyi İfade Ediyor, Bastırıyor ve Direniyor: Açık Ağırlıklı LLM'lerin Persona Vektörleriyle Denetlenmesi",
-      "link": "https://arxiv.org/abs/2607.13162",
-      "summary": "arXiv:2607.13162v1 Duyuru Türü: cross Özet: Bir dil modelinin ne yapıp yapmayacağı büyük ölçüde eğitim sonrası belirlenir, ancak hangi davranışları ifade ettiği, gizlediği veya direndiği tek başına yönlendirmeyle ortaya çıkarılmaz. Persona vektörleri, yani aktivasyon alanındaki davranışsal yönler bu organizasyonu inceleyebilir, ancak önceki çalışmalar yalnızca bir avuç özelliği kapsıyor. İlk sistematik uygulamayı sunuyoruz",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "modeller",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "Değerlendirme Yeteneği, Optimizasyon Faydasını İfade Etmez: Kapalı Döngü Tablo Tanıma'da Hakim Olarak Yüksek Lisans Sinyalleri",
-      "link": "https://arxiv.org/abs/2607.13347",
-      "summary": "arXiv:2607.13347v1 Duyuru Türü: çapraz Özet: Yargıç olarak Yüksek Lisans, kapalı döngü yeniden oluşturmada geri bildirim ve seçim sinyalleri sağlamak için yaygın olarak kullanılır, ancak bu kullanım yeterince doğrulanmamıştır. Bunu, FinTabNet ve OmniDocBench kullanarak deterministik TEDS değerlendirmesinin kontrollü bir test ortamı sağladığı tablo tanımada inceliyoruz. Üç bulgu ortaya çıkıyor. İlk olarak, yargıç sinyalleri her iki veride de zayıftı",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "arastirma",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "Öğrenim Katılım Asistanı (LEA): Ajanslı Yapay Zeka Özel Ders Sisteminin Kurslar Arası Ölçeklenebilirliği ve Sınıf Değerlendirmesi",
-      "link": "https://arxiv.org/abs/2607.13370",
-      "summary": "arXiv:2607.13370v1 Duyuru Türü: cross Özet: Bu makale, entegre Sohbet, Özel Öğretmen ve Sınav modlarında kursa özel Geri Alma-Artırılmış Üretimi (RAG) yapılandırılmış Bilgi Bileşeni (KC) modelleriyle birleştiren uyarlanabilir bir yapay zeka eğitim aracısı olan LEA'yı (Öğrenim Katılım Asistanı) tanıtan ICAART 2026 konferansında sunulan bir makalenin uzantısıdır. Bu önceki çalışma LEA'yı doğruladı",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "arastirma",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "Kara Kutuyu Yönlendirebilir miyiz? Tavsiye Sistemlerinin İşbirlikçi Temsilcilerle Kontrol Edilebilirlik Odaklı Değerlendirilmesine Doğru",
-      "link": "https://arxiv.org/abs/2607.13418",
-      "summary": "arXiv:2607.13418v1 Duyuru Türü: cross Özet: Öneri sistemleri Kara Kutular olarak çalışarak kullanıcıları ve düzenleyicileri çıktılarını belirli amaçlara yönlendiremez veya davranışlarını denetleyemez. Sistemin açık yönlendirmelere yanıt verme yeteneği olarak tanımlanan bu kontrol edilebilirlik eksikliği, mevcut değerlendirme paradigmalarında ele alınmayan bir boyut olarak kalmaktadır. Bu boşluğu doldurmak için Ctrl'yi öneriyoruz",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "sirketler",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "DevicesWorld: Heterojen Ortamlarda Cihazlar Arası Aracıların Kıyaslanması",
-      "link": "https://arxiv.org/abs/2607.13465",
-      "summary": "arXiv:2607.13465v1 Duyuru Türü: cross Özet: LLM tabanlı aracılar, mobil uygulamalar, masaüstü sistemler ve akıllı evler gibi bireysel dijital ortamları çalıştırma konusunda hızla gelişti. Ancak gerçek dünyadaki kullanıcı hedefleri genellikle birden fazla cihazı kapsar: bilgiler bir telefondan gelebilir, masaüstünde işlenebilir ve sonucun başka bir cihazda görünmesi gerekebilir. Mevcut kıyaslamaların çoğu",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "modeller",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "Kontrollü Bir Süreç Olarak Bellek: LLM Aracıları için Öğrenilmiş Uyarlanabilir Bellek Yönetimi",
-      "link": "https://arxiv.org/abs/2607.13591",
-      "summary": "arXiv:2607.13591v1 Duyuru Türü: cross Özet: Büyük Dil Modeli (LLM) aracıları, görevler arasında deneyim biriktirmek için giderek daha fazla harici bellek sistemlerine güveniyor. Ancak grafik yapılı belleklerden yansıtıcı içgörü depolarına kadar neredeyse tüm mevcut yaklaşımlar, belleğe sabit, elle tasarlanmış buluşsal yöntemler aracılığıyla erişir. Bellekle ilgili bu statik görüşün, eylemli öğrenme için temel bir darboğaz olduğunu savunuyoruz.",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "politika",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "Sosyal Simülasyonlar: Etmen Tabanlı Modellemeden Dijital İkizlere",
-      "link": "https://arxiv.org/abs/2607.13693",
-      "summary": "arXiv:2607.13693v1 Duyuru Türü: cross Özet: Bu kitap bölümü, sosyal simülasyonun, etmenlerin açıkça tanımlanmış davranış kurallarına göre etkileşimde bulunduğu klasik etmen tabanlı modellerden, Büyük Dil Modellerine dayanan yapay zeka ile geliştirilmiş simülasyonlara ve son olarak Sosyal Dijital İkizlere (gerçek dünyadaki sosyo-teknik sistemlerin yüksek doğruluklu, veri odaklı temsillerine) kadar evrimini kapsar. A",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "modeller",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "Aracılar Nasıl İzin İstiyor: Arayüzlerden Uygulamaya Kadar Yapay Zeka Aracıları için Kullanıcı İzinleri",
-      "link": "https://arxiv.org/abs/2607.13718",
-      "summary": "arXiv:2607.13718v1 Duyuru Türü: cross Özet: Yapay zeka aracıları yaygınlaştıkça, kullanıcılar bu tür sistemlerin gerektirdiği risklere giderek daha fazla maruz kalıyor. Ani enjeksiyon saldırıları ve halüsinasyon, ajanların özel bilgileri üçüncü taraflara sızdırmasına neden olabilir. Otonom sistemler olarak aracılar, banka işlemleri gibi hassas görevleri kullanıcı olmadan gerçekleştirmenin daha aktif tehlikesini de sunar.",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "politika",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "Otonom Ticarette Dinamik Doğrulanabilir Çok Temsilcili İnsan Aracılı Sadakat Döngüsü (DVM-HALL) Modeli ve Net İnsan-Acente Skoru (NHAS)",
-      "link": "https://arxiv.org/abs/2607.13998",
-      "summary": "arXiv:2607.13998v1 Duyuru Türü: cross Özet: Ajansal Yapay Zekanın hızla yaygınlaşması, geleneksel müşteri sadakati paradigmalarını temelden bozuyor. Yapay zeka, pasif öneri algoritmalarından, satın alma kararlarını yürütebilen özerk, hedefe yönelik aracılara doğru geliştikçe, tüketici-marka ilişkilerine ilişkin geleneksel anlayış, yapısal bir yeniden değerlendirmeyi gerektirir.",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "modeller",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "Etmenli Kodlama Araçlarının GitHub Projeleri Tarafından Erken Benimsenmesi",
-      "link": "https://arxiv.org/abs/2607.14037",
-      "summary": "arXiv:2607.14037v1 Duyuru Türü: cross Özet: Ajans kodlama araçları, yazılım projelerine çekme istekleri (PR'ler) oluşturma ve gönderme konusunda giderek daha yetenekli hale geliyor ve yazılım geliştirmede insan-acente işbirliğinin yeni biçimlerini sunuyor. Önceki çalışmalar, aracı tarafından oluşturulan katkıların PR düzeyindeki sonuçlarını incelemiş olsa da, aracılı kodlama araçlarının nasıl benimsendiği ve yönetildiği hakkında daha az şey bilinmektedir.",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "arastirma",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "Hiper Oyun Teorisi Üzerine Bir Araştırma: Çok Etmenli Sistemler İçin Yanlış Hizalanmış Algıların ve İç İçe Yerleşmiş İnançların Modellenmesi",
-      "link": "https://arxiv.org/abs/2507.19593",
-      "summary": "arXiv:2507.19593v3 Duyuru Türü: değiştir Özet: Klasik oyun teorik modelleri tipik olarak rasyonel etmenleri, eksiksiz bilgiyi ve getirilere ilişkin ortak bilgiyi varsayar; belirsizlik, yanlış hizalanmış algılar ve iç içe geçmiş inançlarla karakterize edilen gerçek dünyadaki MAS'ta sıklıkla ihlal edilen varsayımlar. Bu sınırlamaların üstesinden gelmek için araştırmacılar dişli modellerini içeren uzantılar önerdiler",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "arastirma",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "Etkileşim Protokolü, Çok Temsilcili Tartışmada Ahlaki Yargıyı Şekillendiriyor",
-      "link": "https://arxiv.org/abs/2510.10002",
-      "summary": "arXiv:2510.10002v3 Duyuru Türü: değiştirin Özet: Büyük dil modelleri (LLM'ler) hassas günlük bağlamlarda giderek daha fazla kullanıldıkça (kişisel tavsiye, zihinsel sağlık desteği ve ahlaki rehberlik sunarak), karmaşık ahlaki akıl yürütmede onların davranışlarını anlamak çok önemlidir. Değerlendirmelerin çoğu, bu sosyoteknik uyumu tek dönüşlü yönlendirmeler yoluyla inceliyor ancak bunun mümkün olup olmadığı belirsiz.",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "modeller",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "Temsilciler Kendileriyle Aynı Fikirde Olmadıklarında: LLM Temsilcileri İçin Bir Belirsizlik Sinyali Olarak Davranışsal Tutarlılık",
-      "link": "https://arxiv.org/abs/2602.11619",
-      "summary": "arXiv:2602.11619v2 Duyuru Türü: değiştirin Özet: Aynı LLM aracısını aynı girdilerde çalıştırmak, 10 çalıştırma başına 2,3-4,2 farklı eylem dizisi sağlar; Bu davranışsal varyans, etmenli sistemler için seçici sınıflandırmayı ve dağıtımdan bağımsız kalibrasyonu başlatan, eğitim gerektirmeyen, kara kutu belirsizlik sinyalini oluşturur. 200 HotpotQA sorusundaki dört modelden oluşan 8.000 çalıştırmada,",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "modeller",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "Ödül Hack Aktivasyonlarından Ajans Risk Durumlarına: LLM Temsilcilerinde Bağlam Kalibre Edilmiş Mekanistik İzleme",
-      "link": "https://arxiv.org/abs/2606.06223",
-      "summary": "arXiv:2606.06223v2 Duyuru Türü: değiştirin Özet: Dil modeli aracıları, tekrarlanan gözlem, akıl yürütme ve eylem seçimi döngüleri yoluyla hareket ederek güvenlik izlemenin hem dahili model durumuna hem de ortam bağlamına bağlı olmasını sağlar. Gameable ALFWorld ve WebShop'ta görev yapan ReAct tarzı temsilcilerdeki ödül korsanlığı monitörlerini inceliyoruz. Temsilciler, aktivasyona dayalı ödül hack puanlarıyla donatılır.",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "modeller",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "Infinity-Parser2 Teknik Raporu",
-      "link": "https://arxiv.org/abs/2607.07836",
-      "summary": "arXiv:2607.07836v3 Duyuru Türü: değiştirin Özet: Aslına sadık kalınarak açıklamalı ayrıştırma derlemlerinin kalıcı kıtlığına değinen, uçtan uca belge ayrıştırma için kontrol edilebilir bir veri sentezi hattını çok görevli takviyeli öğrenimle birleştiren büyük bir çok modlu model olan Infinity-Parser2'yi sunuyoruz. Katkılarımız üç yönlüdür. İlk olarak, bir kontrol ünitesini eşleştirerek ölçeklenebilir bir sentez motoru oluşturuyoruz.",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "modeller",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "Boltzmann MapReduce: Çatallanabilir Korumalı Alanlar için Bölümleme İşlevi Azaltma",
-      "link": "https://arxiv.org/abs/2607.09689",
-      "summary": "arXiv:2607.09689v2 Duyuru Türü: değiştirin Özet: Yerel asimptotik normallik (LAN) altında önde gelen sıraya göre, bir çalışanın $n$ boyutunda bir yığın üzerinde yaydığı güven yoğunluğu, ters sıcaklığı örnek boyutu olan $\\beta=n$ olan bir Gibbs--Boltzmann ölçüsüdür $\\exp\\{-\\beta E(\\theta)\\}$. Gauss/doğrusal durumda üç sonuç kesindir, aksi takdirde birinci derecedendir: ayrık parçalar bağımsız olarak hareket eder.",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "arastirma",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "ABot-AgentOS: Yaşam Boyu Çok Modlu Belleğe Sahip Genel Robotik Ajan İşletim Sistemi",
-      "link": "https://arxiv.org/abs/2607.10350",
-      "summary": "arXiv:2607.10350v2 Duyuru Türü: değiştirin Özet: Yeni VLM ve VLA sistemleri gelişmiş robotik algı ve eylem tahminine sahiptir, ancak uzun ufuklu somutlaştırılmış aracılar akıl yürütme, bellek, araç kullanımı, doğrulama ve çapraz düzenleme yürütme için hâlâ genel bir çalışma zamanı katmanı gerektirir. Düşük seviyeli denetleyicilerin üzerinde bulunan ve aşağıdakileri sağlayan genel bir robotik Ajan İşletim Sistemi olan ABot-AgentOS'u sunuyoruz.",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "modeller",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "Çok Etmenli Akıl Yürütmede İletişimin Faydaları ve Sınırlamaları",
-      "link": "https://arxiv.org/abs/2510.13903",
-      "summary": "arXiv:2510.13903v2 Duyuru Türü: replacement-cross Özet: Düşünce zinciri yönlendirmesi, büyük dil modellerinde adım adım akıl yürütmeyi popüler hale getirdi, ancak problemin karmaşıklığı ve bağlam uzunluğu arttıkça model performansı hala düşüyor. Uzun bağlamlara sahip zor görevleri daha kısa, yönetilebilir olanlara ayrıştırarak, yeni çok etmenli paradigmalar bu soruna yakın vadede umut verici bir çözüm sunuyor. Ho",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "modeller",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "MASPRM: Çok Temsilcili Sistem Süreç Ödül Modeli",
-      "link": "https://arxiv.org/abs/2510.24803",
-      "summary": "arXiv:2510.24803v3 Duyuru Türü: replacement-cross Özet: Çok aracılı sistemler (MAS) üzerinde çıkarım süresi araması, hangi aracının ara mesajının ilerleyişini belirleyemediğinde hesaplama israfına neden olur. Yönlendirilmiş transkriptleri (aracılar arasındaki sıralı mesaj dizileri) puanlayan ve adım seviyesi b için bir çıkarım denetleyicisi olarak görev yapan Çok Aracılı Sistem Süreç Ödül Modelini (MASPRM) sunuyoruz.",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "donanim",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "Boşluğa Dikkat Edin: Android GUI Aracılarına Karşı Eylem Yeniden Bağlama Saldırıları",
-      "link": "https://arxiv.org/abs/2601.12349",
-      "summary": "arXiv:2601.12349v3 Duyuru Türü: replacement-cross Özet: Büyük, çok modlu model destekli GUI aracıları, mobil platformlarda ekran içeriğini algılama ve uygulama sınırlarının ötesinde girdileri enjekte etme görevi verilen yüksek ayrıcalıklı operatörler olarak ortaya çıkıyor. Bu aracılar karmaşık görevleri otomatikleştirmeyi hedeflerken, tasarımlarının Android'in katı uygulama kurallarıyla temel bir çelişkiye yol açtığını gösteriyoruz.",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "modeller",
-      "score": 59,
-      "lang": "tr"
-    },
-    {
-      "title": "ChatGPT Sonrası Bilgi Sistemleri Dergilerindeki Araştırma Yenilikleri: Kurumsal Dil Bağlamlarındaki Farklılıklar",
-      "link": "https://arxiv.org/abs/2603.22510",
-      "summary": "arXiv:2603.22510v3 Duyuru Türü: replacement-cross Özet: Büyük dil modelleri bilimsel çalışmalarda giderek daha fazla kullanılıyor, ancak üretkenlik kazanımlarına araştırma yeniliklerindeki değişikliklerin eşlik edip etmediği belirsizliğini koruyor. ChatGPT'nin yaygın olarak kullanıma sunulmasından sonra Bilgi Sistemleri dergilerindeki göreceli soyut düzeydeki anlamsal yeniliğin nasıl değiştiğini ve bu değişikliğin diğer tüm platformlarda farklılık gösterip göstermediğini inceliyoruz.",
-      "source": "arXiv cs.AI",
-      "published": "2026-07-16T04:00:00+00:00",
-      "category": "modeller",
-      "score": 59,
+      "score": 54,
       "lang": "tr"
     }
   ]
