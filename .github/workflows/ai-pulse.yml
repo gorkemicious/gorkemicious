@@ -1,26 +1,27 @@
-# AI PULSE — otomatik haber güncelleme + GitHub Pages yayını
+# AI PULSE — haber güncelleme + GitHub Pages yayını (OTOMATİK ÇALIŞMA KAPALI)
 #
 # Ne yapar?
-#  1. Günde 3 kez (TSİ 08:00 / 14:00 / 20:00) agent.py'yi çalıştırır
+#  1. agent.py'yi çalıştırır (haberleri toplar + Türkçe çevirir)
 #  2. Güncel verileri repoya commitler
 #  3. ai-news-agent/ klasörünü GitHub Pages'e yayınlar
 #
-# Kurulum notları:
-#  - Pages otomatik etkinleştirilir (configure-pages, enablement: true)
-#  - (İsteğe bağlı) Türkçe çeviri için Settings → Secrets → ANTHROPIC_API_KEY ekle
-#  - Zamanlanmış çalıştırma, workflow varsayılan dala (main/master) birleşince aktifleşir
+# ⏸ OTOMATİK ÇALIŞMA DURDURULDU:
+#  - Zamanlanmış (cron) ve push tetikleyicileri kaldırıldı.
+#  - Site en son yayınlanan haliyle kalır; kendiliğinden güncellenmez.
+#
+# ▶ Yeniden başlatmak istersen iki yol var:
+#  1) Bir kez elle çalıştır: GitHub → Actions → "AI PULSE Güncelle" → "Run workflow".
+#  2) Otomatiğe geri al: 'on:' altına aşağıdaki bloğu geri ekle:
+#       schedule:
+#         - cron: "0 5,11,17 * * *"   # TSİ 08:00 / 14:00 / 20:00
+#       push:
+#         branches: ["claude/production-dashboard-kpi-kzAZB"]
+#         paths: ["ai-news-agent/**", ".github/workflows/ai-pulse.yml"]
 
 name: AI PULSE Güncelle
 
 on:
-  schedule:
-    - cron: "0 5,11,17 * * *" # UTC — TSİ 08:00, 14:00, 20:00
   workflow_dispatch: {}
-  push:
-    branches: ["claude/production-dashboard-kpi-kzAZB"]
-    paths:
-      - "ai-news-agent/**"
-      - ".github/workflows/ai-pulse.yml"
 
 permissions:
   contents: write
