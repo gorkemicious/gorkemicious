@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video Content Agent — Transkripsiyon & İçerik Stüdyosu</title>
+<style>
+:root {
+  --bg: #0a0a0f;
+  --surface: #13131a;
+  --surface2: #1a1a24;
+  --border: #2a2a3a;
+  --text: #e8e8f0;
+  --text2: #9898aa;
+  --accent: #7c5cfc;
+  --accent2: #a78bfa;
+  --green: #34d399;
+  --orange: #fb923c;
+  --pink: #f472b6;
+  --blue: #60a5fa;
+  --red: #f87171;
+  --radius: 12px;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(135deg, #1a1028 0%, #0f0f1a 100%);
+  border-bottom: 1px solid var(--border);
+  padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.header .logo {
+  font-size: 1.8rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, var(--accent), var(--pink));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header .sub {
+  color: var(--text2);
+  font-size: 0.9rem;
+}
+
+/* No data state */
+.no-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  text-align: center;
+  padding: 2rem;
+}
+.no-data h2 { color: var(--text2); margin-bottom: 1rem; font-size: 1.4rem; }
+.no-data code {
+  background: var(--surface2);
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: var(--accent2);
+  display: block;
+  margin: 0.5rem 0;
+}
+.no-data p { color: var(--text2); margin-top: 1rem; font-size: 0.85rem; max-width: 500px; }
+
+/* Main layout */
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  padding: 1.5rem 2rem;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+@media (max-width: 1024px) {
+  .main { grid-template-columns: 1fr; }
+}
+
+/* Cards */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.card-header {
+  padding: 1rem 1.2rem;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--surface2);
+}
+.card-header h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.card-body { padding: 1.2rem; }
+
+/* Video info */
+.video-meta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+.meta-item {
+  background: var(--surface2);
+  padding: 0.6rem 0.8rem;
+  border-radius: 8px;
+  font-size: 0.82rem;
+}
+.meta-item .label { color: var(--text2); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.5px; }
+.meta-item .value { color: var(--text); font-weight: 500; margin-top: 2px; }
+
+/* Transcription */
+.transcript-text {
+  background: var(--surface2);
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  line-height: 1.8;
+  max-height: 500px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.transcript-text::-webkit-scrollbar { width: 6px; }
+.transcript-text::-webkit-scrollbar-track { background: transparent; }
+.transcript-text::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+/* Segments timeline */
+.segments { margin-top: 1rem; }
+.segment {
+  display: flex;
+  gap: 0.8rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  font-size: 0.82rem;
+  cursor: default;
+}
+.segment:hover { background: rgba(124,92,252,0.05); }
+.segment .time {
+  color: var(--accent2);
+  font-family: 'SF Mono', 'Fira Code', monospace;
+  white-space: nowrap;
+  min-width: 50px;
+}
+.segment .seg-text { color: var(--text); }
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 0;
+  border-bottom: 1px solid var(--border);
+  padding: 0 1.2rem;
+  background: var(--surface2);
+  overflow-x: auto;
+}
+.tab {
+  padding: 0.7rem 1rem;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--text2);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s;
+  white-space: nowrap;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-family: inherit;
+}
+.tab:hover { color: var(--text); }
+.tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* Content blocks */
+.content-block {
+  background: var(--surface2);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  position: relative;
+}
+.content-block h4 {
+  font-size: 0.78rem;
+  color: var(--text2);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.6rem;
+}
+.content-block .text {
+  font-size: 0.88rem;
+  line-height: 1.7;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* Hashtags */
+.hashtags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.6rem;
+}
+.hashtag {
+  background: rgba(124,92,252,0.15);
+  color: var(--accent2);
+  padding: 0.25rem 0.6rem;
+  border-radius: 20px;
+  font-size: 0.78rem;
+  font-weight: 500;
+}
+
+/* Tweet thread */
+.tweet {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.8rem 1rem;
+  margin-bottom: 0.6rem;
+  position: relative;
+}
+.tweet::before {
+  content: '';
+  position: absolute;
+  left: 18px;
+  top: -8px;
+  width: 2px;
+  height: 8px;
+  background: var(--border);
+}
+.tweet:first-child::before { display: none; }
+.tweet .tweet-num {
+  color: var(--accent2);
+  font-size: 0.72rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+.tweet .tweet-text { font-size: 0.88rem; line-height: 1.6; }
+.tweet .char-count {
+  text-align: right;
+  font-size: 0.7rem;
+  color: var(--text2);
+  margin-top: 0.3rem;
+}
+.tweet .char-count.over { color: var(--red); }
+
+/* Key points */
+.key-point {
+  display: flex;
+  gap: 0.6rem;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+.key-point:last-child { border-bottom: none; }
+.key-point .bullet {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  margin-top: 0.5rem;
+  flex-shrink: 0;
+}
+.key-point .kp-text { font-size: 0.88rem; }
+
+/* Copy button */
+.btn-copy {
+  background: rgba(124,92,252,0.15);
+  color: var(--accent2);
+  border: 1px solid rgba(124,92,252,0.3);
+  padding: 0.35rem 0.7rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: inherit;
+}
+.btn-copy:hover {
+  background: rgba(124,92,252,0.25);
+  border-color: var(--accent);
+}
+.btn-copy.copied {
+  background: rgba(52,211,153,0.15);
+  color: var(--green);
+  border-color: rgba(52,211,153,0.3);
+}
+
+/* Badges */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 6px;
+  font-size: 0.72rem;
+  font-weight: 500;
+}
+.badge.method {
+  background: rgba(96,165,250,0.15);
+  color: var(--blue);
+}
+.badge.lang {
+  background: rgba(52,211,153,0.15);
+  color: var(--green);
+}
+.badge.tone {
+  background: rgba(244,114,182,0.15);
+  color: var(--pink);
+}
+.badge.duration {
+  background: rgba(251,146,60,0.15);
+  color: var(--orange);
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 2rem;
+  color: var(--text2);
+  font-size: 0.78rem;
+  border-top: 1px solid var(--border);
+  margin-top: 2rem;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <div class="logo">Video Content Agent</div>
+    <div class="sub">Transkripsiyon & İçerik Stüdyosu</div>
+  </div>
+</div>
+
+<div id="no-data" class="no-data">
+  <h2>Henüz veri yok</h2>
+  <p>Agent'ı çalıştırarak bir video işleyin:</p>
+  <code>python3 agent.py https://instagram.com/reel/...</code>
+  <code>python3 agent.py VIDEO_URL --tone profesyonel</code>
+  <p>Sonuçlar otomatik olarak burada görüntülenecek.</p>
+</div>
+
+<div id="app" class="main" style="display:none">
+
+  <!-- Sol Panel: Video Bilgisi + Transkript -->
+  <div>
+    <!-- Video Info -->
+    <div class="card" style="margin-bottom:1.5rem">
+      <div class="card-header">
+        <h3>🎬 Video Bilgisi</h3>
+        <div id="badges" style="display:flex;gap:0.4rem;flex-wrap:wrap"></div>
+      </div>
+      <div class="card-body">
+        <div id="video-meta" class="video-meta"></div>
+        <div id="video-url" style="font-size:0.8rem;color:var(--text2);word-break:break-all"></div>
+      </div>
+    </div>
+
+    <!-- Transkript -->
+    <div class="card">
+      <div class="card-header">
+        <h3>📝 Transkript</h3>
+        <button class="btn-copy" onclick="copyText('transcript')">Kopyala</button>
+      </div>
+      <div class="card-body">
+        <div id="transcript" class="transcript-text"></div>
+        <div id="segments" class="segments" style="display:none">
+          <div class="card-header" style="margin:1rem -1.2rem -1.2rem;padding:0.8rem 1.2rem;cursor:pointer"
+               onclick="toggleSegments()">
+            <h3 style="font-size:0.82rem">⏱️ Zaman Çizelgesi</h3>
+            <span id="seg-toggle" style="font-size:0.8rem;color:var(--text2)">Göster ▼</span>
+          </div>
+          <div id="segment-list" style="display:none;padding-top:0.5rem"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sağ Panel: Üretilen İçerikler -->
+  <div>
+    <div class="card" id="content-card" style="display:none">
+      <div class="tabs" id="tabs">
+        <button class="tab active" data-tab="instagram">Instagram</button>
+        <button class="tab" data-tab="twitter">Twitter/X</button>
+        <button class="tab" data-tab="linkedin">LinkedIn</button>
+        <button class="tab" data-tab="blog">Blog</button>
+        <button class="tab" data-tab="keypoints">Ana Noktalar</button>
+      </div>
+
+      <!-- Instagram -->
+      <div class="tab-content active" id="tab-instagram">
+        <div class="card-body">
+          <div class="content-block">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.6rem">
+              <h4>Caption</h4>
+              <button class="btn-copy" onclick="copyText('ig-caption')">Kopyala</button>
+            </div>
+            <div id="ig-caption" class="text"></div>
+          </div>
+          <div class="content-block">
+            <h4>Hashtag'ler</h4>
+            <div id="ig-hashtags" class="hashtags"></div>
+            <button class="btn-copy" style="margin-top:0.6rem" onclick="copyText('ig-hashtags-text')">Tümünü Kopyala</button>
+            <span id="ig-hashtags-text" style="display:none"></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Twitter -->
+      <div class="tab-content" id="tab-twitter">
+        <div class="card-body">
+          <div id="twitter-thread"></div>
+          <button class="btn-copy" onclick="copyText('twitter-full')">Tüm Thread'i Kopyala</button>
+          <span id="twitter-full" style="display:none"></span>
+        </div>
+      </div>
+
+      <!-- LinkedIn -->
+      <div class="tab-content" id="tab-linkedin">
+        <div class="card-body">
+          <div class="content-block">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.6rem">
+              <h4>LinkedIn Post</h4>
+              <button class="btn-copy" onclick="copyText('li-post')">Kopyala</button>
+            </div>
+            <div id="li-post" class="text"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog -->
+      <div class="tab-content" id="tab-blog">
+        <div class="card-body">
+          <div class="content-block">
+            <h4>Başlık</h4>
+            <div id="blog-title" class="text" style="font-size:1.1rem;font-weight:600"></div>
+          </div>
+          <div class="content-block">
+            <h4>Özet</h4>
+            <div id="blog-summary" class="text" style="color:var(--text2)"></div>
+          </div>
+          <div class="content-block">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.6rem">
+              <h4>İçerik</h4>
+              <button class="btn-copy" onclick="copyText('blog-body')">Kopyala</button>
+            </div>
+            <div id="blog-body" class="text"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Key Points -->
+      <div class="tab-content" id="tab-keypoints">
+        <div class="card-body">
+          <div id="key-points"></div>
+          <button class="btn-copy" style="margin-top:0.8rem" onclick="copyText('kp-text')">Kopyala</button>
+          <span id="kp-text" style="display:none"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Content yoksa -->
+    <div class="card" id="no-content-card" style="display:none">
+      <div class="card-body" style="text-align:center;padding:3rem">
+        <p style="color:var(--text2);font-size:0.9rem">İçerik üretimi yapılmamış.</p>
+        <p style="color:var(--text2);font-size:0.8rem;margin-top:0.5rem">
+          Agent'ı <code>--no-content</code> bayrağı olmadan çalıştırın.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="footer" class="footer" style="display:none">
+  Video Content Agent — <span id="gen-time"></span> tarihinde oluşturuldu
+</div>
+
+<script src="data/content.js"></script>
+<script>
+(function() {
+  const D = window.VIDEO_CONTENT;
+  if (!D) return;
+
+  document.getElementById('no-data').style.display = 'none';
+  document.getElementById('app').style.display = 'grid';
+  document.getElementById('footer').style.display = 'block';
+
+  const v = D.video || {};
+  const t = D.transcription || {};
+  const c = D.content;
+
+  // Badges
+  const badges = document.getElementById('badges');
+  if (t.method) badges.innerHTML += `<span class="badge method">${t.method}</span>`;
+  if (t.language) badges.innerHTML += `<span class="badge lang">${t.language.toUpperCase()}</span>`;
+  if (c && c.tone) badges.innerHTML += `<span class="badge tone">${c.tone}</span>`;
+  if (v.duration) badges.innerHTML += `<span class="badge duration">${formatDuration(v.duration)}</span>`;
+
+  // Video meta
+  const meta = document.getElementById('video-meta');
+  const fields = [
+    ['Başlık', v.title],
+    ['Platform', v.platform],
+    ['Yükleyen', v.uploader],
+    ['Süre', v.duration ? formatDuration(v.duration) : null],
+    ['Görüntülenme', v.view_count ? v.view_count.toLocaleString('tr-TR') : null],
+    ['Beğeni', v.like_count ? v.like_count.toLocaleString('tr-TR') : null],
+  ];
+  fields.forEach(([label, value]) => {
+    if (!value) return;
+    meta.innerHTML += `<div class="meta-item"><div class="label">${label}</div><div class="value">${value}</div></div>`;
+  });
+
+  document.getElementById('video-url').textContent = v.url || '';
+
+  // Transcript
+  document.getElementById('transcript').textContent = t.text || 'Transkript bulunamadı.';
+
+  // Segments
+  if (t.segments && t.segments.length > 0) {
+    document.getElementById('segments').style.display = 'block';
+    const list = document.getElementById('segment-list');
+    t.segments.forEach(seg => {
+      list.innerHTML += `<div class="segment"><span class="time">${formatTime(seg.start)}</span><span class="seg-text">${escapeHtml(seg.text)}</span></div>`;
+    });
+  }
+
+  // Generated time
+  if (D.generated_at) {
+    const d = new Date(D.generated_at);
+    document.getElementById('gen-time').textContent = d.toLocaleString('tr-TR');
+  }
+
+  // Content
+  if (c) {
+    document.getElementById('content-card').style.display = 'block';
+
+    // Instagram
+    if (c.instagram) {
+      document.getElementById('ig-caption').textContent = c.instagram.caption || '';
+      const hashEl = document.getElementById('ig-hashtags');
+      const tags = c.instagram.hashtags || [];
+      tags.forEach(tag => {
+        hashEl.innerHTML += `<span class="hashtag">${escapeHtml(tag)}</span>`;
+      });
+      document.getElementById('ig-hashtags-text').textContent = tags.join(' ');
+    }
+
+    // Twitter
+    if (c.twitter && c.twitter.thread) {
+      const container = document.getElementById('twitter-thread');
+      c.twitter.thread.forEach((tweet, i) => {
+        const len = tweet.length;
+        const overClass = len > 280 ? ' over' : '';
+        container.innerHTML += `<div class="tweet"><div class="tweet-num">${i + 1}/${c.twitter.thread.length}</div><div class="tweet-text">${escapeHtml(tweet)}</div><div class="char-count${overClass}">${len}/280</div></div>`;
+      });
+      document.getElementById('twitter-full').textContent = c.twitter.thread.map((t, i) => `${i + 1}/ ${t}`).join('\n\n');
+    }
+
+    // LinkedIn
+    if (c.linkedin) {
+      document.getElementById('li-post').textContent = c.linkedin.post || '';
+    }
+
+    // Blog
+    if (c.blog) {
+      document.getElementById('blog-title').textContent = c.blog.title || '';
+      document.getElementById('blog-summary').textContent = c.blog.summary || '';
+      document.getElementById('blog-body').textContent = c.blog.body || '';
+    }
+
+    // Key Points
+    if (c.key_points) {
+      const kp = document.getElementById('key-points');
+      c.key_points.forEach(point => {
+        kp.innerHTML += `<div class="key-point"><span class="bullet"></span><span class="kp-text">${escapeHtml(point)}</span></div>`;
+      });
+      document.getElementById('kp-text').textContent = c.key_points.map((p, i) => `${i + 1}. ${p}`).join('\n');
+    }
+  } else {
+    document.getElementById('no-content-card').style.display = 'block';
+  }
+
+  // Tab switching
+  document.querySelectorAll('.tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      document.getElementById('tab-' + tab.dataset.tab).classList.add('active');
+    });
+  });
+})();
+
+function toggleSegments() {
+  const list = document.getElementById('segment-list');
+  const toggle = document.getElementById('seg-toggle');
+  if (list.style.display === 'none') {
+    list.style.display = 'block';
+    toggle.textContent = 'Gizle ▲';
+  } else {
+    list.style.display = 'none';
+    toggle.textContent = 'Göster ▼';
+  }
+}
+
+function copyText(id) {
+  const el = document.getElementById(id);
+  const text = el.textContent;
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = el.closest('.card-body')
+      ? el.closest('.content-block')?.querySelector('.btn-copy') || event.target
+      : event.target;
+    const original = btn.textContent;
+    btn.textContent = 'Kopyalandı!';
+    btn.classList.add('copied');
+    setTimeout(() => { btn.textContent = original; btn.classList.remove('copied'); }, 1500);
+  });
+}
+
+function formatDuration(sec) {
+  if (!sec) return '';
+  const m = Math.floor(sec / 60);
+  const s = Math.floor(sec % 60);
+  return m > 0 ? `${m}dk ${s}sn` : `${s}sn`;
+}
+
+function formatTime(sec) {
+  const m = Math.floor(sec / 60);
+  const s = Math.floor(sec % 60);
+  return `${m}:${s.toString().padStart(2, '0')}`;
+}
+
+function escapeHtml(str) {
+  const d = document.createElement('div');
+  d.textContent = str;
+  return d.innerHTML;
+}
+</script>
+</body>
+</html>
